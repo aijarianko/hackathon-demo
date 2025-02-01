@@ -20,7 +20,8 @@ class ContosoBikeStoreAgent {
         this.dbClient = new MongoClient(process.env.MONGODB_CONNECTION_STRING);
         
         // set up the Azure Cosmos DB vector store
-        const collectionNames = ["store", "documents"]
+        this.vectorStores = {};
+        const collectionNames = ["store", "documents"];
         for (const collectionName of collectionNames) {
             const config = {
               client: this.dbClient,
@@ -95,6 +96,7 @@ class ContosoBikeStoreAgent {
         }
         // Add two newlines after the last item
         strDocs += "\n\n";
+        console.log(`strDocs: ${strDocs}`);
         return strDocs;
     }
 
@@ -130,7 +132,9 @@ class ContosoBikeStoreAgent {
             description: `Searches Kmart Store product information for similar products based on the question. 
                     Returns the product information in JSON format.`,
                     func: async (input) => {
-                        const retrieverChain = this.vectorStores["store"].asRetriever().pipe(this.formatDocuments);,
+                        const retrieverChain = this.vectorStores["store"].asRetriever().pipe(this.formatDocuments);
+                        return await retrieverChain.invoke(input);
+                    },
         });
 
         // A tool that will lookup a product by its SKU. Note that this is not a vector store lookup.
@@ -159,7 +163,7 @@ class ContosoBikeStoreAgent {
 
         const documentsRetrieverTool = new DynamicTool({
             name: "documents_retriever_tool",
-            description: `Searches the "documents" collection for related information based on the question.`,
+            description: `Searches the "documents" collection for employment policy, HR policy, leave policy etc.`,
             func: async (input) => {
               const retrieverChain = this.vectorStores["documents"].asRetriever().pipe(this.formatDocuments);
               return await retrieverChain.invoke(input);
