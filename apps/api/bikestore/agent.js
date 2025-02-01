@@ -20,15 +20,18 @@ class ContosoBikeStoreAgent {
         this.dbClient = new MongoClient(process.env.MONGODB_CONNECTION_STRING);
         
         // set up the Azure Cosmos DB vector store
-        const azureCosmosDBConfig = {
-            client: this.dbClient,
-            databaseName: process.env.MONGODB_NAME,
-            collectionName: "store",
-            indexName: "VectorSearchIndex",
-            embeddingKey: "contentVector",
-            textKey: "_id"
-        }
-        this.vectorStore = new AzureCosmosDBVectorStore(new OpenAIEmbeddings(), azureCosmosDBConfig);
+        const collectionNames = ["store", "documents"]
+        for (const collectionName of collectionNames) {
+            const config = {
+              client: this.dbClient,
+              databaseName: process.env.MONGODB_NAME,
+              collectionName: collectionName,
+              indexName: "VectorSearchIndex",
+              embeddingKey: "contentVector",
+              textKey: "_id",
+            };
+            this.vectorStores[collectionName] = new AzureCosmosDBVectorStore(new OpenAIEmbeddings(), config);
+          }
         
         
         // // set up the Azure Cosmos DB vector stores for multiple collections
@@ -116,7 +119,7 @@ class ContosoBikeStoreAgent {
             NEVER MAKE UP AN ANSWER.
         `;
         // Create vector store retriever chain to retrieve documents and formats them as a string for the prompt.
-        const retrieverChain = this.vectorStore.asRetriever().pipe(this.formatDocuments);
+        //const retrieverChain = this.vectorStore.asRetriever().pipe(this.formatDocuments);
 
         // Define tools for the agent can use, the description is important this is what the AI will 
         // use to decide which tool to use.
