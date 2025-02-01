@@ -129,7 +129,8 @@ class ContosoBikeStoreAgent {
             name: "products_retriever_tool",
             description: `Searches Kmart Store product information for similar products based on the question. 
                     Returns the product information in JSON format.`,
-            func: async (input) => await retrieverChain.invoke(input),
+                    func: async (input) => {
+                        const retrieverChain = this.vectorStores["store"].asRetriever().pipe(this.formatDocuments);,
         });
 
         // A tool that will lookup a product by its SKU. Note that this is not a vector store lookup.
@@ -156,9 +157,18 @@ class ContosoBikeStoreAgent {
             },
         });
 
+        const documentsRetrieverTool = new DynamicTool({
+            name: "documents_retriever_tool",
+            description: `Searches the "documents" collection for related information based on the question.`,
+            func: async (input) => {
+              const retrieverChain = this.vectorStores["documents"].asRetriever().pipe(this.formatDocuments);
+              return await retrieverChain.invoke(input);
+            },
+          });
+
         // Generate OpenAI function metadata to provide to the LLM
         // The LLM will use this metadata to decide which tool to use based on the description.
-        const tools = [productsRetrieverTool, productLookupTool];
+        const tools = [productsRetrieverTool, productLookupTool, documentsRetrieverTool];
         const modelWithFunctions = this.chatModel.bind({
             functions: tools.map((tool) => convertToOpenAIFunction(tool)),
         });
