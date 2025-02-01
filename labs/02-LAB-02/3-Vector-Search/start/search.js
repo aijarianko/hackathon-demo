@@ -20,7 +20,13 @@ async function main() {
     await dbClient.connect();
     console.log("Connected to MongoDB");
     const db = dbClient.db(dbname);
-
+    //vector search for the top 3 most relevant products
+    const searchResults = await vectorSearch(
+      db,
+      "store",
+      "What is the price of product Electric Kettle?"
+    );
+    searchResults.forEach(printProductSearchResult);
 
     
   } catch (err) {
@@ -38,7 +44,44 @@ async function generateEmbeddings(text) {
   );
   // Rest period to avoid rate limiting on Azure OpenAI
   await new Promise((resolve) => setTimeout(resolve, 500));
+  // console.log(embeddings.data[0].embedding);
   return embeddings.data[0].embedding;
+}
+
+async function vectorSearch(db, collectionName, query, numResults = 3) {
+  const collection = db.collection(collectionName);
+  // generate the embedding for incoming question
+  const queryEmbedding = await generateEmbeddings(query);
+
+  const pipeline = [
+    {
+      $search: {
+        cosmosSearch: {
+          vector: queryEmbedding,
+          path: "contentVector",
+          k: numResults,
+        },
+        returnStoredSource: true,
+      },
+    },
+    {
+      $project: {
+        similarityScore: { $meta: "searchScore" },
+        document: "$$ROOT",
+      },
+    },
+  ];
+
+  //perform vector search and return the results as an array
+  const results = await collection.aggregate(pipeline).toArray();
+  return results;
+}
+
+function printProductSearchResult(result) {
+  // Print the search result document in a readable format
+  console.log(`Similarity Score: ${result["similarityScore"]}`);
+  console.log(`Name: ${result["document"]["product_name"]}`);
+  console.log(`details: ${result["document"]["product_id"]}`);
 }
 
 main().catch(console.error);

@@ -1,0 +1,700 @@
+product_id,product_length,product_depth,product_width,cluster_id,hierarchy1_id,hierarchy2_id,hierarchy3_id,hierarchy4_id,hierarchy5_id,product_name,product_location,product_description,rack_location,price,stock_quantity,discounts
+P0000,5.0,20.0,12.0,,H00,H0004,H000401,H00040105,H0004010534,Vacuum Cleaner,Living Room,Powerful and quiet vacuum cleaner for deep cleaning,"1st Floor, Rack 1",437.0,35,10% discount
+P0001,13.5,22.0,20.0,cluster_5,H01,H0105,H010501,H01050100,H0105010006,Microwave Oven,Kitchen,Compact microwave with smart settings and fast heating,"1st Floor, Rack 3",956.0,12,10% discount
+P0002,22.0,40.0,22.0,cluster_0,H03,H0315,H031508,H03150800,H0315080028,Refrigerator,Kitchen,Stainless steel refrigerator with energy star rating,"1st Floor, Rack 3",759.0,42,10% discount
+P0004,2.0,13.0,4.0,cluster_3,H03,H0314,H031405,H03140500,H0314050003,Coffee Maker,Kitchen,Programmable coffee maker with a built-in grinder,"1st Floor, Rack 3",639.0,2,10% discount
+P0005,16.0,30.0,16.0,cluster_9,H03,H0312,H031211,H03121109,H0312110917,Electric Kettle,Kitchen,Quick boiling electric kettle with automatic shut-off,"1st Floor, Rack 3",240.0,32,10% discount
+P0006,8.5,15.0,15.0,cluster_0,H03,H0316,H031608,H03160817,H0316081708,Toaster,Kitchen,Two-slice toaster with adjustable browning settings,"1st Floor, Rack 3",240.0,5,10% discount
+P0007,2.0,22.0,9.5,cluster_4,H03,H0313,H031305,H03130519,H0313051904,Blender,Kitchen,High-speed blender perfect for smoothies and soups,"1st Floor, Rack 3",152.0,49,10% discount
+P0008,5.0,16.0,5.0,cluster_0,H00,H0000,H000004,H00000400,H0000040017,Slow Cooker,Kitchen,6-quart slow cooker with automatic keep-warm feature,"1st Floor, Rack 3",880.0,9,10% discount
+P0009,5.0,18.0,14.0,cluster_6,H00,H0002,H000201,H00020100,H0002010012,Air Fryer,Kitchen,Multipurpose air fryer for healthier fried foods,"1st Floor, Rack 3",641.0,4,10% discount
+P0010,2.0,22.0,3.0,cluster_0,H01,H0108,H010801,H01080109,H0108010917,Washing Machine,Laundry Room,High-efficiency washing machine with multiple cycles,"1st Floor, Rack 4",737.0,22,15% discount
+P0011,9.0,22.0,15.0,cluster_0,H03,H0315,H031506,H03150612,H0315061202,Dryer,Laundry Room,Electric dryer with moisture sensor for optimal drying,"1st Floor, Rack 4",119.0,9,15% discount
+P0012,10.0,20.0,12.3,cluster_0,H01,H0107,H010702,H01070210,H0107021001,Iron,Utility Room,Steam iron with non-stick plate and auto shut-off,"1st Floor, Rack 5",973.0,43,10% discount
+P0013,7.1,27.5,13.7,,H01,H0105,H010503,H01050309,H0105030906,Mop,Utility Room,Microfiber mop with reusable pads for easy cleaning,"1st Floor, Rack 5",849.0,1,10% discount
+P0014,32.5,6.0,33.0,cluster_0,H03,H0313,H031302,H03130205,H0313020501,Broom,Utility Room,Sturdy broom for indoor and outdoor cleaning,"1st Floor, Rack 5",291.0,12,10% discount
+P0015,10.0,33.0,10.0,cluster_1,H00,H0000,H000003,H00000309,H0000030901,Lint Roller,Utility Room,Sticky lint roller for quick clothing touch-ups,"1st Floor, Rack 5",264.0,39,10% discount
+P0016,2.0,18.0,8.0,cluster_0,H00,H0004,H000401,H00040105,H0004010512,Dish Soap,Kitchen,Biodegradable dish soap that cuts through grease,"1st Floor, Rack 3",265.0,1,10% discount
+P0017,8.0,28.0,8.0,cluster_6,H00,H0000,H000003,H00000310,H0000031001,Laundry Detergent,Laundry Room,High-efficiency laundry detergent pods for convenience,"1st Floor, Rack 4",374.0,19,15% discount
+P0018,1.0,14.0,11.0,cluster_4,H00,H0003,H000316,H00031609,H0003160922,Trash Can,Kitchen,Touchless trash can with motion sensor operation,"1st Floor, Rack 3",572.0,0,10% discount
+P0019,1.5,42.0,32.0,cluster_0,H03,H0312,H031201,H03120100,H0312010004,Storage Bins,Garage,Clear storage bins with lids for organizing,"1st Floor, Rack 6",489.0,36,5% discount
+P0020,5.0,28.0,16.0,cluster_0,H03,H0311,H031109,H03110901,H0311090101,Cleaning Spray,Cleaning Supplies,Multipurpose cleaning spray for all surfaces,"1st Floor, Rack 7",362.0,8,10% discount
+P0021,8.0,26.0,23.0,cluster_0,H03,H0313,H031302,H03130210,H0313021002,Sponges,Cleaning Supplies,Pack of non-scratch sponges for gentle cleaning,"1st Floor, Rack 7",651.0,16,10% discount
+P0022,5.7,18.6,10.1,cluster_0,H01,H0108,H010809,H01080900,H0108090012,Paper Towels,Kitchen,High-absorbency paper towels,"1st Floor, Rack 3",226.0,8,10% discount
+P0023,1.0,1.0,1.0,,H00,H0004,H000403,H00040305,H0004030536,Trash Bags,Kitchen,Extra strong trash bags with drawstring closure,"1st Floor, Rack 3",363.0,10,10% discount
+P0024,1.0,23.0,16.0,cluster_0,H03,H0314,H031404,H03140407,H0314040701,Dish Towel,Kitchen,Soft and absorbent dish towels for drying dishes,"1st Floor, Rack 3",430.0,14,10% discount
+P0025,33.0,6.0,20.0,cluster_0,H03,H0312,H031207,H03120710,H0312071003,Tableware Set,Dining Room,Complete tableware set for family meals,"1st Floor, Rack 8",510.0,23,15% discount
+P0026,4.0,22.0,16.0,cluster_6,H00,H0002,H000201,H00020105,H0002010522,Cutlery Set,Dining Room,Stainless steel cutlery set with 16 pieces,"1st Floor, Rack 8",807.0,37,15% discount
+P0027,5.0,28.0,16.0,cluster_0,H03,H0311,H031108,H03110805,H0311080502,Coffee Mugs,Dining Room,Set of ceramic coffee mugs with modern design,"1st Floor, Rack 8",280.0,34,15% discount
+P0028,3.4,11.3,12.0,cluster_0,H03,H0313,H031302,H03130210,H0313021001,Glassware,Dining Room,Clear glassware for smoothies and beverages,"1st Floor, Rack 8",563.0,29,15% discount
+P0029,2.5,18.0,8.0,cluster_0,H03,H0315,H031504,H03150411,H0315041131,Candles,Living Room,Aromatherapy candles for a relaxing atmosphere,"1st Floor, Rack 1",633.0,30,10% discount
+P0030,9.0,9.0,37.0,cluster_0,H03,H0312,H031205,H03120508,H0312050800,Picture Frames,Living Room,Wooden picture frames for family photos,"1st Floor, Rack 1",142.0,48,10% discount
+P0031,,,,cluster_0,H00,H0004,H000402,H00040212,H0004021202,Throw Blankets,Living Room,Soft throw blanket for cozy warmth,"1st Floor, Rack 1",647.0,4,10% discount
+P0032,5.0,12.0,4.0,cluster_0,H03,H0312,H031207,H03120710,H0312071025,Coasters,Living Room,Set of decorative coasters to protect surfaces,"1st Floor, Rack 1",253.0,43,10% discount
+P0033,5.0,28.0,16.0,cluster_0,H03,H0311,H031109,H03110900,H0311090001,Houseplants,Living Room,Low-maintenance indoor plants for fresh air,"1st Floor, Rack 1",159.0,49,10% discount
+P0035,3.0,17.0,12.5,cluster_7,H00,H0003,H000311,H00031100,H0003110017,Wall Art,Living Room,Framed wall art to beautify the space,"1st Floor, Rack 1",954.0,13,10% discount
+P0036,6.0,20.0,10.0,cluster_9,H00,H0004,H000401,H00040105,H0004010539,Bookshelf,Home Office,Wooden bookshelf for storing books and decor,"1st Floor, Rack 9",969.0,10,10% discount
+P0037,3.5,10.5,3.5,cluster_0,H01,H0108,H010809,H01080913,H0108091301,Office Chair,Home Office,Ergonomic office chair with lumbar support,"1st Floor, Rack 9",828.0,8,10% discount
+P0038,5.0,21.5,5.0,cluster_0,H01,H0108,H010805,H01080500,H0108050033,Desk Lamp,Home Office,Adjustable desk lamp with LED bulbs for workspaces,"1st Floor, Rack 9",374.0,33,10% discount
+P0039,11.5,28.0,27.0,cluster_9,H01,H0105,H010501,H01050100,H0105010012,Stationery Set,Home Office,Complete stationery set for all your needs,"1st Floor, Rack 9",188.0,11,10% discount
+P0040,7.0,26.5,7.0,,H03,H0312,H031204,H03120400,H0312040000,Timer,Kitchen,Digital kitchen timer with countdown feature,"1st Floor, Rack 3",716.0,34,10% discount
+P0041,5.0,28.0,16.0,cluster_6,H03,H0311,H031109,H03110900,H0311090001,Measuring Cups,Kitchen,Set of measuring cups for precise cooking,"1st Floor, Rack 3",496.0,34,10% discount
+P0042,1.0,16.0,10.0,cluster_0,H01,H0108,H010811,H01081100,H0108110043,Cutting Board,Kitchen,Bamboo cutting board for food preparation,"1st Floor, Rack 3",210.0,0,10% discount
+P0043,3.5,23.0,32.0,cluster_0,H03,H0317,H031702,H03170212,H0317021212,Chef's Knife,Kitchen,High-quality chef's knife for versatile cooking tasks,"1st Floor, Rack 3",546.0,39,10% discount
+P0044,1.0,10.0,5.0,cluster_0,H03,H0315,H031504,H03150411,H0315041121,Grocery Bags,Shopping,Reusable grocery bags for eco-friendly shopping,"1st Floor, Rack 10",131.0,21,20% discount
+P0045,3.0,17.0,12.5,cluster_3,H00,H0003,H000311,H00031100,H0003110012,Home Organizer,Storage Solutions,Clutter organizer for home office or closet,"2nd Floor, Rack 1",918.0,28,10% discount
+P0046,1.7,11.1,9.6,cluster_0,H01,H0108,H010809,H01080900,H0108090006,Pet Food Bowl,Pets,Non-skid pet food bowl for dogs and cats,"2nd Floor, Rack 2",333.0,7,10% discount
+P0047,5.0,28.0,16.0,cluster_0,H03,H0311,H031109,H03110900,H0311090002,Pet Bed,Pets,Comfortable pet bed for dogs or cats,"2nd Floor, Rack 2",696.0,10,10% discount
+P0048,29.3,14.7,19.8,cluster_0,H01,H0107,H010702,H01070212,H0107021201,Baby Monitor,Nursery,Audio baby monitor for peace of mind,"2nd Floor, Rack 3",381.0,40,30% discount
+P0049,2.0,40.0,10.0,cluster_0,H03,H0313,H031305,H03130518,H0313051829,Diapers,Baby,Soft and absorbent diapers for daily use,"2nd Floor, Rack 4",568.0,36,Buy one get one free
+P0050,6.9,6.0,6.9,cluster_9,H01,H0108,H010808,H01080815,H0108081512,Stroller,Baby,Lightweight stroller with safety features,"2nd Floor, Rack 4",592.0,13,Buy one get one free
+P0051,1.7,17.5,4.5,cluster_7,H00,H0003,H000314,H00031409,H0003140912,Car Seat,Baby,Convertible car seat for infants to toddlers,"2nd Floor, Rack 4",266.0,29,Buy one get one free
+P0053,5.0,40.0,40.0,cluster_3,H03,H0311,H031101,H03110101,H0311010124,Baseboard Heater,Home Insulation,Energy-efficient baseboard heater for small rooms,"2nd Floor, Rack 5",973.0,34,50% discount
+P0054,8.5,14.6,8.5,cluster_9,H00,H0002,H000201,H00020110,H0002011001,Electric Fireplace,Home Decor,Elegant electric fireplace for cozy ambiance,"2nd Floor, Rack 6",798.0,20,50% discount
+P0055,2.3,18.5,13.5,cluster_0,H00,H0003,H000311,H00031109,H0003110906,Decorative Pillows,Living Room,Colorful decorative pillows for sofa or bed,"1st Floor, Rack 1",946.0,36,10% discount
+P0056,,12.0,10.0,,H03,H0314,H031401,H03140102,H0314010203,Table Lamp,Living Room,Stylish table lamp with adjustable brightness,"1st Floor, Rack 1",905.0,4,10% discount
+P0057,4.0,22.0,9.0,cluster_0,H01,H0108,H010807,H01080709,H0108070901,Shelves,Living Room,Wall-mounted shelves for storage and displays,"1st Floor, Rack 1",638.0,18,10% discount
+P0058,3.0,21.0,8.0,cluster_0,H00,H0004,H000401,H00040100,H0004010017,Air Purifier,Living Room,HEPA air purifier for cleaner indoor air,"1st Floor, Rack 1",930.0,13,10% discount
+P0059,9.1,29.7,13.2,cluster_0,H01,H0105,H010501,H01050105,H0105010506,Full-length Mirror,Bedroom,Modern full-length mirror with a sleek design,"2nd Floor, Rack 7",180.0,25,50% discount
+P0060,7.5,20.5,5.4,cluster_0,H01,H0106,H010600,H01060013,H0106001333,Bed Frame,Bedroom,Sturdy bed frame with under-bed storage options,"2nd Floor, Rack 7",276.0,3,50% discount
+P0061,9.3,32.0,19.2,cluster_9,H01,H0105,H010501,H01050114,H0105011401,Bedding Set,Bedroom,Soft bedding set with comforter and pillow covers,"2nd Floor, Rack 7",141.0,24,50% discount
+P0062,,,,cluster_0,H03,H0312,H031205,H03120507,H0312050709,Desk Organizer,Home Office,Multi-compartment desk organizer for clutter-free workspace,"1st Floor, Rack 9",393.0,44,10% discount
+P0063,7.5,7.5,7.5,cluster_9,H03,H0312,H031201,H03120100,H0312010012,File Organizer,Home Office,Vertical file organizer for important documents,"1st Floor, Rack 9",450.0,41,10% discount
+P0064,7.0,10.0,7.0,cluster_0,H00,H0004,H000401,H00040105,H0004010517,Rug,Living Room,Soft area rug to enhance flooring comfort,"1st Floor, Rack 1",344.0,24,10% discount
+P0065,8.5,33.0,32.0,cluster_0,H03,H0313,H031302,H03130209,H0313020905,Wall Clock,Living Room,Stylish wall clock with easy-to-read numbers,"1st Floor, Rack 1",846.0,17,10% discount
+P0066,0.3,15.5,8.5,cluster_0,H03,H0313,H031305,H03130515,H0313051502,Bath Towels,Bathroom,Luxury bath towels set for daily use,"2nd Floor, Rack 8",421.0,39,5% discount
+P0067,5.4,20.5,7.5,cluster_4,H01,H0106,H010600,H01060013,H0106001333,Bath Mat,Bathroom,Non-slip bath mat for safety and comfort,"2nd Floor, Rack 8",353.0,7,5% discount
+P0068,13.0,9.0,13.0,cluster_8,H00,H0000,H000003,H00000300,H0000030001,Shower Curtain,Bathroom,Water-resistant shower curtain with holder,"2nd Floor, Rack 8",588.0,38,5% discount
+P0069,3.0,12.0,8.5,cluster_0,H03,H0312,H031201,H03120101,H0312010130,Personal Care Organizer,Bathroom,Compact organizer for personal care products,"2nd Floor, Rack 8",227.0,39,5% discount
+P0070,8.7,14.0,8.7,cluster_0,H00,H0002,H000201,H00020100,H0002010001,Hair Dryer,Bathroom,Professional hair dryer with multiple heat settings,"2nd Floor, Rack 8",822.0,13,5% discount
+P0071,4.9,16.5,6.5,cluster_0,H01,H0108,H010807,H01080700,H0108070022,Electric Toothbrush,Bathroom,Smart electric toothbrush with timer and pressure sensor,"2nd Floor, Rack 8",167.0,31,5% discount
+P0072,3.0,12.0,12.0,cluster_0,H03,H0314,H031402,H03140200,H0314020001,Water Filter,Kitchen,Countertop water filter for clean drinking water,"1st Floor, Rack 3",988.0,50,10% discount
+P0073,2.0,30.0,30.0,cluster_5,H03,H0312,H031204,H03120400,H0312040006,Ice Maker,Kitchen,Portable ice maker for gatherings and parties,"1st Floor, Rack 3",795.0,37,10% discount
+P0074,9.0,6.0,9.0,,H00,H0004,H000402,H00040212,H0004021202,Cookware Set,Kitchen,Non-stick cookware set for versatile cooking,"1st Floor, Rack 3",279.0,32,10% discount
+P0075,6.0,26.7,26.0,cluster_0,H03,H0313,H031302,H03130200,H0313020001,Pressure Cooker,Kitchen,Electric pressure cooker for quick meals,"1st Floor, Rack 3",105.0,22,10% discount
+P0076,2.0,10.0,2.0,cluster_0,H03,H0313,H031309,H03130900,H0313090044,Oven Mitts,Kitchen,Heat-resistant oven mitts for safe baking,"1st Floor, Rack 3",834.0,14,10% discount
+P0077,3.0,23.5,17.0,cluster_0,H03,H0311,H031110,H03111000,H0311100003,Snack Container,Kitchen,Stackable snack containers for easy storage,"1st Floor, Rack 3",736.0,32,10% discount
+P0078,7.5,11.5,7.5,cluster_2,H00,H0003,H000312,H00031205,H0003120501,Food Storage Bags,Kitchen,Reusable food storage bags for leftovers,"1st Floor, Rack 3",756.0,24,10% discount
+P0079,2.0,13.0,6.0,cluster_5,H00,H0003,H000316,H00031600,H0003160001,Ice Cream Maker,Kitchen,Compact ice cream maker for homemade treats,"1st Floor, Rack 3",794.0,16,10% discount
+P0080,2.0,24.0,2.0,cluster_0,H03,H0312,H031204,H03120400,H0312040003,Electric Grill,Kitchen,Indoor electric grill for healthy cooking,"1st Floor, Rack 3",167.0,32,10% discount
+P0082,3.4,17.6,8.1,cluster_0,H01,H0108,H010803,H01080311,H0108031101,Pizza Stone,Kitchen,Stone pizza baking surface for even heating,"1st Floor, Rack 3",423.0,46,10% discount
+P0083,2.2,7.7,10.6,cluster_6,H00,H0002,H000201,H00020109,H0002010901,Colander,Kitchen,Stainless steel colander for draining pasta and vegetables,"1st Floor, Rack 3",204.0,1,10% discount
+P0084,4.0,14.0,12.0,cluster_0,H03,H0313,H031302,H03130209,H0313020901,Kitchen Scale,Kitchen,Digital kitchen scale for precise measurements,"1st Floor, Rack 3",877.0,13,10% discount
+P0085,12.0,26.0,11.0,cluster_0,H03,H0312,H031207,H03120710,H0312071015,Fruit Basket,Kitchen,Decorative fruit basket for kitchen countertop,"1st Floor, Rack 3",661.0,39,10% discount
+P0086,39.0,34.0,49.0,,H03,H0315,H031508,H03150800,H0315080029,Bottle Opener,Kitchen,Handy bottle opener for parties and gatherings,"1st Floor, Rack 3",398.0,39,10% discount
+P0087,2.0,5.7,19.0,cluster_4,H00,H0003,H000312,H00031200,H0003120002,Peeler,Kitchen,Sharp vegetable peeler with ergonomic handle,"1st Floor, Rack 3",157.0,50,10% discount
+P0088,18.0,24.0,8.0,cluster_9,H00,H0002,H000200,H00020009,H0002000926,Backpack,Personal Item,Durable backpack for daily use or travel,"2nd Floor, Rack 9",380.0,38,5% discount
+P0089,2.0,15.0,8.0,cluster_0,H03,H0315,H031512,H03151215,H0315121500,Yoga Mat,Exercise,Non-slip yoga mat for workouts and exercises,"2nd Floor, Rack 10",393.0,50,5% discount
+P0090,1.0,5.0,6.0,cluster_0,H03,H0312,H031211,H03121109,H0312110917,Weights,Exercise,Adjustable dumbbells for home workout routines,"2nd Floor, Rack 10",757.0,5,5% discount
+P0091,2.0,27.0,21.0,cluster_0,H03,H0313,H031307,H03130700,H0313070019,Foam Roller,Exercise,Foam roller for muscle recovery and massage,"2nd Floor, Rack 10",674.0,5,5% discount
+P0092,6.0,15.0,8.0,cluster_6,H00,H0001,H000102,H00010210,H0001021022,Water Bottle,Personal Item,Insulated water bottle for hydration on the go,"2nd Floor, Rack 9",898.0,2,5% discount
+P0093,7.0,18.0,7.0,cluster_0,H00,H0001,H000101,H00010105,H0001010512,Meal Prep Containers,Kitchen,Microwave-safe meal prep containers for storage,"1st Floor, Rack 3",525.0,6,10% discount
+P0094,3.8,14.3,3.8,cluster_0,H01,H0108,H010807,H01080700,H0108070032,Air Bed,Bedroom,Inflatable air bed for guests and travel,"2nd Floor, Rack 7",208.0,50,50% discount
+P0095,40.0,100.0,50.0,cluster_6,H03,H0314,H031401,H03140100,H0314010006,Portable Charger,Personal Item,High-capacity portable charger for devices,"2nd Floor, Rack 9",742.0,7,5% discount
+P0096,3.4,14.5,4.4,cluster_0,H01,H0108,H010811,H01081100,H0108110038,Bluetooth Speaker,Personal Item,Wireless Bluetooth speaker for music playback,"2nd Floor, Rack 9",785.0,41,5% discount
+P0097,1.0,19.2,9.0,cluster_4,H00,H0003,H000315,H00031501,H0003150102,Camera,Personal Item,Digital camera with high resolution for photography,"2nd Floor, Rack 9",605.0,14,5% discount
+P0098,4.0,16.0,12.5,cluster_0,H03,H0313,H031302,H03130215,H0313021507,Handheld Vacuum,Utility Room,Compact handheld vacuum for quick clean-ups,"1st Floor, Rack 5",794.0,46,10% discount
+P0099,3.0,11.3,10.0,cluster_0,H03,H0313,H031302,H03130210,H0313021001,Sewing Machine,Craft Room,Portable sewing machine for crafting and repairs,"3rd Floor, Rack 1",544.0,28,10% discount
+P0100,2.0,27.0,21.0,cluster_0,H03,H0313,H031307,H03130700,H0313070009,Paint Set,Craft Room,Complete paint set for art projects,"3rd Floor, Rack 1",570.0,32,10% discount
+P0101,4.5,17.6,4.5,cluster_0,H01,H0108,H010805,H01080500,H0108050033,Photo Album,Craft Room,Classic photo album for storing memories,"3rd Floor, Rack 1",485.0,29,10% discount
+P0102,7.0,27.0,40.0,cluster_0,H03,H0313,H031302,H03130200,H0313020001,Lamp,Living Room,Contemporary floor lamp for living spaces,"1st Floor, Rack 1",123.0,38,10% discount
+P0103,9.0,30.0,9.0,cluster_0,H00,H0000,H000003,H00000300,H0000030001,Pet Carrier,Pets,Travel pet carrier for small animals,"2nd Floor, Rack 2",197.0,26,10% discount
+P0104,3.0,20.0,11.0,cluster_0,H03,H0311,H031111,H03111101,H0311110124,Collapsible Cart,Garage,Collapsible cart for outdoor activities and storage,"1st Floor, Rack 6",128.0,35,5% discount
+P0105,11.0,13.0,16.0,cluster_0,H03,H0312,H031206,H03120610,H0312061042,Wire Shelf,Garage,Adjustable wire shelf for garage organization,"1st Floor, Rack 6",673.0,28,5% discount
+P0108,10.0,25.0,32.0,cluster_0,H03,H0313,H031302,H03130205,H0313020501,Toolbox,Garage,Durable toolbox for storing tools and supplies,"1st Floor, Rack 6",383.0,37,5% discount
+P0109,7.0,18.0,11.0,cluster_0,H01,H0107,H010700,H01070009,H0107000922,Lawn Chair,Outdoor,Folding lawn chair for camping and outdoor use,"3rd Floor, Rack 2",558.0,32,10% discount
+P0110,6.2,16.8,6.2,cluster_0,H00,H0000,H000004,H00000405,H0000040501,Fire Pit,Outdoor,Outdoor fire pit for warmth and ambiance,"3rd Floor, Rack 2",917.0,36,10% discount
+P0111,7.8,9.5,9.4,cluster_0,H00,H0001,H000105,H00010500,H0001050017,BBQ Grill,Outdoor,Portable BBQ grill for backyard barbecues,"3rd Floor, Rack 2",324.0,26,10% discount
+P0112,17.5,9.5,24.0,cluster_0,H03,H0314,H031401,H03140102,H0314010203,Patio Umbrella,Outdoor,Adjustable patio umbrella for sun protection,"3rd Floor, Rack 2",469.0,32,10% discount
+P0113,2.0,17.0,6.0,cluster_0,H03,H0315,H031504,H03150411,H0315041140,Solar Lights,Outdoor,LED solar lights for garden lighting,"3rd Floor, Rack 2",780.0,3,10% discount
+P0114,2.0,7.5,9.0,cluster_0,H00,H0003,H000312,H00031209,H0003120906,Hand Mixer,Kitchen,Compact hand mixer with multiple speed settings,"1st Floor, Rack 3",306.0,21,10% discount
+P0115,3.0,14.0,5.5,cluster_0,H00,H0001,H000105,H00010500,H0001050001,Pressure Washer,Garden,Electric pressure washer for home cleaning tasks,"3rd Floor, Rack 3",169.0,1,10% discount
+P0116,0.5,14.0,6.0,cluster_3,H00,H0002,H000200,H00020009,H0002000926,Garden Trowel,Garden,Durable stainless steel garden trowel for planting,"3rd Floor, Rack 3",361.0,9,10% discount
+P0117,5.0,10.8,5.6,cluster_0,H01,H0108,H010805,H01080500,H0108050006,Watering Can,Garden,Plastic watering can with a long spout for easy pouring,"3rd Floor, Rack 3",245.0,4,10% discount
+P0118,5.0,28.0,16.0,,H03,H0311,H031109,H03110900,H0311090001,Garden Hose,Garden,Expandable garden hose with brass fittings,"3rd Floor, Rack 3",937.0,9,10% discount
+P0119,15.0,15.0,15.0,cluster_0,H00,H0000,H000003,H00000300,H0000030001,Rake,Garden,Adjustable steel rake for leveling soil and leaves,"3rd Floor, Rack 3",827.0,32,10% discount
+P0122,5.0,28.0,16.0,cluster_6,H03,H0311,H031109,H03110900,H0311090001,Pruning Shears,Garden,Ergonomic pruning shears for trimming plants,"3rd Floor, Rack 3",670.0,37,10% discount
+P0123,5.5,22.5,19.0,,H03,H0313,H031302,H03130210,H0313021002,Potting Soil,Garden,Organic potting soil for potted plants,"3rd Floor, Rack 3",884.0,12,10% discount
+P0124,17.0,24.0,17.0,cluster_0,H03,H0317,H031702,H03170212,H0317021212,Plant Fertilizer,Garden,Natural fertilizer for healthy plant growth,"3rd Floor, Rack 3",823.0,30,10% discount
+P0125,2.0,5.0,9.0,cluster_5,H00,H0003,H000316,H00031600,H0003160001,Garden Gloves,Garden,Waterproof garden gloves for protection and grip,"3rd Floor, Rack 3",268.0,46,10% discount
+P0126,4.0,16.0,5.0,cluster_0,H01,H0108,H010807,H01080709,H0108070906,Hose Reel,Garden,Wall-mounted garden hose reel for organized storage,"3rd Floor, Rack 3",903.0,35,10% discount
+P0127,10.0,30.0,20.0,cluster_0,H03,H0311,H031101,H03110104,H0311010424,Garden Shed,Garden,Outdoor garden shed for tool and equipment storage,"3rd Floor, Rack 3",585.0,44,10% discount
+P0128,9.0,14.0,9.0,cluster_0,H03,H0312,H031207,H03120710,H0312071013,Outdoor Rug,Outdoor,Durable outdoor rug for patios,"3rd Floor, Rack 2",827.0,23,10% discount
+P0129,22.2,22.2,44.4,cluster_0,H01,H0107,H010701,H01070110,H0107011026,Picnic Blanket,Outdoor,Water-resistant picnic blanket for outdoor dining,"3rd Floor, Rack 2",906.0,14,10% discount
+P0130,2.5,17.0,13.0,cluster_0,H03,H0313,H031303,H03130302,H0313030205,Umbrella Stand,Outdoor,Weighted umbrella stand for stability,"3rd Floor, Rack 2",386.0,28,10% discount
+P0131,1.0,12.0,11.0,cluster_6,H00,H0003,H000316,H00031609,H0003160922,Thermal Insulation,Home Improvement,Reflective thermal insulation for energy efficiency,"3rd Floor, Rack 4",199.0,7,
+P0132,5.0,28.0,16.0,cluster_0,H03,H0311,H031109,H03110901,H0311090103,Wall Hooks,Home Organization,Decorative wall hooks for coats and bags,"3rd Floor, Rack 5",305.0,4,
+P0133,9.0,28.0,20.0,,H03,H0313,H031303,H03130302,H0313030201,Shoe Rack,Home Organization,Multi-tier shoe rack for entryway organization,"3rd Floor, Rack 5",484.0,28,
+P0134,6.0,30.0,10.0,cluster_0,H03,H0314,H031405,H03140500,H0314050003,Vacuum Storage Bags,Storage Solutions,Space-saving vacuum storage bags for clothes,"2nd Floor, Rack 1",836.0,46,10% discount
+P0135,3.0,15.0,55.0,cluster_0,H03,H0315,H031506,H03150612,H0315061244,Kitchen Drawer Organizer,Kitchen,Adjustable drawer organizer for utensils,"1st Floor, Rack 3",875.0,3,10% discount
+P0136,3.3,25.9,8.5,cluster_0,H01,H0108,H010801,H01080110,H0108011006,Refrigerator Organizer,Bags,Clear refrigerator organizer bins for food storage,"3rd Floor, Rack 6",106.0,11,
+P0137,23.6,24.1,8.3,cluster_0,H03,H0315,H031502,H03150200,H0315020035,Chopping Mat,Kitchen,Flexible chopping mat for safe food preparation,"1st Floor, Rack 3",560.0,44,10% discount
+P0138,5.0,47.0,28.5,cluster_3,H03,H0312,H031205,H03120507,H0312050709,Silicone Baking Mat,Kitchen,Non-stick silicone baking mat for easy cleanup,"1st Floor, Rack 3",476.0,1,10% discount
+P0139,4.0,17.0,11.0,,H03,H0315,H031506,H03150612,H0315061202,Mixing Bowls,Kitchen,Nesting mixing bowls in assorted sizes,"1st Floor, Rack 3",300.0,26,10% discount
+P0140,2.0,27.0,21.0,cluster_0,H03,H0313,H031307,H03130700,H0313070008,Meat Thermometer,Kitchen,Digital meat thermometer with instant read feature,"1st Floor, Rack 3",208.0,30,10% discount
+P0141,6.0,20.0,12.0,cluster_6,H00,H0001,H000102,H00010210,H0001021017,Pizza Cutter,Kitchen,Ergonomic pizza cutter for effortless slicing,"1st Floor, Rack 3",404.0,50,10% discount
+P0142,7.0,12.0,12.0,cluster_0,H03,H0311,H031109,H03110900,H0311090001,Garlic Press,Kitchen,Heavy-duty garlic press for easy crushing,"1st Floor, Rack 3",949.0,50,10% discount
+P0143,3.0,26.0,13.0,cluster_0,H03,H0311,H031113,H03111305,H0311130529,Egg Timer,Kitchen,Visual egg timer for perfect hard-boiled eggs,"1st Floor, Rack 3",391.0,35,10% discount
+P0144,4.5,21.0,14.3,cluster_3,H00,H0003,H000311,H00031100,H0003110006,Herb Keeper,Kitchen,Airtight herb keeper for fresh herbs storage,"1st Floor, Rack 3",567.0,35,10% discount
+P0145,4.0,12.5,4.0,cluster_0,H00,H0001,H000105,H00010500,H0001050001,Bread Box,Kitchen,Wooden bread box with ventilation for freshness,"1st Floor, Rack 3",733.0,25,10% discount
+P0146,3.6,3.5,20.0,cluster_0,H03,H0312,H031205,H03120507,H0312050709,Nut Chopper,Kitchen,Manual nut chopper for quick chopping,"1st Floor, Rack 3",427.0,42,10% discount
+P0147,12.5,37.0,12.5,cluster_9,H01,H0106,H010601,H01060112,H0106011202,Salad Spinner,Kitchen,Vegetable salad spinner for rinsing greens,"1st Floor, Rack 3",975.0,26,10% discount
+P0148,6.0,7.0,12.2,cluster_0,H00,H0002,H000200,H00020000,H0002000032,Pan Protector,Kitchen,Soft pan protector to prevent scratches,"1st Floor, Rack 3",966.0,4,10% discount
+P0149,1.8,5.5,16.3,cluster_8,H00,H0003,H000312,H00031205,H0003120506,Salt and Pepper Grinder Set,Kitchen,Adjustable salt and pepper grinders for seasoning,"1st Floor, Rack 3",327.0,19,10% discount
+P0150,6.0,14.0,14.0,cluster_0,H03,H0313,H031302,H03130209,H0313020905,Baking Sheet,Kitchen,Heavy-duty baking sheet for cookies and roasts,"1st Floor, Rack 3",548.0,10,10% discount
+P0151,2.0,15.0,11.5,cluster_0,H01,H0108,H010806,H01080600,H0108060006,Silicone Muffin Cups,Kitchen,Reusable silicone muffin cups for baking,"1st Floor, Rack 3",371.0,9,10% discount
+P0152,5.0,19.0,13.0,cluster_0,H00,H0003,H000312,H00031200,H0003120001,Toilet Brush Holder,Bathroom,Stylish toilet brush holder for bathroom cleaning,"2nd Floor, Rack 8",356.0,39,5% discount
+P0154,3.0,20.0,12.0,cluster_6,H00,H0001,H000105,H00010500,H0001050017,Shower Organizer,Bathroom,Over-the-shower caddy for personal care items,"2nd Floor, Rack 8",133.0,37,5% discount
+P0155,,,,cluster_0,H00,H0004,H000402,H00040212,H0004021201,Humidifier,Bathroom,Ultrasonic humidifier for added moisture in the air,"2nd Floor, Rack 8",649.0,5,5% discount
+P0156,5.0,20.0,8.0,cluster_0,H01,H0108,H010806,H01080600,H0108060006,Bathroom Scale,Bathroom,Digital bathroom scale with large display,"2nd Floor, Rack 8",552.0,7,5% discount
+P0157,6.0,6.0,15.0,cluster_2,H00,H0003,H000312,H00031200,H0003120002,Vanity Mirror,Bathroom,LED vanity mirror with adjustable brightness,"2nd Floor, Rack 8",146.0,22,5% discount
+P0158,15.0,8.0,2.0,cluster_0,H03,H0313,H031305,H03130518,H0313051830,Bathroom Storage Cart,Bathroom,Rolling storage cart for toiletries and supplies,"2nd Floor, Rack 8",351.0,46,5% discount
+P0159,20.0,28.0,25.0,cluster_0,H03,H0311,H031108,H03110801,H0311080102,Shower Cap,Bathroom,Waterproof shower cap for keeping hair dry,"2nd Floor, Rack 8",917.0,25,5% discount
+P0160,30.0,1.0,21.0,cluster_0,H03,H0313,H031305,H03130520,H0313052008,Cotton Swabs,Bathroom,Box of cotton swabs for personal care,"2nd Floor, Rack 8",316.0,45,5% discount
+P0161,7.0,6.0,7.0,cluster_0,H01,H0108,H010808,H01080815,H0108081512,Soap Dispenser,Bathroom,Automatic soap dispenser for hands-free use,"2nd Floor, Rack 8",230.0,42,5% discount
+P0162,2.0,8.8,3.6,cluster_0,H01,H0108,H010810,H01081009,H0108100901,Toilet Paper Holder,Bathroom,Wall-mounted toilet paper holder,"2nd Floor, Rack 8",541.0,11,5% discount
+P0163,2.0,13.0,4.0,cluster_0,H03,H0314,H031405,H03140500,H0314050003,Drawstring Laundry Bag,Bathroom,Mesh drawstring laundry bag for easy transport,"2nd Floor, Rack 8",987.0,25,5% discount
+P0164,4.4,15.8,9.0,cluster_0,H01,H0108,H010807,H01080700,H0108070033,Laundry Stain Remover,Bathroom,Effective stain remover for clothes,"2nd Floor, Rack 8",318.0,12,5% discount
+P0165,1.0,13.0,12.0,cluster_3,H00,H0003,H000316,H00031609,H0003160922,Squeegee,Bathroom,Shower squeegee to prevent water streaks,"2nd Floor, Rack 8",705.0,39,5% discount
+P0166,5.0,19.0,13.0,cluster_0,H00,H0001,H000102,H00010210,H0001021017,Bathroom Hooks,Bathroom,Multiple hooks for hanging towels and robes,"2nd Floor, Rack 8",785.0,17,5% discount
+P0167,20.0,33.5,21.8,cluster_0,H01,H0107,H010702,H01070205,H0107020504,Drain Cleaner,Bathroom,Powerful drain cleaner for unclogging,"2nd Floor, Rack 8",314.0,24,5% discount
+P0169,8.0,19.0,12.0,cluster_4,H03,H0313,H031303,H03130303,H0313030301,Dish Rack,Kitchen,Collapsible dish rack for drying dishes,"1st Floor, Rack 3",755.0,32,10% discount
+P0170,23.7,11.7,22.3,cluster_0,H03,H0312,H031207,H03120710,H0312071007,Dishwasher Cleaner,Kitchen,Pack of dishwasher cleaning pods for maintenance,"1st Floor, Rack 3",431.0,46,10% discount
+P0171,4.5,17.0,4.5,cluster_0,H01,H0108,H010805,H01080500,H0108050032,Kitchen Broom,Utility Room,Heavy-duty broom for indoor sweeping tasks,"1st Floor, Rack 5",669.0,39,10% discount
+P0172,28.0,4.5,28.0,cluster_0,H03,H0314,H031402,H03140200,H0314020004,Dust Pan,Utility Room,Large dust pan with rubber edge for efficient cleaning,"1st Floor, Rack 5",670.0,42,10% discount
+P0173,2.0,27.0,21.0,cluster_0,H03,H0313,H031307,H03130700,H0313070010,Ladder,Home Improvement,Multi-purpose ladder for home maintenance,"3rd Floor, Rack 4",582.0,11,
+P0174,3.0,17.0,9.0,cluster_0,H00,H0004,H000401,H00040105,H0004010506,Drill Set,Home Improvement,Comprehensive drill set for home repairs,"3rd Floor, Rack 4",181.0,43,
+P0175,2.0,20.0,10.0,cluster_0,H03,H0313,H031309,H03130900,H0313090044,Screwdriver Set,Home Improvement,Versatile screwdriver set with various heads,"3rd Floor, Rack 4",852.0,35,
+P0176,,,,cluster_9,H02,H0210,H021002,H02100200,H0210020008,Utility Knife,Home Improvement,Heavy-duty utility knife with retractable blade,"3rd Floor, Rack 4",389.0,47,
+P0177,1.0,12.0,8.0,cluster_0,H01,H0106,H010601,H01060114,H0106011422,Tool Belt,Home Improvement,Adjustable tool belt for carrying tools,"3rd Floor, Rack 4",268.0,3,
+P0178,3.5,16.5,4.5,cluster_0,H01,H0108,H010806,H01080613,H0108061306,Light Bulbs,Home Improvement,Energy-efficient LED light bulbs for home use,"3rd Floor, Rack 4",137.0,4,
+P0179,7.0,14.0,12.0,cluster_0,H03,H0312,H031207,H03120710,H0312071012,Extension Cord,Home Improvement,Heavy-duty extension cord for appliances,"3rd Floor, Rack 4",632.0,36,
+P0180,22.0,59.0,29.0,cluster_0,H03,H0313,H031302,H03130213,H0313021301,Fire Extinguisher,Home Safety,Compact fire extinguisher for kitchen use,"3rd Floor, Rack 7",710.0,7,
+P0181,4.1,17.3,10.1,cluster_0,H03,H0315,H031508,H03150809,H0315080935,Emergency Kit,Home Safety,Comprehensive emergency preparedness kit,"3rd Floor, Rack 7",115.0,41,
+P0182,5.0,37.0,27.0,cluster_4,H01,H0105,H010501,H01050100,H0105010006,Smoke Detector,Home Safety,Wireless smoke detector with battery backup,"3rd Floor, Rack 7",561.0,48,
+P0183,14.2,3.8,11.0,cluster_0,H01,H0106,H010601,H01060111,H0106011112,Carbon Monoxide Detector,Home Safety,Carbon monoxide detector with alarm,"3rd Floor, Rack 7",304.0,27,
+P0184,6.0,30.0,10.0,cluster_6,H03,H0313,H031302,H03130205,H0313020501,First Aid Kit,Home Safety,Complete first aid kit for home or travel,"3rd Floor, Rack 7",681.0,30,
+P0185,1.0,20.0,30.0,cluster_0,H03,H0313,H031307,H03130705,H0313070501,Household Gloves,Cleaning,Durable rubber gloves for cleaning tasks,"3rd Floor, Rack 8",257.0,8,
+P0186,8.0,16.0,8.0,cluster_8,H03,H0312,H031204,H03120409,H0312040900,Compost Bin,Garden,Countertop compost bin for organic waste,"3rd Floor, Rack 3",722.0,50,10% discount
+P0187,9.0,25.0,19.0,cluster_0,H03,H0313,H031303,H03130302,H0313030201,Weeder,Garden,Handheld weeder for removing unwanted plants,"3rd Floor, Rack 3",448.0,28,10% discount
+P0188,10.0,30.0,25.0,cluster_9,H03,H0311,H031113,H03111305,H0311130527,Garden Kneeler,Garden,Padded garden kneeler and seat for comfort,"3rd Floor, Rack 3",943.0,13,10% discount
+P0189,4.0,14.7,11.0,cluster_4,H00,H0004,H000401,H00040105,H0004010501,Turf Sweeper,Garden,Garden turf sweeper for clearing debris,"3rd Floor, Rack 3",224.0,39,10% discount
+P0190,6.0,19.0,14.0,cluster_0,H03,H0315,H031508,H03150809,H0315080935,Garden Storage Box,Garden,Weatherproof storage box for outdoor tools,"3rd Floor, Rack 3",407.0,40,10% discount
+P0192,15.0,15.0,40.0,cluster_0,H03,H0315,H031508,H03150800,H0315080002,Outdoor Lighting,Garden,Solar-powered outdoor lights for pathways,"3rd Floor, Rack 3",202.0,21,10% discount
+P0193,6.0,3.0,6.0,cluster_0,H01,H0108,H010809,H01080913,H0108091317,Deck Chair,Outdoor,Comfortable reclining deck chair for lounging,"3rd Floor, Rack 2",932.0,10,10% discount
+P0194,6.0,7.0,9.0,cluster_0,H03,H0312,H031201,H03120100,H0312010002,Firewood Rack,Outdoor,Steel firewood rack for organized storage,"3rd Floor, Rack 2",890.0,22,10% discount
+P0195,6.5,7.5,12.0,cluster_0,H00,H0002,H000200,H00020000,H0002000032,Cold Frame,Garden,Mini greenhouse to protect young plants,"3rd Floor, Rack 3",332.0,0,10% discount
+P0196,5.0,23.0,20.0,cluster_0,H03,H0314,H031405,H03140500,H0314050003,Garden Statues,Outdoor,Decorative statues for beautifying garden spaces,"3rd Floor, Rack 2",694.0,45,10% discount
+P0197,6.0,18.0,10.0,cluster_2,H00,H0004,H000401,H00040105,H0004010517,Planter Boxes,Garden,Wooden planter boxes for growing flowers and vegetables,"3rd Floor, Rack 3",835.0,36,10% discount
+P0198,1.0,16.0,3.0,cluster_0,H00,H0002,H000200,H00020009,H0002000926,Bamboo Fencing,Outdoor,Natural bamboo fencing for privacy and decor,"3rd Floor, Rack 2",600.0,20,10% discount
+P0199,15.0,24.9,9.3,,H00,H0001,H000104,H00010413,H0001041317,Rain Gauge,Garden,Simple rain gauge for measuring rainfall,"3rd Floor, Rack 3",577.0,25,10% discount
+P0200,4.0,13.5,9.0,,H01,H0105,H010503,H01050309,H0105030901,Soil Tester,Garden,Soil pH tester for home gardening,"3rd Floor, Rack 3",318.0,45,10% discount
+P0201,3.0,14.5,4.9,cluster_8,H01,H0108,H010807,H01080709,H0108070906,Hand Saw,Garden,Hand saw for pruning branches and trees,"3rd Floor, Rack 3",184.0,35,10% discount
+P0202,1.0,1.0,1.0,cluster_0,H00,H0000,H000005,H00000505,H0000050501,Garden Fork,Garden,Heavy-duty garden fork for digging and breaking soil,"3rd Floor, Rack 3",907.0,22,10% discount
+P0203,1.0,1.0,1.0,cluster_0,H00,H0004,H000403,H00040310,H0004031022,Garden Hoe,Garden,Durable hoe for shaping soil and weeding,"3rd Floor, Rack 3",910.0,0,10% discount
+P0204,1.6,24.0,7.0,cluster_0,H03,H0313,H031305,H03130518,H0313051832,Bread Maker,Kitchen,Automatic bread maker with various settings,"1st Floor, Rack 3",670.0,50,10% discount
+P0205,4.0,17.5,10.0,cluster_0,H03,H0315,H031502,H03150200,H0315020002,Ice Cream Scoop,Kitchen,Ergonomic ice cream scoop for easy serving,"1st Floor, Rack 3",405.0,39,10% discount
+P0206,6.0,12.0,6.0,cluster_8,H03,H0314,H031408,H03140801,H0314080102,Cupcake Carrier,Kitchen,Multi-tier cupcake carrier for transporting treats,"1st Floor, Rack 3",414.0,14,10% discount
+P0208,1.0,1.0,1.0,cluster_0,H03,H0313,H031302,H03130215,H0313021508,Measuring Spoons,Kitchen,Stainless steel measuring spoons for accuracy,"1st Floor, Rack 3",753.0,20,10% discount
+P0209,6.0,30.4,20.0,cluster_0,H03,H0313,H031302,H03130210,H0313021002,Double Boiler,Kitchen,Stainless steel double boiler for melting chocolate,"1st Floor, Rack 3",907.0,46,10% discount
+P0210,5.2,33.5,12.0,cluster_7,H03,H0312,H031205,H03120504,H0312050405,Storage Bags,Kitchen,Heavy-duty zipper storage bags for food preservation,"1st Floor, Rack 3",898.0,8,10% discount
+P0211,14.0,7.2,15.7,cluster_0,H01,H0107,H010700,H01070009,H0107000901,Pizza Stone,Kitchen,Authentic pizza stone for perfect crusts,"1st Floor, Rack 3",802.0,8,10% discount
+P0212,6.5,12.0,18.5,cluster_0,H00,H0002,H000200,H00020000,H0002000022,Dishwasher Magnet,Bathroom,Magnetic clean/dirty sign for dishwashing,"2nd Floor, Rack 8",678.0,9,5% discount
+P0213,1.5,24.0,7.0,cluster_0,H03,H0313,H031305,H03130518,H0313051826,Cloth Napkins,Dining Room,Set of reusable cloth napkins for dinner parties,"1st Floor, Rack 8",176.0,25,15% discount
+P0214,,,,cluster_0,H03,H0313,H031305,H03130520,H0313052002,Carpet Freshener,Bathroom,Powder carpet freshener for odors,"2nd Floor, Rack 8",245.0,40,5% discount
+P0215,3.0,12.0,10.0,cluster_0,H01,H0107,H010702,H01070211,H0107021107,Turkey Baster,Kitchen,Professional turkey baster for juicy meats,"1st Floor, Rack 3",909.0,34,10% discount
+P0216,1.0,1.0,1.0,cluster_0,H01,H0108,H010809,H01080900,H0108090001,Milk Frother,Kitchen,Electric milk frother for coffee drinks,"1st Floor, Rack 3",646.0,24,10% discount
+P0217,8.0,6.0,14.0,cluster_0,H01,H0107,H010702,H01070212,H0107021212,Spaghetti Measure,Kitchen,Measuring tool for portioning spaghetti,"1st Floor, Rack 3",108.0,25,10% discount
+P0218,7.5,15.0,13.0,cluster_6,H01,H0108,H010806,H01080615,H0108061501,Whisk,Kitchen,Stainless steel whisk for mixing ingredients,"1st Floor, Rack 3",191.0,10,10% discount
+P0219,8.7,12.5,8.7,cluster_9,H00,H0002,H000201,H00020110,H0002011001,Tupperware Set,Kitchen,Food storage container set for meal prep,"1st Floor, Rack 3",697.0,37,10% discount
+P0220,5.0,17.0,13.0,cluster_4,H00,H0001,H000102,H00010210,H0001021012,Drain Stopper,Bathroom,Suction drain stopper for tub or sink,"2nd Floor, Rack 8",105.0,1,5% discount
+P0221,2.7,12.0,6.0,cluster_9,H01,H0108,H010801,H01080110,H0108011006,Window Shades,Home Decor,Light-blocking window shades for privacy,"2nd Floor, Rack 6",245.0,6,50% discount
+P0222,14.5,20.5,18.0,cluster_0,H03,H0313,H031302,H03130209,H0313020905,Yoga Block,Exercise,Supportive yoga block for enhancing poses,"2nd Floor, Rack 10",594.0,17,5% discount
+P0223,5.3,23.7,11.1,cluster_0,H01,H0105,H010503,H01050309,H0105030901,Resistance Bands,Exercise,Set of resistance bands for home workouts,"2nd Floor, Rack 10",723.0,26,5% discount
+P0224,13.0,19.0,15.0,cluster_0,H03,H0311,H031108,H03110801,H0311080103,Foam Roller,Exercise,High-density foam roller for muscle relief,"2nd Floor, Rack 10",687.0,33,5% discount
+P0225,4.0,8.0,4.0,cluster_0,H01,H0108,H010806,H01080616,H0108061601,Under-bed Storage,Bedroom,Storage bins designed for under-bed use,"2nd Floor, Rack 7",302.0,26,50% discount
+P0226,6.5,7.0,6.5,cluster_0,H01,H0107,H010702,H01070210,H0107021003,Pillow Organizer,Bedroom,Handy organizer for keeping pillows tidy,"2nd Floor, Rack 7",741.0,16,50% discount
+P0227,2.0,27.0,21.0,cluster_0,H03,H0313,H031307,H03130700,H0313070001,Baby Gate,Nursery,Safety baby gate for securing spaces,"2nd Floor, Rack 3",314.0,42,30% discount
+P0228,5.0,28.0,16.0,cluster_0,H03,H0311,H031109,H03110900,H0311090003,Pacifier Holder,Nursery,Clip-on pacifier holder for baby safety,"2nd Floor, Rack 3",393.0,43,30% discount
+P0229,5.6,8.4,5.6,cluster_0,H00,H0001,H000105,H00010500,H0001050017,Diaper Bag,Nursery,Multiple-pocket diaper bag for convenience,"2nd Floor, Rack 3",772.0,50,30% discount
+P0230,2.0,36.0,19.5,,H01,H0107,H010701,H01070109,H0107010906,High Chair,Nursery,Adjustable high chair for feeding babies,"2nd Floor, Rack 3",685.0,23,30% discount
+P0231,3.7,18.9,7.7,cluster_0,H01,H0107,H010702,H01070200,H0107020004,Playpen,Nursery,Portable playpen for child safety,"2nd Floor, Rack 3",864.0,24,30% discount
+P0232,2.3,17.0,7.3,cluster_0,H03,H0315,H031504,H03150411,H0315041140,Stair Treads,Bathroom,Non-slip stair treads for safety,"2nd Floor, Rack 8",692.0,6,5% discount
+P0233,1.0,56.0,30.0,cluster_0,H03,H0317,H031702,H03170215,H0317021509,Car Seat Cover,Baby,Protective cover for car seats,"2nd Floor, Rack 4",611.0,5,Buy one get one free
+P0234,10.9,35.1,23.2,cluster_0,H03,H0313,H031302,H03130205,H0313020501,Pest Repellent,Home Care,Natural pest repellent for indoor use,"3rd Floor, Rack 9",184.0,23,
+P0235,15.0,31.2,11.8,,H00,H0001,H000104,H00010413,H0001041317,Picnic Basket,Outdoor,Insulated picnic basket for meals on the go,"3rd Floor, Rack 2",431.0,32,10% discount
+P0237,24.0,77.0,2.0,cluster_0,H03,H0317,H031702,H03170212,H0317021204,Ice Bucket,Outdoor,Insulated ice bucket for entertaining,"3rd Floor, Rack 2",339.0,48,10% discount
+P0238,6.0,20.0,6.0,cluster_3,H00,H0000,H000003,H00000300,H0000030001,Foil and Wrap Dispenser,Kitchen,Wall-mounted dispenser for foil and plastic wrap,"1st Floor, Rack 3",320.0,28,10% discount
+P0239,4.0,18.0,14.0,cluster_0,H00,H0002,H000201,H00020100,H0002010006,Thank You Cards,Personal Item,Assorted thank you cards for gifting,"2nd Floor, Rack 9",976.0,42,5% discount
+P0240,9.4,14.0,8.0,cluster_0,H03,H0313,H031302,H03130210,H0313021002,Food Processor,Kitchen,Compact food processor for chopping and mixing,"1st Floor, Rack 3",454.0,21,10% discount
+P0241,5.0,13.8,5.0,cluster_9,H00,H0001,H000105,H00010500,H0001050001,Ice Cream Maker,Kitchen,Home ice cream maker for creamy desserts,"1st Floor, Rack 3",903.0,25,10% discount
+P0242,4.3,17.5,4.3,cluster_0,H01,H0108,H010805,H01080500,H0108050033,Electric Skillet,Kitchen,Versatile electric skillet for cooking meals,"1st Floor, Rack 3",668.0,27,10% discount
+P0243,1.0,1.0,1.0,cluster_0,H00,H0004,H000403,H00040310,H0004031012,Popcorn Maker,Kitchen,Quick and easy popcorn maker for movie nights,"1st Floor, Rack 3",815.0,49,10% discount
+P0245,1.5,7.6,16.5,cluster_4,H00,H0003,H000312,H00031200,H0003120001,Waffle Maker,Kitchen,Non-stick waffle maker for delicious breakfasts,"1st Floor, Rack 3",552.0,20,10% discount
+P0246,1.6,21.0,14.0,cluster_0,H03,H0313,H031307,H03130700,H0313070009,Pasta Maker,Kitchen,Manual pasta maker for homemade noodles,"1st Floor, Rack 3",619.0,48,10% discount
+P0247,5.0,28.0,15.0,cluster_4,H03,H0313,H031303,H03130303,H0313030301,Food Steamer,Kitchen,Electric food steamer for healthy cooking,"1st Floor, Rack 3",543.0,6,10% discount
+P0249,7.7,25.5,7.7,cluster_8,H00,H0000,H000004,H00000405,H0000040501,Juicer,Kitchen,Fresh juice extractor for fruits and vegetables,"1st Floor, Rack 3",276.0,16,10% discount
+P0250,4.0,16.3,10.8,,H01,H0106,H010600,H01060013,H0106001333,Deep Fryer,Kitchen,Countertop deep fryer for crispy meals,"1st Floor, Rack 3",750.0,19,10% discount
+P0251,8.0,18.0,13.0,cluster_0,H01,H0107,H010702,H01070211,H0107021101,Pizza Oven,Kitchen,Compact pizza oven for perfect baking,"1st Floor, Rack 3",353.0,40,10% discount
+P0252,2.0,14.0,7.0,cluster_8,H03,H0313,H031302,H03130200,H0313020001,Electric Griddle,Kitchen,Flat electric griddle for pancakes and eggs,"1st Floor, Rack 3",122.0,48,10% discount
+P0253,4.0,20.0,6.0,,H01,H0108,H010807,H01080710,H0108071022,Countertop Oven,Kitchen,Versatile countertop oven for baking and broiling,"1st Floor, Rack 3",681.0,19,10% discount
+P0254,3.0,5.0,17.0,cluster_0,H01,H0108,H010801,H01080110,H0108011006,Slow Cooker,Kitchen,Programmable slow cooker for hassle-free meals,"1st Floor, Rack 3",259.0,21,10% discount
+P0255,6.0,9.0,7.5,cluster_6,H00,H0002,H000206,H00020610,H0002061001,Cup Sealer,Kitchen,Automatic cup sealer for drinks and sauces,"1st Floor, Rack 3",946.0,27,10% discount
+P0256,5.8,21.1,5.8,cluster_0,H01,H0108,H010807,H01080709,H0108070901,Salad Dressing Shaker,Kitchen,Multi-use salad dressing shaker for easy mixing,"1st Floor, Rack 3",959.0,39,10% discount
+P0257,6.0,7.0,13.0,cluster_0,H00,H0002,H000208,H00020800,H0002080036,Meat Grinder,Kitchen,Electric meat grinder for homemade sausages,"1st Floor, Rack 3",923.0,48,10% discount
+P0258,6.0,19.0,13.0,cluster_0,H01,H0107,H010702,H01070210,H0107021002,Can Opener,Kitchen,Ergonomic can opener for easy use,"1st Floor, Rack 3",433.0,6,10% discount
+P0259,,,,cluster_9,H00,H0004,H000402,H00040212,H0004021202,Food Dehydrator,Kitchen,Digital food dehydrator for healthy snacks,"1st Floor, Rack 3",114.0,0,10% discount
+P0260,4.5,16.0,8.0,cluster_0,H00,H0002,H000206,H00020600,H0002060001,Soda Maker,Kitchen,Home soda maker for fizzy drinks,"1st Floor, Rack 3",935.0,31,10% discount
+P0261,2.0,21.5,13.5,cluster_0,H00,H0003,H000314,H00031409,H0003140912,Bento Box,Kitchen,Multi-compartment bento box for lunches,"1st Floor, Rack 3",485.0,12,10% discount
+P0263,25.0,18.0,2.0,cluster_2,H03,H0311,H031110,H03111000,H0311100002,Wine Rack,Dining Room,Stylish wine rack for home decor and storage,"1st Floor, Rack 8",970.0,29,15% discount
+P0264,4.0,4.0,15.0,cluster_0,H03,H0313,H031305,H03130515,H0313051514,Sugar Canister,Kitchen,Glass sugar canister with airtight lid,"1st Floor, Rack 3",967.0,22,10% discount
+P0265,6.5,11.5,6.5,cluster_0,H00,H0000,H000004,H00000405,H0000040501,Coffee Grinder,Kitchen,Manual coffee grinder for fresh coffee grounds,"1st Floor, Rack 3",868.0,50,10% discount
+P0266,10.0,23.0,25.5,cluster_0,H01,H0108,H010805,H01080509,H0108050906,Spice Rack,Kitchen,Rotating spice rack with assorted spices,"1st Floor, Rack 3",365.0,18,10% discount
+P0267,15.0,5.0,25.0,cluster_0,H03,H0312,H031205,H03120502,H0312050214,Manual Juicer,Kitchen,Hand-held manual juicer for citrus fruits,"1st Floor, Rack 3",447.0,31,10% discount
+P0268,4.5,13.0,9.0,cluster_3,H00,H0001,H000101,H00010105,H0001010501,Toaster Oven,Kitchen,Countertop toaster oven for versatile cooking,"1st Floor, Rack 3",866.0,29,10% discount
+P0269,6.0,23.0,18.0,cluster_0,H00,H0002,H000202,H00020200,H0002020032,Mixing Spoon Set,Kitchen,Silicone spoon set for cooking and baking,"1st Floor, Rack 3",385.0,28,10% discount
+P0270,5.0,28.0,16.0,cluster_0,H03,H0311,H031109,H03110901,H0311090101,Cutlery Tray,Kitchen,Expandable cutlery tray for kitchen drawers,"1st Floor, Rack 3",253.0,48,10% discount
+P0271,24.0,1.5,38.0,cluster_5,H03,H0312,H031209,H03120916,H0312091618,Tea Kettle,Kitchen,Stainless steel tea kettle for boiling water,"1st Floor, Rack 3",601.0,44,10% discount
+P0272,7.4,19.5,12.9,cluster_0,H00,H0001,H000102,H00010210,H0001021017,Knife Sharpener,Kitchen,Handheld knife sharpener for edge maintenance,"1st Floor, Rack 3",943.0,28,10% discount
+P0274,3.5,12.0,50.0,cluster_0,H03,H0315,H031512,H03151215,H0315121511,Bottle Warmer,Baby,Electric bottle warmer for baby feeding,"2nd Floor, Rack 4",726.0,29,Buy one get one free
+P0275,3.0,3.0,12.0,cluster_0,H00,H0003,H000315,H00031500,H0003150003,Pacifier Sterilizer,Baby,UV sterilizer for baby pacifiers,"2nd Floor, Rack 4",613.0,15,Buy one get one free
+P0276,5.0,20.2,8.0,cluster_6,H01,H0108,H010807,H01080710,H0108071022,Baby Wipes Warmer,Baby,Heated baby wipes dispenser for nighttime changes,"2nd Floor, Rack 4",187.0,39,Buy one get one free
+P0277,6.7,24.0,7.5,cluster_8,H00,H0000,H000004,H00000400,H0000040001,Diaper Pail,Baby,Odor-blocking diaper pail for baby care,"2nd Floor, Rack 4",654.0,18,Buy one get one free
+P0278,1.0,1.0,1.0,cluster_0,H00,H0001,H000100,H00010000,H0001000033,Baby Bath Tub,Baby,Compact baby bathtub with support,"2nd Floor, Rack 4",991.0,17,Buy one get one free
+P0279,5.2,15.0,7.3,cluster_2,H00,H0002,H000202,H00020200,H0002020006,Breast Pump,Baby,Electric breast pump for breastfeeding mothers,"2nd Floor, Rack 4",226.0,0,Buy one get one free
+P0280,6.0,19.0,13.0,cluster_4,H03,H0313,H031303,H03130302,H0313030201,Baby Safety Kit,Baby,Complete baby safety kit for home usage,"2nd Floor, Rack 4",566.0,13,Buy one get one free
+P0281,6.0,19.0,6.0,cluster_0,H00,H0002,H000208,H00020800,H0002080039,Teething Rings,Baby,Chilled teething rings for soothing gums,"2nd Floor, Rack 4",890.0,50,Buy one get one free
+P0282,10.0,11.0,11.0,cluster_0,H03,H0312,H031206,H03120610,H0312061041,Potato Masher,Kitchen,Heavy-duty potato masher for smooth mashed potatoes,"1st Floor, Rack 3",767.0,46,10% discount
+P0283,1.5,12.0,17.0,cluster_0,H01,H0106,H010601,H01060114,H0106011422,Grater Set,Kitchen,Multi-sized grater set for cheese and vegetables,"1st Floor, Rack 3",727.0,49,10% discount
+P0284,5.0,28.0,11.0,cluster_0,H00,H0002,H000200,H00020009,H0002000901,Whisker Fork,Kitchen,Specialty whisk for aerating foods,"1st Floor, Rack 3",732.0,1,10% discount
+P0285,3.5,21.0,9.0,cluster_0,H03,H0315,H031508,H03150809,H0315080935,Butter Dish,Kitchen,Stylish butter dish with lid for storage,"1st Floor, Rack 3",424.0,27,10% discount
+P0286,4.5,13.0,9.0,cluster_3,H00,H0001,H000101,H00010105,H0001010501,Apron,Kitchen,Adjustable apron with pockets for chefs,"1st Floor, Rack 3",364.0,48,10% discount
+P0287,7.3,10.6,7.3,cluster_0,H00,H0002,H000201,H00020100,H0002010012,Casserole Dish,Kitchen,Oven-safe casserole dish for baked meals,"1st Floor, Rack 3",828.0,49,10% discount
+P0289,1.0,1.0,1.0,cluster_0,H03,H0315,H031502,H03150200,H0315020035,Chafing Dishes,Kitchen,Set of chafing dishes for serving food at parties,"1st Floor, Rack 3",829.0,29,10% discount
+P0290,5.0,19.0,13.0,cluster_0,H00,H0001,H000102,H00010210,H0001021017,Serving Tray,Kitchen,Decorative serving tray for entertaining guests,"1st Floor, Rack 3",880.0,37,10% discount
+P0291,5.0,28.0,16.0,cluster_0,H03,H0311,H031109,H03110900,H0311090002,Butterfly Peeler,Kitchen,Easy-pull vegetable peeler for convenience,"1st Floor, Rack 3",922.0,50,10% discount
+P0292,8.8,15.1,8.8,,H00,H0002,H000201,H00020110,H0002011006,Hot Pad,Kitchen,Heat-resistant hot pads for cookware,"1st Floor, Rack 3",560.0,3,10% discount
+P0293,3.0,23.5,17.0,cluster_0,H03,H0311,H031110,H03111000,H0311100003,Polishing Cloth,Household Supplies,Ineffective polishing cloth for dust removal,"3rd Floor, Rack 10",551.0,0,
+P0294,9.0,31.0,9.0,cluster_6,H00,H0000,H000005,H00000500,H0000050001,Shower Bench,Bathroom,Sturdy shower bench for bathing convenience,"2nd Floor, Rack 8",818.0,7,5% discount
+P0295,5.0,28.0,16.0,cluster_0,H03,H0311,H031108,H03110805,H0311080503,Bathroom Shelf,Bathroom,Wall-mounted shelf for organizing toiletries,"2nd Floor, Rack 8",685.0,28,5% discount
+P0296,3.5,3.0,14.0,cluster_3,H00,H0003,H000312,H00031209,H0003120906,Mouthwash Dispenser,Bathroom,Automatic mouthwash dispenser for fresh breath,"2nd Floor, Rack 8",732.0,38,5% discount
+P0297,11.5,18.0,11.5,cluster_0,H00,H0002,H000201,H00020110,H0002011006,Cotton Ball Dispenser,Bathroom,Stylish dispenser for cotton balls,"2nd Floor, Rack 8",816.0,2,5% discount
+P0298,,,,cluster_9,H02,H0210,H021002,H02100200,H0210020008,Hair Styling Station,Bathroom,Wall-mounted organizer for hair tools,"2nd Floor, Rack 8",901.0,31,5% discount
+P0299,11.0,5.0,6.0,cluster_0,H03,H0312,H031207,H03120710,H0312071009,Non-Slip Bathmat,Bathroom,Soft non-slip bathmat for bathroom safety,"2nd Floor, Rack 8",404.0,9,5% discount
+P0300,11.0,27.0,19.0,cluster_0,H03,H0313,H031302,H03130210,H0313021002,Bathroom Organizer,Bathroom,Stackable bathroom organizers for storage,"2nd Floor, Rack 8",438.0,9,5% discount
+P0301,5.0,12.0,8.0,cluster_5,H00,H0004,H000401,H00040105,H0004010522,Shower Head,Bathroom,Adjustable shower head with massage settings,"2nd Floor, Rack 8",185.0,18,5% discount
+P0302,15.0,28.0,60.0,cluster_0,H03,H0313,H031302,H03130215,H0313021502,Handheld Mirror,Bathroom,Compact handheld mirror for grooming,"2nd Floor, Rack 8",620.0,45,5% discount
+P0303,6.0,17.0,10.0,,H00,H0001,H000102,H00010210,H0001021017,Bathroom Caddy,Bathroom,Portable caddy for toiletries and cosmetics,"2nd Floor, Rack 8",132.0,33,5% discount
+P0304,3.9,15.4,8.1,cluster_0,H01,H0108,H010801,H01080110,H0108011006,Toilet Seat Cover,Bathroom,Decorative toilet seat cover for bathrooms,"2nd Floor, Rack 8",519.0,32,5% discount
+P0305,14.0,35.0,14.0,cluster_0,H00,H0001,H000104,H00010400,H0001040001,Inside Doormat,Home Decor,Welcome doormat for home entrance,"2nd Floor, Rack 6",588.0,22,50% discount
+P0309,30.0,31.0,42.0,cluster_0,H01,H0107,H010702,H01070205,H0107020508,Collapsible Storage Bin,Storage Solutions,Space-saving collapsible storage bins,"2nd Floor, Rack 1",358.0,27,10% discount
+P0310,5.0,15.0,10.0,cluster_0,H03,H0313,H031305,H03130500,H0313050007,Plastic Drawers,Storage Solutions,Stackable plastic drawers for organizing,"2nd Floor, Rack 1",632.0,31,10% discount
+P0311,1.0,20.0,30.0,cluster_9,H03,H0313,H031307,H03130705,H0313070501,Under-Sink Storage,Storage Solutions,Stacking organizer for under-sink use,"2nd Floor, Rack 1",127.0,49,10% discount
+P0312,6.0,10.0,8.0,cluster_0,H03,H0312,H031201,H03120101,H0312010130,Label Maker,Home Office,Portable label maker for organizing supplies,"1st Floor, Rack 9",134.0,6,10% discount
+P0313,11.8,24.6,9.3,cluster_0,H01,H0105,H010501,H01050105,H0105010506,Wet Wipes,Household Cleaners,All-purpose wet wipes for quick cleaning,"4th Floor, Rack 1",840.0,28,
+P0314,3.0,18.0,10.0,cluster_0,H01,H0107,H010702,H01070211,H0107021102,Glass Cleaner,Household Cleaners,Streak-free glass cleaner for windows,"4th Floor, Rack 1",424.0,7,
+P0316,1.0,1.0,1.0,cluster_0,H00,H0004,H000403,H00040300,H0004030017,Broom Holder,Utility Room,Vertical broom holder for storage,"1st Floor, Rack 5",214.0,0,10% discount
+P0317,3.1,19.0,8.8,cluster_0,H03,H0313,H031302,H03130212,H0313021210,Waste Sorting Bin,Utility Room,Color-coded bins for recycling and waste,"1st Floor, Rack 5",570.0,2,10% discount
+P0318,3.0,14.0,10.0,cluster_3,H00,H0004,H000401,H00040105,H0004010512,Tall Storage Cabinet,Home Improvement,Tall storage cabinet for home organization,"3rd Floor, Rack 4",793.0,23,
+P0319,7.5,21.1,4.3,,H01,H0108,H010807,H01080710,H0108071032,Garage Shelves,Home Improvement,Heavy-duty shelves for garage storage,"3rd Floor, Rack 4",294.0,22,
+P0321,4.3,23.3,8.5,cluster_0,H01,H0108,H010803,H01080311,H0108031101,Bottle Opener,Utility Room,Countertop bottle opener for ease of use,"1st Floor, Rack 5",661.0,7,10% discount
+P0322,59.0,88.0,59.0,cluster_0,H03,H0312,H031206,H03120609,H0312060938,Easels,Craft Room,Adjustable easel for painting projects,"3rd Floor, Rack 1",177.0,46,10% discount
+P0323,6.0,32.5,23.0,,H03,H0313,H031302,H03130205,H0313020501,Scrapbooking Kit,Craft Room,Complete kit for scrapbooking and arts,"3rd Floor, Rack 1",147.0,36,10% discount
+P0324,7.5,12.5,7.5,cluster_0,H01,H0108,H010805,H01080509,H0108050901,Paint Brushes,Craft Room,Assorted paint brushes for various applications,"3rd Floor, Rack 1",578.0,2,10% discount
+P0325,6.0,18.5,11.0,cluster_2,H00,H0001,H000100,H00010010,H0001001001,Mini Sewing Kit,Craft Room,Portable sewing kit for quick fixes,"3rd Floor, Rack 1",587.0,50,10% discount
+P0326,3.0,18.0,10.0,cluster_0,H01,H0107,H010702,H01070211,H0107021102,Highlighter Set,Home Office,Set of colorful highlighters for note-taking,"1st Floor, Rack 9",674.0,32,10% discount
+P0327,2.0,4.0,13.0,cluster_0,H00,H0003,H000313,H00031300,H0003130001,Notebook,Home Office,Lined notebook for journaling and notes,"1st Floor, Rack 9",753.0,27,10% discount
+P0328,2.0,7.0,11.0,cluster_0,H01,H0106,H010601,H01060114,H0106011422,Swing Arm Lamp,Home Office,Adjustable swing arm lamp for desk,"1st Floor, Rack 9",978.0,46,10% discount
+P0329,5.0,49.5,2.5,cluster_0,H03,H0314,H031405,H03140506,H0314050602,Packing Cubes,Home Travel,Organizational packing cubes for travel,"4th Floor, Rack 2",565.0,7,
+P0330,5.0,10.0,5.0,cluster_0,H03,H0312,H031207,H03120710,H0312071004,Travel Pillow,Personal Item,Ergonomic travel pillow for comfort during trips,"2nd Floor, Rack 9",391.0,33,5% discount
+P0331,40.6,37.0,36.5,cluster_4,H03,H0314,H031400,H03140001,H0314000104,Luggage Tags,Travel Accessories,Durable luggage tags for easy identification,"4th Floor, Rack 3",816.0,34,
+P0332,6.9,13.2,6.9,cluster_3,H00,H0002,H000206,H00020600,H0002060006,Packing Tape,Home Office,Heavy-duty packing tape for shipping,"1st Floor, Rack 9",344.0,31,10% discount
+P0333,7.5,21.0,10.5,cluster_4,H00,H0003,H000312,H00031200,H0003120004,Clipboard,Home Office,Standard clipboard for easy writing,"1st Floor, Rack 9",495.0,23,10% discount
+P0334,6.0,20.0,6.0,,H00,H0000,H000004,H00000400,H0000040012,Map Organizer,Home Office,Wall-mounted map organizer for planning,"1st Floor, Rack 9",171.0,13,10% discount
+P0335,4.1,11.0,4.1,cluster_0,H01,H0108,H010805,H01080500,H0108050026,Photo Frame,Home Decor,Decorative photo frame for cherished memories,"2nd Floor, Rack 6",123.0,31,50% discount
+P0336,11.0,43.0,24.0,cluster_0,H01,H0107,H010702,H01070205,H0107020505,Indoor Planter,Home Decor,Stylish indoor planter for houseplants,"2nd Floor, Rack 6",966.0,45,50% discount
+P0337,17.0,40.0,30.0,cluster_0,H03,H0314,H031401,H03140102,H0314010203,Candlestick Holders,Home Decor,Elegant candlestick holders for ambiance,"2nd Floor, Rack 6",852.0,42,50% discount
+P0339,12.0,16.0,11.8,cluster_0,H03,H0312,H031206,H03120609,H0312060938,Curtains,Home Decor,Light-filtering curtains for privacy,"2nd Floor, Rack 6",726.0,15,50% discount
+P0340,5.0,20.0,13.0,cluster_0,H03,H0313,H031302,H03130200,H0313020001,Table Runner,Home Decor,Decorative table runner for dining tables,"2nd Floor, Rack 6",468.0,3,50% discount
+P0341,8.5,29.1,5.8,cluster_0,H00,H0001,H000104,H00010413,H0001041312,Floral Arrangements,Home Decor,Artificial floral arrangements for decoration,"2nd Floor, Rack 6",256.0,36,50% discount
+P0342,4.5,14.0,15.0,cluster_0,H03,H0313,H031302,H03130209,H0313020901,Wall Decals,Home Decor,Removable wall decals for easy decoration,"2nd Floor, Rack 6",241.0,20,50% discount
+P0343,3.0,6.0,4.0,cluster_0,H01,H0108,H010808,H01080813,H0108081301,Outdoor String Lights,Outdoor,Decorative string lights for patios,"3rd Floor, Rack 2",325.0,13,10% discount
+P0344,,,,cluster_0,H02,H0209,H020908,H02090804,H0209080429,Wireless Doorbell,Home Security,Wireless doorbell system for home security,"4th Floor, Rack 4",594.0,30,
+P0345,7.0,23.6,8.0,cluster_0,H00,H0000,H000004,H00000400,H0000040001,Home Safe,Home Security,Compact home safe for valuables,"4th Floor, Rack 4",743.0,47,
+P0346,9.0,12.0,9.0,cluster_3,H00,H0001,H000105,H00010510,H0001051017,Garden Hoe,Garden,Durable garden hoe for weeding and planting,"3rd Floor, Rack 3",694.0,17,10% discount
+P0347,4.0,9.0,9.0,cluster_3,H01,H0105,H010503,H01050305,H0105030501,Scarecrow,Outdoor,Decorative scarecrow for garden protection,"3rd Floor, Rack 2",352.0,6,10% discount
+P0348,7.4,15.3,12.9,cluster_0,H00,H0001,H000102,H00010210,H0001021012,Bee Hotel,Garden,Nesting site for solitary bees,"3rd Floor, Rack 3",959.0,9,10% discount
+P0350,2.0,15.0,10.0,cluster_7,H00,H0003,H000311,H00031100,H0003110033,Compostable Bags,Kitchen,Eco-friendly compostable bags for cleanups,"1st Floor, Rack 3",764.0,6,10% discount
+P0351,1.8,11.2,9.5,cluster_0,H01,H0108,H010809,H01080900,H0108090006,Electric Chainsaw,Garden,Powerful electric chainsaw for pruning trees,"3rd Floor, Rack 3",599.0,32,10% discount
+P0352,5.0,20.0,15.0,cluster_0,H03,H0314,H031405,H03140500,H0314050003,Portable Greenhouse,Garden,Compact greenhouse for plant care,"3rd Floor, Rack 3",651.0,22,10% discount
+P0353,4.0,22.0,7.5,cluster_4,H01,H0108,H010807,H01080709,H0108070901,Patio Heater,Outdoor,Outdoor patio heater for warmth,"3rd Floor, Rack 2",478.0,20,10% discount
+P0354,5.0,28.0,16.0,cluster_3,H03,H0311,H031109,H03110901,H0311090103,Deck Box,Outdoor,Storage deck box for outdoor equipment,"3rd Floor, Rack 2",323.0,18,10% discount
+P0355,30.0,5.0,28.0,cluster_0,H03,H0315,H031508,H03150809,H0315080911,Nutcracker,Kitchen,Stainless steel nutcracker for easy shelling,"1st Floor, Rack 3",420.0,47,10% discount
+P0356,2.0,6.0,10.0,cluster_3,H00,H0003,H000316,H00031609,H0003160922,Cookie Jar,Kitchen,Glass cookie jar with airtight lid for freshness,"1st Floor, Rack 3",782.0,18,10% discount
+P0357,1.0,1.0,1.0,,H01,H0108,H010803,H01080311,H0108031101,Egg Poacher,Kitchen,Silicone egg poaching cups for perfect eggs,"1st Floor, Rack 3",113.0,35,10% discount
+P0358,10.0,10.0,10.0,cluster_0,H03,H0312,H031205,H03120502,H0312050215,Baking Dough Scraper,Kitchen,Stainless steel dough scraper for baking,"1st Floor, Rack 3",204.0,28,10% discount
+P0360,5.0,28.0,16.0,cluster_0,H03,H0311,H031109,H03110900,H0311090003,Pot Holders,Kitchen,Heat-resistant pot holders for safe cooking,"1st Floor, Rack 3",141.0,17,10% discount
+P0361,6.0,48.0,6.0,cluster_0,H03,H0314,H031404,H03140407,H0314040701,Moisture Absorber,Bathroom,Moisture absorber for bathroom air freshness,"2nd Floor, Rack 8",137.0,1,5% discount
+P0362,6.0,7.0,12.2,cluster_5,H00,H0002,H000200,H00020000,H0002000032,Bathroom Scale,Bathroom,Digital bathroom scale with body fat analysis,"2nd Floor, Rack 8",870.0,0,5% discount
+P0363,5.0,12.0,8.0,cluster_0,H00,H0004,H000401,H00040100,H0004010005,Pillow Protector,Bedroom,Waterproof pillow protectors for hygiene,"2nd Floor, Rack 7",733.0,46,50% discount
+P0364,4.0,4.0,12.5,cluster_0,H00,H0003,H000312,H00031200,H0003120017,Photo Album,Home Decor,Leather-bound photo album for memories,"2nd Floor, Rack 6",527.0,4,50% discount
+P0365,8.0,14.0,40.5,,H01,H0106,H010601,H01060112,H0106011209,Pedestal Sink,Bathroom,Modern pedestal sink for bathroom renovation,"2nd Floor, Rack 8",188.0,19,5% discount
+P0366,6.8,8.5,7.0,cluster_4,H00,H0002,H000206,H00020600,H0002060017,Tea Pot,Kitchen,Classic ceramic teapot for brewing tea,"1st Floor, Rack 3",542.0,10,10% discount
+P0367,3.0,26.5,17.0,,H03,H0311,H031110,H03111006,H0311100603,Bamboo Cutting Board,Kitchen,Durable bamboo cutting board for food prep,"1st Floor, Rack 3",526.0,41,10% discount
+P0368,2.5,11.5,11.5,,H03,H0312,H031207,H03120710,H0312071009,Butter Dish,Kitchen,Airtight butter dish for storage and freshness,"1st Floor, Rack 3",256.0,1,10% discount
+P0369,7.0,8.0,13.0,cluster_0,H00,H0002,H000200,H00020000,H0002000026,Measuring Jug,Kitchen,Clear measuring jug for liquids,"1st Floor, Rack 3",490.0,2,10% discount
+P0370,2.0,21.0,11.0,cluster_5,H03,H0313,H031309,H03130900,H0313090000,Cordless Kettle,Kitchen,Cordless electric kettle for fast boiling,"1st Floor, Rack 3",459.0,22,10% discount
+P0371,6.2,16.8,6.2,cluster_9,H00,H0000,H000004,H00000405,H0000040517,Ready-To-Use Cake Stand,Kitchen,Decorative cake stand for serving desserts,"1st Floor, Rack 3",654.0,11,10% discount
+P0372,2.0,7.0,2.5,cluster_9,H03,H0314,H031408,H03140802,H0314080201,Salad Bowl,Kitchen,Large wooden salad bowl for serving,"1st Floor, Rack 3",672.0,19,10% discount
+P0373,5.0,18.0,14.0,cluster_6,H00,H0002,H000201,H00020100,H0002010012,Spice Dispenser,Kitchen,Rotating spice dispenser for kitchen organization,"1st Floor, Rack 3",141.0,4,10% discount
+P0374,27.0,26.5,25.0,cluster_0,H03,H0315,H031508,H03150800,H0315080011,Yardstick,Utility Room,Wooden yardstick for measuring,"1st Floor, Rack 5",437.0,36,10% discount
+P0375,1.0,1.0,1.0,cluster_0,H03,H0314,H031402,H03140202,H0314020202,Hand Towels,Bathroom,Set of absorbent hand towels for bathrooms,"2nd Floor, Rack 8",663.0,37,5% discount
+P0376,2.0,13.0,8.0,cluster_0,H00,H0001,H000105,H00010510,H0001051017,Backpack Sprayer,Garden,Manual backpack sprayer for easy garden maintenance,"3rd Floor, Rack 3",553.0,29,10% discount
+P0377,2.0,27.0,21.0,cluster_0,H03,H0313,H031307,H03130700,H0313070003,Garden Storage Shed,Garden,Tough storage shed for gardening tools,"3rd Floor, Rack 3",871.0,8,10% discount
+P0379,8.0,13.0,8.0,cluster_4,H03,H0312,H031204,H03120409,H0312040900,Potting Table,Garden,Wooden potting table for gardening tasks,"3rd Floor, Rack 3",693.0,33,10% discount
+P0380,2.5,16.4,7.0,,H01,H0106,H010600,H01060013,H0106001345,Lawn Aerator,Garden,Manual lawn aerator for healthy grass growth,"3rd Floor, Rack 3",247.0,43,10% discount
+P0381,2.0,9.0,3.0,cluster_6,H01,H0108,H010806,H01080616,H0108061601,Wheelbarrow,Garden,Heavy-duty wheelbarrow for transporting soil,"3rd Floor, Rack 3",164.0,34,10% discount
+P0382,3.2,13.7,12.7,cluster_4,H01,H0105,H010500,H01050000,H0105000012,Plastic Planters,Garden,Colorful plastic planters for indoor plants,"3rd Floor, Rack 3",678.0,21,10% discount
+P0383,24.0,8.0,18.0,cluster_0,H03,H0311,H031108,H03110805,H0311080502,Bird Feeder,Garden,Wooden bird feeder for attracting local birds,"3rd Floor, Rack 3",124.0,43,10% discount
+P0384,1.0,1.0,1.0,cluster_0,H00,H0004,H000403,H00040309,H0004030906,Self-watering Planters,Garden,Planters with built-in water reservoir,"3rd Floor, Rack 3",627.0,23,10% discount
+P0385,3.8,15.4,6.6,,H01,H0107,H010702,H01070200,H0107020004,Flower Pots,Garden,Set of ceramic flower pots in various sizes,"3rd Floor, Rack 3",946.0,16,10% discount
+P0386,9.2,16.0,6.5,cluster_0,H01,H0108,H010807,H01080700,H0108070012,Edging Tools,Garden,Set of garden edging tools for landscaping,"3rd Floor, Rack 3",618.0,9,10% discount
+P0387,2.0,10.0,8.0,,H01,H0107,H010702,H01070211,H0107021102,Tree Pruner,Garden,Extendable tree pruner for high branches,"3rd Floor, Rack 3",449.0,29,10% discount
+P0388,1.0,20.0,30.0,cluster_3,H03,H0313,H031307,H03130705,H0313070501,Weed Grabber,Garden,Ergonomic weed grabber for easy pulling,"3rd Floor, Rack 3",679.0,45,10% discount
+P0389,10.2,31.7,10.2,cluster_4,H00,H0002,H000202,H00020205,H0002020512,Flower Seeds,Garden,Assorted flower seeds for planting,"3rd Floor, Rack 3",512.0,22,10% discount
+P0390,4.5,17.0,4.5,cluster_0,H01,H0108,H010805,H01080500,H0108050032,Grow Light,Garden,LED grow light for indoor plants,"3rd Floor, Rack 3",591.0,31,10% discount
+P0391,6.8,22.0,14.0,cluster_5,H03,H0315,H031508,H03150809,H0315080935,Seedling Tray,Garden,Reusable seedling tray for gardening,"3rd Floor, Rack 3",947.0,16,10% discount
+P0392,6.0,32.5,40.5,cluster_0,H03,H0313,H031302,H03130205,H0313020501,Garden Tiller,Garden,Electric garden tiller for loosening soil,"3rd Floor, Rack 3",447.0,49,10% discount
+P0393,7.0,12.0,7.0,cluster_4,H00,H0002,H000201,H00020110,H0002011012,Bulb Planter,Garden,Handheld bulb planter for planting bulbs,"3rd Floor, Rack 3",965.0,50,10% discount
+P0394,14.0,6.0,3.0,cluster_4,H00,H0003,H000312,H00031200,H0003120012,Soaker Hose,Garden,Flexibility soaker hose for watering plants,"3rd Floor, Rack 3",915.0,16,10% discount
+P0395,14.0,23.0,13.0,cluster_0,H01,H0107,H010702,H01070205,H0107020507,Fire Pit Table,Outdoor,Table with built-in fire pit for gatherings,"3rd Floor, Rack 2",276.0,13,10% discount
+P0396,3.0,7.0,3.0,cluster_0,H01,H0108,H010806,H01080616,H0108061601,Sling Chair,Outdoor,Compact folding sling chair for camping,"3rd Floor, Rack 2",162.0,8,10% discount
+P0397,1.0,23.0,4.0,cluster_0,H01,H0108,H010801,H01080109,H0108010917,Outdoor Bistro Set,Outdoor,Small bistro set for patio dining,"3rd Floor, Rack 2",191.0,39,10% discount
+P0398,5.0,5.0,5.0,cluster_0,H03,H0312,H031209,H03120910,H0312091006,Patio Fountain,Outdoor,Decorative patio fountain for ambiance,"3rd Floor, Rack 2",116.0,1,10% discount
+P0399,2.3,7.5,4.0,cluster_0,H01,H0108,H010807,H01080710,H0108071022,Wooden Picnic Table,Outdoor,Sturdy wooden picnic table for outdoor meals,"3rd Floor, Rack 2",185.0,44,10% discount
+P0400,2.0,27.0,21.0,cluster_0,H03,H0313,H031307,H03130700,H0313070010,Planter Trellis,Garden,Wooden trellis for climbing plants,"3rd Floor, Rack 3",715.0,24,10% discount
+P0401,2.0,22.0,6.0,,H03,H0315,H031504,H03150411,H0315041131,Yoga Mat Bag,Sports,Durable yoga mat bag for storage and transport,"4th Floor, Rack 5",164.0,38,
+P0402,2.8,7.3,7.0,cluster_0,H01,H0105,H010503,H01050305,H0105030517,Miniature Garden Tools,Garden,Set of miniature garden tools for bonsai care,"3rd Floor, Rack 3",387.0,8,10% discount
+P0403,1.0,5.1,9.2,cluster_0,H00,H0003,H000316,H00031600,H0003160001,Hand-held Seed Spreader,Garden,Manual seed spreader for even distribution,"3rd Floor, Rack 3",860.0,21,10% discount
+P0405,5.2,20.4,10.2,cluster_0,H01,H0108,H010809,H01080900,H0108090001,Garden Gloves,Garden,Leather garden gloves for protection,"3rd Floor, Rack 3",121.0,42,10% discount
+P0406,4.5,4.5,31.0,cluster_0,H01,H0106,H010601,H01060113,H0106011301,Pet Water Fountain,Pets,Automatic pet water fountain for hydration,"2nd Floor, Rack 2",833.0,45,10% discount
+P0407,5.0,28.0,16.0,,H03,H0311,H031108,H03110805,H0311080501,Pet Bed,Pets,Orthopedic pet bed for large dogs,"2nd Floor, Rack 2",354.0,3,10% discount
+P0408,6.5,28.2,19.0,cluster_0,H01,H0105,H010500,H01050000,H0105000026,Pet Food Storage Container,Pets,Airtight food container for pet supplies,"2nd Floor, Rack 2",206.0,25,10% discount
+P0409,3.0,14.0,6.0,,H00,H0001,H000105,H00010500,H0001050001,Bathrobe,Bathroom,Soft cotton bathrobe for comfort,"2nd Floor, Rack 8",727.0,28,5% discount
+P0410,16.5,1.0,8.0,,H00,H0004,H000401,H00040105,H0004010501,Personal Care Organizer,Bathroom,Organizer for skincare and beauty products,"2nd Floor, Rack 8",666.0,44,5% discount
+P0411,9.7,17.3,12.5,cluster_0,H01,H0107,H010700,H01070009,H0107000922,Magnifying Mirror,Bathroom,Battery-operated LED magnifying mirror,"2nd Floor, Rack 8",890.0,33,5% discount
+P0412,4.0,11.3,4.0,cluster_0,H01,H0108,H010805,H01080500,H0108050026,Vaporizer,Bathroom,Steam vaporizer for relieving congestion,"2nd Floor, Rack 8",762.0,22,5% discount
+P0413,0.0,0.0,0.0,cluster_7,H02,H0210,H021002,H02100203,H0210020302,Portable Bidet,Bathroom,Travel-friendly portable bidet for hygiene,"2nd Floor, Rack 8",823.0,36,5% discount
+P0414,4.6,21.8,8.6,cluster_8,H01,H0108,H010803,H01080311,H0108031101,Diaper Cream,Diaper care,Moisturizing diaper rash cream for babies,"4th Floor, Rack 6",354.0,10,
+P0415,23.0,17.0,1.0,cluster_3,H03,H0311,H031111,H03111101,H0311110124,Badminton Set,Outdoor,Complete badminton set for outdoor fun,"3rd Floor, Rack 2",260.0,5,10% discount
+P0416,5.0,28.0,16.0,cluster_0,H03,H0311,H031109,H03110902,H0311090203,Basketball Hoop,Outdoor,Adjustable basketball hoop for the driveway,"3rd Floor, Rack 2",776.0,17,10% discount
+P0417,17.0,5.0,17.0,cluster_0,H03,H0312,H031207,H03120710,H0312071017,Kids' Trampoline,Outdoor,Safe trampoline for kids' outdoor exercise,"3rd Floor, Rack 2",826.0,20,10% discount
+P0418,3.0,16.0,8.0,cluster_0,H03,H0312,H031211,H03121109,H0312110928,Outdoor Speaker,Outdoor,Bluetooth outdoor speaker for parties,"3rd Floor, Rack 2",991.0,41,10% discount
+P0419,8.0,15.0,13.0,cluster_6,H03,H0312,H031207,H03120710,H0312071004,Picnic Cooler,Outdoor,Insulated picnic cooler for food and drinks,"3rd Floor, Rack 2",471.0,35,10% discount
+P0420,3.0,3.0,35.0,cluster_0,H03,H0313,H031305,H03130515,H0313051515,Firewood Log Holder,Outdoor,Log holder for organized firewood storage,"3rd Floor, Rack 2",435.0,40,10% discount
+P0421,5.0,28.0,16.0,cluster_6,H03,H0311,H031109,H03110902,H0311090203,Thermal Curtains,Home Decor,Insulating thermal curtains for energy savings,"2nd Floor, Rack 6",799.0,37,50% discount
+P0422,5.0,16.0,6.0,cluster_0,H00,H0002,H000200,H00020000,H0002000017,Smart Thermostat,Home Improvement,Programmable smart thermostat for heating,"3rd Floor, Rack 4",407.0,33,
+P0423,,,,cluster_0,H03,H0313,H031305,H03130520,H0313052008,Wall Art,Home Decor,Framed wall art for home decoration,"2nd Floor, Rack 6",938.0,16,50% discount
+P0424,2.0,17.0,14.0,cluster_0,H03,H0315,H031504,H03150411,H0315041100,Vinyl Flooring,Home Improvement,Waterproof vinyl flooring for easy cleaning,"3rd Floor, Rack 4",873.0,36,
+P0425,9.7,25.0,9.7,cluster_0,H01,H0106,H010601,H01060112,H0106011210,Decorative Baskets,Home Decor,Set of woven baskets for storage,"2nd Floor, Rack 6",486.0,24,50% discount
+P0426,1.6,12.0,8.0,cluster_0,H01,H0106,H010601,H01060114,H0106011432,Wooden Theater Steps,Home Decor,Stackable wooden theater steps for displays,"2nd Floor, Rack 6",776.0,37,50% discount
+P0427,8.5,24.0,9.0,cluster_1,H00,H0000,H000004,H00000405,H0000040501,Outdoor BBQ Grill,Outdoor,Charcoal BBQ grill for outdoor cooking,"3rd Floor, Rack 2",779.0,11,10% discount
+P0428,9.5,23.5,15.5,cluster_0,H00,H0002,H000200,H00020000,H0002000012,Garden Lanterns,Outdoor,Solar-powered garden lanterns for decoration,"3rd Floor, Rack 2",193.0,22,10% discount
+P0429,8.0,15.0,12.0,cluster_0,H03,H0312,H031207,H03120710,H0312071012,Wind Chimes,Outdoor,Decorative metal wind chimes for the garden,"3rd Floor, Rack 2",912.0,41,10% discount
+P0430,10.0,10.0,15.0,,H01,H0107,H010702,H01070212,H0107021212,Closet Organizer,Storage Solutions,Multi-tier shelf organizer for closets,"2nd Floor, Rack 1",555.0,21,10% discount
+P0431,5.0,21.0,11.3,cluster_9,H00,H0004,H000401,H00040105,H0004010512,Curtain Rod,Home Decor,Adjustable curtain rod for window coverings,"2nd Floor, Rack 6",844.0,20,50% discount
+P0432,13.6,7.0,14.4,cluster_0,H03,H0312,H031209,H03120916,H0312091609,Duster,Household Supplies,Extendable duster for high ceilings,"3rd Floor, Rack 10",388.0,26,
+P0433,24.0,10.0,34.0,cluster_0,H03,H0312,H031205,H03120508,H0312050800,Squeegee,Household Supplies,Ergonomic window squeegee for cleaning,"3rd Floor, Rack 10",906.0,30,
+P0435,1.0,4.0,10.0,cluster_0,H01,H0106,H010601,H01060114,H0106011422,Indoor Air Purifier,Home Improvement,HEPA air purifier for cleaner indoor air,"3rd Floor, Rack 4",450.0,5,
+P0436,5.0,25.0,15.0,cluster_8,H00,H0004,H000400,H00040000,H0004000012,Power Strips,Home Improvement,Surge protector power strip for devices,"3rd Floor, Rack 4",110.0,26,
+P0437,9.0,23.0,13.0,cluster_0,H03,H0312,H031207,H03120710,H0312071015,Surge Protector,Home Improvement,Multi-outlet surge protector for electronics,"3rd Floor, Rack 4",915.0,39,
+P0438,1.5,14.0,10.0,cluster_0,H00,H0003,H000312,H00031200,H0003120001,Smart Light Bulbs,Home Improvement,WIFI-enabled smart light bulbs,"3rd Floor, Rack 4",182.0,33,
+P0439,2.5,17.0,13.0,cluster_0,H03,H0313,H031303,H03130302,H0313030205,Cordless Vacuum,Home Cleaning,Lightweight cordless vacuum for easy cleaning,"4th Floor, Rack 7",387.0,11,
+P0440,5.0,5.0,5.0,cluster_3,H03,H0313,H031309,H03130905,H0313090531,Robot Vacuum,Cleaning,Efficient robot vacuum for hard-to-reach areas,"3rd Floor, Rack 8",955.0,44,
+P0441,6.0,11.0,6.0,cluster_9,H00,H0002,H000202,H00020200,H0002020033,Window Blinds,Home Decor,Roller blinds for light control,"2nd Floor, Rack 6",956.0,6,50% discount
+P0442,7.1,16.4,7.1,cluster_4,H00,H0001,H000101,H00010105,H0001010512,Shoe Storage Bench,Storage Solutions,Bench with storage for shoes,"2nd Floor, Rack 1",616.0,9,10% discount
+P0443,2.0,22.5,9.0,,H03,H0312,H031211,H03121109,H0312110906,Spray Mop,Household Supplies,Easy-to-use spray mop for quick floor cleaning,"3rd Floor, Rack 10",669.0,44,
+P0444,2.0,15.0,10.0,cluster_0,H03,H0313,H031302,H03130209,H0313020905,Ice Cream Scoop,Kitchen,Stainless steel ice cream scoop with trigger,"1st Floor, Rack 3",504.0,16,10% discount
+P0445,8.0,25.0,20.0,cluster_0,H03,H0313,H031303,H03130302,H0313030201,Wok,Kitchen,Non-stick wok for stir-frying and steaming,"1st Floor, Rack 3",364.0,25,10% discount
+P0446,7.0,24.0,10.0,cluster_3,H00,H0002,H000208,H00020800,H0002080022,Granite Countertop,Home Improvement,Granite countertop for kitchen islands,"3rd Floor, Rack 4",396.0,20,
+P0447,6.5,7.0,17.5,,H00,H0003,H000312,H00031200,H0003120003,Hand Sanitizer,Household Supplies,List of hand sanitizing gel for hygiene,"3rd Floor, Rack 10",705.0,27,
+P0448,2.0,19.0,14.0,cluster_9,H00,H0003,H000316,H00031609,H0003160922,Trash Can Toppers,Kitchen,Set of trash can toppers for odor control,"1st Floor, Rack 3",777.0,45,10% discount
+P0450,3.3,8.6,3.3,cluster_0,H01,H0108,H010808,H01080814,H0108081412,Vegetable Steamer,Kitchen,Stackable vegetable steamer for healthy cooking,"1st Floor, Rack 3",812.0,1,10% discount
+P0451,2.0,15.0,8.0,cluster_8,H03,H0315,H031504,H03150411,H0315041121,Potpourri,Home Decor,Dried flower potpourri for scenting rooms,"2nd Floor, Rack 6",811.0,42,50% discount
+P0452,8.0,6.0,26.5,cluster_0,H03,H0313,H031302,H03130209,H0313020903,Fermentation Kit,Kitchen,Home fermentation kit for vegetables,"1st Floor, Rack 3",182.0,0,10% discount
+P0453,1.0,25.0,18.0,cluster_0,H01,H0106,H010601,H01060113,H0106011307,Gift Wrap Organizer,Storage Solutions,Wall-mounted organizer for gift wraps,"2nd Floor, Rack 1",545.0,50,10% discount
+P0454,4.5,18.5,14.0,cluster_4,H00,H0001,H000102,H00010210,H0001021012,Bamboo Toothbrush,Personal Care,Biodegradable bamboo toothbrush for eco-friendliness,"4th Floor, Rack 8",152.0,35,
+P0455,2.1,19.0,14.0,cluster_3,H00,H0004,H000401,H00040105,H0004010501,Spiffy Air Purifier,Bathroom,Compact air purifier for small spaces,"2nd Floor, Rack 8",595.0,50,5% discount
+P0456,4.0,11.0,10.0,cluster_0,H01,H0108,H010809,H01080900,H0108090012,Rustic Picture Frames,Home Decor,Rustic wooden picture frames for decor,"2nd Floor, Rack 6",497.0,25,50% discount
+P0457,5.0,28.0,16.0,cluster_0,H03,H0311,H031108,H03110801,H0311080101,Floor Mats,Home Decor,Indoor floor mats for decorative touch,"2nd Floor, Rack 6",899.0,28,50% discount
+P0458,4.0,6.5,11.0,cluster_0,H01,H0106,H010601,H01060113,H0106011307,Decorative Wall Shelf,Home Decor,Wall-mounted decorative shelf for books,"2nd Floor, Rack 6",416.0,20,50% discount
+P0459,9.5,34.5,9.5,cluster_1,H00,H0000,H000004,H00000405,H0000040501,Cordon Bleu Baking Dish,Kitchen,Versatile baking dish for casseroles and roasts,"1st Floor, Rack 3",205.0,10,10% discount
+P0460,5.0,28.0,16.0,cluster_0,H03,H0311,H031109,H03110901,H0311090101,Fondue Set,Kitchen,Complete fondue set for parties,"1st Floor, Rack 3",229.0,39,10% discount
+P0461,7.0,20.0,13.0,cluster_0,H01,H0108,H010807,H01080710,H0108071032,Shaker Set,Kitchen,Complete set of cocktail shakers for home bar,"1st Floor, Rack 3",785.0,10,10% discount
+P0462,5.0,8.5,5.0,cluster_0,H03,H0312,H031206,H03120609,H0312060938,Bowl Set,Kitchen,Decorative bowl set for fruits and snacks,"1st Floor, Rack 3",656.0,35,10% discount
+P0463,5.0,28.0,16.0,cluster_9,H03,H0311,H031109,H03110900,H0311090003,Fruit Peeler,Kitchen,Heavy-duty fruit peeler for efficient peeling,"1st Floor, Rack 3",191.0,48,10% discount
+P0464,2.3,20.0,10.5,cluster_0,H01,H0108,H010809,H01080900,H0108090006,Oven Thermometer,Kitchen,Oven thermometer for accurate temperature readings,"1st Floor, Rack 3",176.0,38,10% discount
+P0465,,,,cluster_0,H03,H0313,H031305,H03130520,H0313052008,Kitchen Roll Holder,Kitchen,Wall-mounted kitchen roll holder for convenience,"1st Floor, Rack 3",731.0,39,10% discount
+P0466,4.5,7.0,7.0,cluster_0,H01,H0108,H010810,H01081009,H0108100906,Chef's Hat,Kitchen,Cotton chef's hat for culinary artistry,"1st Floor, Rack 3",165.0,34,10% discount
+P0467,2.5,17.0,7.0,cluster_0,H03,H0315,H031504,H03150411,H0315041121,Exhaust Fan,Bathroom,Silent bathroom exhaust fan for ventilation,"2nd Floor, Rack 8",840.0,33,5% discount
+P0468,5.0,42.0,12.0,cluster_0,H03,H0315,H031502,H03150209,H0315020911,Drawer Dividers,Home Organization,Adjustable drawer dividers for organization,"3rd Floor, Rack 5",736.0,46,
+P0469,3.8,21.6,35.0,cluster_0,H03,H0313,H031302,H03130210,H0313021001,Indoor Fountain,Home Decor,Calming indoor fountain for stress relief,"2nd Floor, Rack 6",173.0,23,50% discount
+P0470,7.0,18.0,19.0,cluster_0,H00,H0002,H000200,H00020000,H0002000026,Window Box Planter,Garden,Decorative window box for flowers,"3rd Floor, Rack 3",176.0,21,10% discount
+P0471,14.0,35.0,14.0,cluster_0,H00,H0001,H000104,H00010400,H0001040001,Cocktail Glasses,Dining Room,Set of elegant cocktail glasses for entertaining,"1st Floor, Rack 8",988.0,4,15% discount
+P0473,5.0,5.0,5.0,cluster_0,H03,H0315,H031504,H03150411,H0315041131,Coffee Table Book,Home Decor,Coffee table book for stylish decor,"2nd Floor, Rack 6",437.0,32,50% discount
+P0474,5.0,5.0,5.0,cluster_0,H03,H0315,H031504,H03150400,H0315040000,Decorative Mirrors,Home Decor,Antique decorative mirror for wall decor,"2nd Floor, Rack 6",434.0,35,50% discount
+P0475,4.5,16.7,9.0,cluster_0,H01,H0108,H010807,H01080700,H0108070012,Bamboo Shelf,Home Decor,Modern bamboo shelf for decor items,"2nd Floor, Rack 6",832.0,46,50% discount
+P0476,22.0,10.0,32.0,cluster_0,H03,H0312,H031205,H03120508,H0312050800,Concrete Planters,Garden,Stylish concrete planters for modern gardens,"3rd Floor, Rack 3",953.0,19,10% discount
+P0477,1.0,15.0,7.0,cluster_0,H03,H0313,H031305,H03130518,H0313051826,Paper Towel Holder,Kitchen,Countertop paper towel holder for convenience,"1st Floor, Rack 3",987.0,18,10% discount
+P0478,3.0,17.0,12.5,,H00,H0003,H000311,H00031100,H0003110012,Food Storage Containers,Kitchen,Set of various food storage containers for meal prep,"1st Floor, Rack 3",778.0,34,10% discount
+P0480,5.0,15.2,9.9,cluster_9,H01,H0108,H010807,H01080709,H0108070906,Oven Mitt,Kitchen,Thick oven mitt for heat protection while cooking,"1st Floor, Rack 3",439.0,42,10% discount
+P0481,5.0,24.0,16.0,cluster_9,H03,H0314,H031405,H03140500,H0314050001,Grill Cover,Outdoor,Durable grill cover for protecting BBQs,"3rd Floor, Rack 2",175.0,16,10% discount
+P0482,,,,cluster_0,H00,H0004,H000402,H00040212,H0004021201,Quadruple Water Jug,Kitchen,Large water jug with four compartments,"1st Floor, Rack 3",799.0,44,10% discount
+P0483,2.0,27.0,21.0,cluster_9,H03,H0313,H031307,H03130700,H0313070007,Icing Smoother,Kitchen,Baking tool for smooth cake frosting,"1st Floor, Rack 3",603.0,42,10% discount
+P0484,1.0,1.0,1.0,cluster_0,H00,H0004,H000403,H00040309,H0004030906,Glass Food Storage,Kitchen,Clear glass containers with lids for food storage,"1st Floor, Rack 3",482.0,33,10% discount
+P0485,8.5,12.0,16.0,cluster_0,H03,H0317,H031702,H03170212,H0317021202,Indoor Herb Garden Kit,Kitchen,Complete kit for growing herbs indoors,"1st Floor, Rack 3",916.0,8,10% discount
+P0486,6.5,7.5,12.0,,H00,H0002,H000200,H00020000,H0002000017,Ladle,Kitchen,Long-handled ladle for serving soup,"1st Floor, Rack 3",200.0,25,10% discount
+P0487,5.0,28.0,16.0,cluster_6,H03,H0311,H031109,H03110902,H0311090203,Coco Liner,Outdoor,Basket liner for potted plants,"3rd Floor, Rack 2",543.0,1,10% discount
+P0489,3.3,13.0,16.0,cluster_0,H00,H0002,H000201,H00020100,H0002010006,Digital Scale,Kitchen,Dual platform digital kitchen scale for precise measurements,"1st Floor, Rack 3",110.0,8,10% discount
+P0490,7.1,6.6,7.1,cluster_0,H01,H0108,H010811,H01081100,H0108110038,Ceramic Knife Set,Kitchen,Set of ceramic knives for easy chopping,"1st Floor, Rack 3",522.0,8,10% discount
+P0491,25.0,10.0,12.0,cluster_9,H03,H0312,H031211,H03121109,H0312110917,Scissors,Household Supplies,Heavy-duty scissors for various tasks,"3rd Floor, Rack 10",151.0,39,
+P0492,8.0,9.0,10.0,cluster_0,H00,H0002,H000200,H00020000,H0002000012,Dry-erase Board,Home Office,Magnetic dry-erase board for notes and reminders,"1st Floor, Rack 9",207.0,16,10% discount
+P0493,4.0,45.0,12.0,cluster_2,H03,H0315,H031502,H03150209,H0315020946,Upholstery Cleaner,Cleaning,Cleaner for sofas and upholstery,"3rd Floor, Rack 8",206.0,0,
+P0494,10.0,14.0,11.0,cluster_0,H03,H0312,H031207,H03120710,H0312071007,Wet/Dry Vacuum,Cleaning,Versatile wet/dry vacuum cleaner for all surfaces,"3rd Floor, Rack 8",684.0,24,
+P0495,3.0,10.0,3.0,cluster_0,H00,H0001,H000105,H00010500,H0001050001,Air Freshener,Home Care,Automatic air freshener for continuous fragrance,"3rd Floor, Rack 9",771.0,42,
+P0496,20.0,12.0,20.0,cluster_0,H03,H0312,H031205,H03120508,H0312050800,Concrete Outdoor Table,Outdoor,Heavy-duty outdoor table made of concrete,"3rd Floor, Rack 2",625.0,39,10% discount
+P0497,4.0,11.0,21.0,cluster_4,H01,H0106,H010601,H01060113,H0106011307,Adjustable Folding Table,Outdoor,Portable adjustable folding table for gatherings,"3rd Floor, Rack 2",966.0,41,10% discount
+P0498,20.0,35.0,24.0,cluster_0,H03,H0315,H031508,H03150800,H0315080028,Live Plant Terrarium,Home Decor,Decorative terrarium with live plants,"2nd Floor, Rack 6",437.0,24,50% discount
+P0499,2.5,5.8,15.5,cluster_0,H00,H0003,H000312,H00031200,H0003120002,Rug Cleaner,Cleaning,Safe rug cleaner for deep cleaning,"3rd Floor, Rack 8",357.0,38,
+P0500,8.0,23.0,8.0,cluster_2,H00,H0004,H000400,H00040000,H0004000017,Home Security Screen,Home Security,Retractable security screen for doors and windows,"4th Floor, Rack 4",882.0,34,
+P0501,5.8,16.6,9.0,cluster_0,H01,H0108,H010807,H01080700,H0108070012,Window Treatment,Home Decor,Custom window treatment for privacy,"2nd Floor, Rack 6",301.0,2,50% discount
+P0502,1.5,10.0,8.5,cluster_0,H01,H0108,H010806,H01080600,H0108060032,Expandable Garden Hose,Garden,Durable expandable hose for easy watering,"3rd Floor, Rack 3",967.0,49,10% discount
+P0503,2.7,23.0,4.5,cluster_2,H01,H0107,H010702,H01070200,H0107020015,Aerating Lawn Shoes,Garden,Aerating shoes for lawn care,"3rd Floor, Rack 3",111.0,36,10% discount
+P0504,4.5,16.7,9.0,cluster_0,H01,H0108,H010807,H01080700,H0108070012,Aquatic Plant Tub,Outdoor,Water-resistant tub for aquatic plants,"3rd Floor, Rack 2",973.0,43,10% discount
+P0505,1.0,14.0,14.0,cluster_0,H03,H0313,H031305,H03130519,H0313051901,Hand-held Generator,Garden,Portable generator for outdoor power needs,"3rd Floor, Rack 3",139.0,43,10% discount
+P0506,2.5,16.5,16.5,cluster_0,H01,H0107,H010701,H01070109,H0107010906,Removable Floor Graphics,Home Decor,Removable graphics for flooring,"2nd Floor, Rack 6",902.0,50,50% discount
+P0507,1.0,3.5,13.5,cluster_0,H00,H0003,H000313,H00031300,H0003130001,Outdoor Rug,Outdoor,Long-lasting outdoor rug for patios,"3rd Floor, Rack 2",575.0,29,10% discount
+P0508,1.0,25.0,7.0,cluster_0,H03,H0313,H031305,H03130518,H0313051817,Reclining Chair,Outdoor,Comfortable reclining chair for relaxation,"3rd Floor, Rack 2",994.0,37,10% discount
+P0509,4.4,22.0,8.8,cluster_0,H01,H0108,H010807,H01080710,H0108071032,Grill Accessory Set,Outdoor,Accessory set for BBQ grilling,"3rd Floor, Rack 2",166.0,33,10% discount
+P0510,4.9,21.3,8.4,cluster_0,H01,H0108,H010801,H01080100,H0108010012,Portable Camping Chair,Outdoor,Lightweight portable camping chair,"3rd Floor, Rack 2",598.0,11,10% discount
+P0511,3.5,4.0,26.0,cluster_0,H01,H0106,H010601,H01060113,H0106011303,Digital Kitchen Timer,Kitchen,Multifunction digital kitchen timer,"1st Floor, Rack 3",972.0,18,10% discount
+P0512,5.0,26.0,10.0,cluster_9,H01,H0107,H010702,H01070200,H0107020004,Garlic Keeper,Kitchen,Airtight garlic keeper for freshness,"1st Floor, Rack 3",571.0,36,10% discount
+P0513,5.0,35.0,5.0,cluster_0,H03,H0312,H031211,H03121109,H0312110906,Pocket Knife,Utility,Multi-tool pocket knife for travelers,"4th Floor, Rack 9",666.0,43,
+P0514,2.0,27.0,21.0,cluster_0,H03,H0313,H031307,H03130700,H0313070005,Hand-held Clothes Steamer,Cleaning,Compact clothes steamer for wrinkle removal,"3rd Floor, Rack 8",726.0,48,
+P0515,40.0,30.0,40.0,cluster_0,H03,H0315,H031508,H03150800,H0315080002,Laundry Basket,Bathroom,Collapsible laundry basket for easy transport,"2nd Floor, Rack 8",509.0,16,5% discount
+P0516,20.0,30.0,34.0,cluster_0,H03,H0315,H031508,H03150800,H0315080027,Heat-Resistant Gloves,Kitchen,Heat-resistant gloves for grilling and cooking,"1st Floor, Rack 3",665.0,9,10% discount
+P0517,5.0,28.0,16.0,cluster_6,H03,H0311,H031109,H03110900,H0311090003,Tarp,Outdoor,Heavy-duty tarp for outdoor coverage,"3rd Floor, Rack 2",626.0,48,10% discount
+P0518,2.0,19.0,10.5,cluster_0,H03,H0313,H031305,H03130515,H0313051514,Spray Bottle,Household Supplies,Adjustable spray bottle for cleaning solutions,"3rd Floor, Rack 10",911.0,46,
+P0519,1.0,11.0,2.5,,H00,H0002,H000200,H00020009,H0002000917,Pet Travel Bag,Pets,Travel bag for pet supplies on the go,"2nd Floor, Rack 2",141.0,11,10% discount
+P0520,6.2,16.8,6.2,cluster_0,H00,H0000,H000004,H00000405,H0000040501,Dog Leash,Pet Supplies,Durable leash for large dogs,"4th Floor, Rack 10",353.0,15,
+P0521,5.5,5.5,31.0,cluster_0,H01,H0106,H010601,H01060113,H0106011304,Pet Hair Remover,Cleaning,Reusable pet hair remover for furniture,"3rd Floor, Rack 8",955.0,23,
+P0522,16.0,16.0,27.0,cluster_3,H03,H0312,H031207,H03120710,H0312071007,Cooler Pad,Bedroom,Cooler pad for comfortable sleeping,"2nd Floor, Rack 7",901.0,18,50% discount
+P0523,3.0,17.0,12.0,cluster_5,H03,H0313,H031302,H03130209,H0313020905,Bed Bug Protector,Bedroom,Waterproof protector for mattress,"2nd Floor, Rack 7",510.0,7,50% discount
+P0524,2.0,25.0,9.0,cluster_5,H03,H0311,H031111,H03111103,H0311110301,Laundry Soap Dispenser,Bathroom,Automatic soap dispenser for laundry,"2nd Floor, Rack 8",658.0,30,5% discount
+P0525,6.0,17.0,17.0,cluster_9,H03,H0312,H031207,H03120710,H0312071009,Pet Fence,Pets,Portable pet fence for outdoor play,"2nd Floor, Rack 2",350.0,20,10% discount
+P0526,1.0,1.0,1.0,cluster_0,H03,H0314,H031408,H03140801,H0314080103,Dog Bowl,Pets,Stainless steel dog bowl with non-skid bottom,"2nd Floor, Rack 2",269.0,16,10% discount
+P0527,4.5,20.0,15.5,cluster_0,H00,H0001,H000102,H00010210,H0001021012,Cat Scratch Post,Pets,Durable scratch post for cat wellness,"2nd Floor, Rack 2",517.0,22,10% discount
+P0528,3.0,12.0,10.0,cluster_0,H03,H0311,H031110,H03111006,H0311100601,Grooming Kit,Pets,Complete pet grooming kit for fur care,"2nd Floor, Rack 2",418.0,36,10% discount
+P0529,2.0,16.5,9.5,cluster_4,H03,H0315,H031504,H03150411,H0315041140,Dog Crate,Pets,Heavy-duty dog crate for training,"2nd Floor, Rack 2",625.0,15,10% discount
+P0531,6.0,19.0,6.0,cluster_9,H00,H0000,H000005,H00000500,H0000050001,Pet Blanket,Pets,Soft pet blanket for warmth and comfort,"2nd Floor, Rack 2",170.0,5,10% discount
+P0532,17.0,4.0,22.0,cluster_9,H03,H0312,H031209,H03120916,H0312091617,Pet Pill Organizer,Pets,Weekly pill organizer for pet medications,"2nd Floor, Rack 2",977.0,7,10% discount
+P0533,6.0,6.0,15.0,cluster_2,H00,H0003,H000312,H00031200,H0003120002,Garden Cart,Garden,Utility cart for transporting gardening tools,"3rd Floor, Rack 3",988.0,24,10% discount
+P0534,3.0,17.0,9.0,cluster_4,H00,H0004,H000401,H00040105,H0004010517,Seed Planter,Garden,Hand-held seed planter for gardening,"3rd Floor, Rack 3",728.0,17,10% discount
+P0535,5.0,28.0,16.0,cluster_0,H03,H0311,H031109,H03110901,H0311090103,Container Gardening Kit,Garden,Complete kit for planting in containers,"3rd Floor, Rack 3",582.0,24,10% discount
+P0536,7.0,22.0,7.0,cluster_9,H00,H0000,H000004,H00000400,H0000040001,Fairy Garden Supplies,Garden,Miniature supplies for indoor fairy gardens,"3rd Floor, Rack 3",379.0,11,10% discount
+P0537,4.4,18.6,7.5,cluster_9,H01,H0108,H010801,H01080100,H0108010012,Outdoor Solar Lights,Garden,Decorative solar lights for pathways,"3rd Floor, Rack 3",832.0,14,10% discount
+P0538,24.5,6.3,31.9,cluster_0,H03,H0312,H031205,H03120502,H0312050214,Lawn Edger,Garden,Manual lawn edger for clean garden lines,"3rd Floor, Rack 3",716.0,25,10% discount
+P0539,6.0,22.0,23.0,cluster_0,H03,H0313,H031302,H03130212,H0313021207,Pruner Shears,Garden,Heavy-duty pruner shears for trimming shrubs,"3rd Floor, Rack 3",246.0,40,10% discount
+P0540,5.0,3.0,3.0,cluster_9,H01,H0108,H010806,H01080611,H0108061122,Potting Soil Mix,Garden,Organic soil mix for potted plants,"3rd Floor, Rack 3",920.0,44,10% discount
+P0541,22.0,22.0,25.0,cluster_0,H03,H0311,H031108,H03110801,H0311080101,Fountain Pump,Garden,Submersible fountain pump for water features,"3rd Floor, Rack 3",840.0,25,10% discount
+P0543,5.5,12.5,12.0,cluster_5,H00,H0003,H000312,H00031200,H0003120001,Pine Straw Mulch,Garden,Environmentally-friendly mulch for gardening,"3rd Floor, Rack 3",955.0,46,10% discount
+P0544,10.0,30.0,30.0,cluster_0,H03,H0314,H031403,H03140301,H0314030102,Paint Sprayer,Garden,Handheld paint sprayer for home DIY projects,"3rd Floor, Rack 3",753.0,31,10% discount
+P0545,5.0,7.0,24.0,cluster_0,H01,H0106,H010601,H01060113,H0106011307,Seeding Rake,Garden,Lawn rake for planting seeds,"3rd Floor, Rack 3",652.0,9,10% discount
+P0546,15.2,7.5,15.2,cluster_0,H03,H0316,H031608,H03160817,H0316081707,Trowel Set,Garden,Set of garden trowels for planting,"3rd Floor, Rack 3",476.0,15,10% discount
+P0547,5.0,10.0,5.0,cluster_0,H03,H0313,H031309,H03130900,H0313090044,Water Garden Pumps,Garden,Water pump for decorative ponds,"3rd Floor, Rack 3",939.0,6,10% discount
+P0548,5.0,12.0,5.0,cluster_8,H00,H0000,H000003,H00000300,H0000030001,Garden Labels,Garden,Reusable labels for identifying plants,"3rd Floor, Rack 3",879.0,16,10% discount
+P0549,5.5,23.4,7.3,cluster_0,H01,H0108,H010807,H01080710,H0108071032,Fertilizer Spreader,Garden,Manual fertilizer spreader for even distribution,"3rd Floor, Rack 3",141.0,22,10% discount
+P0550,1.0,1.0,1.0,cluster_0,H00,H0004,H000403,H00040305,H0004030501,Insect Trap,Garden,Non-toxic insect trap for organic gardening,"3rd Floor, Rack 3",124.0,25,10% discount
+P0551,2.0,15.0,13.0,cluster_3,H00,H0003,H000316,H00031609,H0003160901,Garden Fork,Garden,Heavy-duty garden fork for soil turning,"3rd Floor, Rack 3",439.0,20,10% discount
+P0552,20.0,2.0,25.0,cluster_0,H03,H0313,H031305,H03130512,H0313051225,Soil Moisture Meter,Garden,Soil moisture meter for plant health check,"3rd Floor, Rack 3",829.0,21,10% discount
+P0553,6.0,32.5,21.5,cluster_0,H03,H0313,H031302,H03130205,H0313020501,Crawl Space Vent,Garden,Ventilation for crawl spaces,"3rd Floor, Rack 3",989.0,6,10% discount
+P0554,30.0,2.0,24.0,cluster_0,H03,H0313,H031305,H03130512,H0313051224,Backyard Deck Lighting,Outdoor,Solar outdoor lights for backyard decks,"3rd Floor, Rack 2",235.0,13,10% discount
+P0555,5.0,17.0,12.0,cluster_0,H01,H0108,H010805,H01080509,H0108050901,Decorative Garden Stakes,Garden,Colorful garden stakes for visibility,"3rd Floor, Rack 3",635.0,14,10% discount
+P0556,6.6,15.0,6.6,cluster_4,H01,H0106,H010600,H01060013,H0106001338,Glass Outdoor Table,Outdoor,Durable glass outdoor table for patios,"3rd Floor, Rack 2",443.0,6,10% discount
+P0557,7.0,39.0,16.0,cluster_0,H00,H0004,H000400,H00040000,H0004000012,Lawn Mower,Garden,Electric lawn mower for quiet cutting,"3rd Floor, Rack 3",973.0,8,10% discount
+P0559,13.4,31.1,13.4,cluster_0,H00,H0001,H000104,H00010400,H0001040001,Daffodil Bulbs,Garden,Spring-blooming daffodil bulbs for planting,"3rd Floor, Rack 3",858.0,50,10% discount
+P0560,3.0,25.5,15.0,cluster_4,H00,H0003,H000314,H00031409,H0003140912,Dust Mask,Cleaning,Protective dust mask for cleaning tasks,"3rd Floor, Rack 8",854.0,47,
+P0561,1.0,1.0,1.0,cluster_0,H00,H0004,H000403,H00040305,H0004030536,Drying Rack,Utility Room,Folding drying rack for laundry,"1st Floor, Rack 5",522.0,7,10% discount
+P0563,9.0,6.5,25.5,cluster_4,H00,H0003,H000314,H00031400,H0003140001,Utility Knife,Cleaning,Multi-purpose utility knife for various tasks,"3rd Floor, Rack 8",473.0,49,
+P0564,1.5,9.0,12.0,,H00,H0003,H000315,H00031501,H0003150103,Carpet Brush,Cleaning,Special brush for fluffing and cleaning carpets,"3rd Floor, Rack 8",346.0,22,
+P0565,4.5,16.0,17.0,cluster_0,H00,H0003,H000312,H00031200,H0003120012,Outdoor Patio Heater,Outdoor,Gas patio heater for warmth outside,"3rd Floor, Rack 2",151.0,28,10% discount
+P0566,5.0,20.0,15.0,cluster_0,H02,H0210,H021002,H02100200,H0210020002,Garden Gnome,Outdoor,Decorative gnome for garden aesthetics,"3rd Floor, Rack 2",878.0,17,10% discount
+P0567,4.0,2.0,6.0,cluster_0,H03,H0313,H031302,H03130209,H0313020904,Lattice,Outdoor,Lattice panels for climbing plants,"3rd Floor, Rack 2",832.0,30,10% discount
+P0568,5.0,20.0,30.0,,H02,H0210,H021000,H02100001,H0210000107,Heavy-Duty Gloves,Cleaning,Extra strong gloves for tough cleaning jobs,"3rd Floor, Rack 8",1000.0,29,
+P0569,5.0,25.0,15.0,cluster_9,H00,H0004,H000400,H00040000,H0004000017,Garden Trellis,Garden,Wooden trellis for climbing plants,"3rd Floor, Rack 3",997.0,38,10% discount
+P0570,2.0,11.0,3.5,cluster_0,H03,H0315,H031504,H03150411,H0315041121,Plastic Mulch,Garden,Lightproof plastic mulch for gardens,"3rd Floor, Rack 3",600.0,34,10% discount
+P0571,10.0,45.0,10.0,cluster_0,H03,H0313,H031302,H03130200,H0313020001,Stainless Steel Water Bottle,Personal Item,Insulated stainless steel water bottle,"2nd Floor, Rack 9",792.0,17,5% discount
+P0572,1.0,18.6,2.0,cluster_7,H00,H0003,H000315,H00031500,H0003150002,Lunch Box,Kitchen,Insulated lunch box for meals on the go,"1st Floor, Rack 3",950.0,41,10% discount
+P0574,1.7,4.5,14.2,cluster_9,H00,H0003,H000314,H00031405,H0003140506,Diaper Backpack,Baby,Diaper backpack with multiple compartments,"2nd Floor, Rack 4",865.0,38,Buy one get one free
+P0575,26.0,28.0,9.0,cluster_0,H00,H0000,H000005,H00000505,H0000050517,Silicone Baking Molds,Kitchen,Non-stick silicone molds for baking,"1st Floor, Rack 3",323.0,16,10% discount
+P0576,15.0,17.5,15.0,cluster_0,H03,H0312,H031206,H03120609,H0312060938,Potato Ricer,Kitchen,Potato ricer for creamy mash,"1st Floor, Rack 3",505.0,13,10% discount
+P0577,8.0,47.0,28.0,cluster_0,H03,H0312,H031205,H03120507,H0312050709,Pizza Stone,Kitchen,Baking stone for crispy pizza crusts,"1st Floor, Rack 3",216.0,30,10% discount
+P0578,4.0,14.0,4.0,cluster_0,H00,H0000,H000005,H00000505,H0000050506,Grapefruit Spoon,Kitchen,Special spoon for scooping fruits,"1st Floor, Rack 3",959.0,23,10% discount
+P0579,4.8,20.5,14.3,cluster_7,H01,H0105,H010500,H01050000,H0105000033,Window Film,Home Improvement,Privacy window film for glass,"3rd Floor, Rack 4",646.0,34,
+P0580,4.5,21.8,4.5,,H01,H0108,H010807,H01080709,H0108070901,Indoor Watering Can,Garden,Ergonomically designed watering can for indoor use,"3rd Floor, Rack 3",306.0,43,10% discount
+P0581,3.5,19.0,14.5,cluster_6,H00,H0001,H000102,H00010210,H0001021017,Honey Jar,Kitchen,Glass honey jar with wood dipper,"1st Floor, Rack 3",705.0,44,10% discount
+P0582,4.9,16.5,7.0,cluster_0,H01,H0108,H010807,H01080700,H0108070022,Pastry Brush,Kitchen,Silicone pastry brush for applying sauces,"1st Floor, Rack 3",656.0,33,10% discount
+P0583,2.0,9.0,9.0,cluster_0,H01,H0107,H010702,H01070211,H0107021102,Blender Bottle,Kitchen,Portable blender bottle for shakes,"1st Floor, Rack 3",422.0,2,10% discount
+P0584,10.0,17.5,11.0,cluster_3,H01,H0107,H010700,H01070009,H0107000922,Lemon Juicer,Kitchen,Manual lemon juicer for fresh juice,"1st Floor, Rack 3",202.0,36,10% discount
+P0585,4.6,19.9,12.9,cluster_0,H01,H0107,H010702,H01070210,H0107021002,Shimmer Foil Wrap,Kitchen,Colorful shimmer foil sheets for wrapping,"1st Floor, Rack 3",704.0,42,10% discount
+P0587,5.7,8.8,9.1,cluster_8,H01,H0107,H010700,H01070009,H0107000922,Pizza Wheel,Kitchen,Cutting wheel for pizza serving,"1st Floor, Rack 3",568.0,39,10% discount
+P0588,10.0,40.0,30.0,cluster_0,H03,H0315,H031506,H03150612,H0315061216,Fry Pan,Kitchen,Non-stick frying pan for daily cooking,"1st Floor, Rack 3",795.0,25,10% discount
+P0589,7.5,21.1,4.3,cluster_0,H01,H0108,H010807,H01080710,H0108071032,Heat Diffuser,Kitchen,Heat diffuser for gentle cooking,"1st Floor, Rack 3",568.0,22,10% discount
+P0590,2.0,17.5,3.0,cluster_7,H00,H0002,H000200,H00020009,H0002000926,Mandoline Slicer,Kitchen,Adjustable mandoline slicer for vegetables,"1st Floor, Rack 3",867.0,43,10% discount
+P0591,8.5,12.0,8.5,cluster_0,H00,H0002,H000201,H00020100,H0002010012,Vegetable Spiralizer,Kitchen,Cuts vegetables into noodles,"1st Floor, Rack 3",597.0,38,10% discount
+P0592,5.0,28.0,16.0,cluster_0,H03,H0311,H031108,H03110805,H0311080501,Handheld Vegetable Chopper,Kitchen,Manual vegetable chopper for ease,"1st Floor, Rack 3",605.0,14,10% discount
+P0593,44.0,88.0,47.0,cluster_9,H03,H0314,H031401,H03140100,H0314010005,Oven Cleaner,Kitchen,Cleaner formulated for tough oven grease,"1st Floor, Rack 3",889.0,48,10% discount
+P0594,8.0,6.0,8.0,cluster_0,H00,H0002,H000200,H00020000,H0002000006,Food Covers,Kitchen,Reusable food covers for leftovers,"1st Floor, Rack 3",463.0,3,10% discount
+P0595,3.5,7.0,11.0,cluster_0,H01,H0105,H010503,H01050305,H0105030506,Pasta Measure,Kitchen,Portioning tool for pasta servings,"1st Floor, Rack 3",221.0,28,10% discount
+P0596,14.0,2.0,5.0,,H00,H0003,H000312,H00031200,H0003120022,Bamboo Dish Rack,Kitchen,Space-saving bamboo dish rack for drying,"1st Floor, Rack 3",126.0,21,10% discount
+P0597,4.0,10.0,4.0,cluster_0,H03,H0313,H031309,H03130900,H0313090044,Cookie Cutters,Kitchen,Set of assorted cookie cutters for baking,"1st Floor, Rack 3",780.0,24,10% discount
+P0598,6.2,16.8,6.2,cluster_9,H00,H0000,H000004,H00000405,H0000040517,Gravy Boat,Kitchen,Decorative gravy boat for serving sauces,"1st Floor, Rack 3",658.0,12,10% discount
+P0599,2.0,17.5,10.0,cluster_0,H03,H0315,H031502,H03150200,H0315020002,Casserole Lid,Kitchen,Transparent lid for casserole dishes,"1st Floor, Rack 3",734.0,17,10% discount
+P0600,3.0,10.0,7.0,cluster_0,H03,H0311,H031101,H03110101,H0311010127,Sealing Clips,Kitchen,Reusable sealing clips for bags,"1st Floor, Rack 3",292.0,32,10% discount
+P0601,1.0,14.0,9.5,cluster_0,H03,H0312,H031201,H03120100,H0312010014,Instant Pot,Kitchen,Multi-functional pressure cooker for quick meals,"1st Floor, Rack 3",223.0,15,10% discount
+P0602,4.5,16.7,4.5,cluster_2,H01,H0108,H010805,H01080500,H0108050033,Silicon Baking Sheets,Kitchen,Non-stick baking sheets for cookies,"1st Floor, Rack 3",113.0,44,10% discount
+P0603,6.0,19.0,26.0,cluster_0,H03,H0313,H031302,H03130209,H0313020901,Paring Knife,Kitchen,Small utility knife for peeling fruits,"1st Floor, Rack 3",416.0,41,10% discount
+P0604,3.5,13.0,8.5,,H00,H0003,H000312,H00031209,H0003120906,Wooden Spoons,Kitchen,Set of wooden spoons for cooking,"1st Floor, Rack 3",631.0,43,10% discount
+P0605,0.1,14.0,9.5,cluster_0,H01,H0108,H010811,H01081100,H0108110043,Pasta Pot,Kitchen,Large pot for boiling pasta with colander lid,"1st Floor, Rack 3",453.0,1,10% discount
+P0606,3.0,17.0,7.0,cluster_9,H01,H0107,H010700,H01070009,H0107000901,Soup Ladle,Kitchen,Long-handled ladle for soups and stews,"1st Floor, Rack 3",494.0,34,10% discount
+P0607,8.0,12.0,12.0,,H03,H0311,H031109,H03110900,H0311090001,Steaming Basket,Kitchen,Steaming basket for nutritious meals,"1st Floor, Rack 3",914.0,41,10% discount
+P0608,7.5,17.5,8.8,cluster_0,H01,H0105,H010503,H01050309,H0105030901,Candy Thermometer,Kitchen,Thermometer for making candy,"1st Floor, Rack 3",413.0,33,10% discount
+P0609,3.0,15.0,15.0,cluster_0,H03,H0313,H031305,H03130515,H0313051502,Metal Tongs,Kitchen,Heavy-duty metal tongs for grilling,"1st Floor, Rack 3",563.0,29,10% discount
+P0610,5.0,20.0,30.0,cluster_9,H02,H0209,H020900,H02090000,H0209000001,Cotton Candy Machine,Kitchen,Home cotton candy maker for parties,"1st Floor, Rack 3",805.0,12,10% discount
+P0611,2.0,27.0,21.0,cluster_0,H03,H0313,H031307,H03130700,H0313070006,Syringe for Basting,Kitchen,Food-safe syringe for basting meats,"1st Floor, Rack 3",457.0,12,10% discount
+P0613,12.0,3.0,9.0,cluster_0,H00,H0002,H000206,H00020605,H0002060501,Coffee Press,Kitchen,French coffee press for brewing coffee,"1st Floor, Rack 3",660.0,17,10% discount
+P0614,6.8,16.5,10.0,cluster_0,H01,H0108,H010807,H01080700,H0108070012,Pasta Drying Rack,Kitchen,Rack for drying handmade pasta,"1st Floor, Rack 3",876.0,31,10% discount
+P0615,7.0,12.5,7.0,cluster_0,H00,H0002,H000206,H00020609,H0002060912,Cling Film Dispenser,Kitchen,Dispenser for cling wrap for ease of use,"1st Floor, Rack 3",955.0,31,10% discount
+P0616,6.0,9.5,7.5,cluster_0,H00,H0002,H000206,H00020610,H0002061001,Cat Litter Box,Pets,Covered cat litter box for odor control,"2nd Floor, Rack 2",232.0,34,10% discount
+P0617,,35.0,35.0,cluster_0,H03,H0314,H031408,H03140801,H0314080101,Wall Mounted Coat Rack,Home Organization,Wall-mounted coat rack for entryway,"3rd Floor, Rack 5",934.0,38,
+P0618,4.0,14.0,14.0,cluster_0,H03,H0316,H031608,H03160817,H0316081706,Sofa Covers,Home Decor,Stretchable sofa covers for furniture protection,"2nd Floor, Rack 6",543.0,45,50% discount
+P0619,5.0,28.0,16.0,cluster_0,H03,H0311,H031109,H03110900,H0311090003,Curtain Clips,Home Decor,Metal clips for hanging curtains,"2nd Floor, Rack 6",332.0,28,50% discount
+P0620,12.0,4.0,5.0,cluster_0,H03,H0311,H031108,H03110805,H0311080502,Throw Pillows,Home Decor,Set of colorful throw pillows for decoration,"2nd Floor, Rack 6",513.0,48,50% discount
+P0621,100.0,160.0,100.0,cluster_0,H01,H0108,H010806,H01080613,H0108061317,Wooden Trays,Home Decor,Decorative wooden trays for serving,"2nd Floor, Rack 6",982.0,28,50% discount
+P0622,3.0,26.5,17.0,cluster_9,H03,H0311,H031110,H03111006,H0311100603,Home Fragrance Diffuser,Home Care,Essential oil diffuser for home fragrance,"3rd Floor, Rack 9",543.0,43,
+P0623,8.2,8.2,8.2,cluster_0,H00,H0002,H000200,H00020000,H0002000001,Decorative Throw Blanket,Home Decor,Soft throw blanket for couches,"2nd Floor, Rack 6",396.0,15,50% discount
+P0625,4.0,4.0,36.5,cluster_0,H01,H0106,H010601,H01060113,H0106011308,Stuffed Animal Storage,Kids Room,Large storage stuffed animal for organization,"5th Floor, Rack 1",670.0,43,
+P0626,8.0,10.0,8.0,cluster_0,H00,H0002,H000206,H00020610,H0002061006,Kids Play Tent,Kids Room,Pop-up tent for indoor or outdoor play,"5th Floor, Rack 1",316.0,46,
+P0627,1.0,1.0,1.0,cluster_0,H00,H0004,H000403,H00040300,H0004030012,Bean Bag Chair,Kids Room,Soft bean bag chair for cozy seating,"5th Floor, Rack 1",168.0,9,
+P0628,3.0,18.0,7.0,cluster_0,H03,H0313,H031305,H03130518,H0313051832,Kids Wall Art,Kids Room,Fun-themed wall art for children's rooms,"5th Floor, Rack 1",216.0,29,
+P0629,5.7,17.5,5.7,cluster_4,H00,H0000,H000004,H00000400,H0000040001,Craft Table,Kids Room,Sturdy table for kids' crafting,"5th Floor, Rack 1",215.0,24,
+P0630,,,,cluster_9,H02,H0210,H021002,H02100203,H0210020304,Chalkboard Wall,Kids Room,Chalkboard paint for interactive walls,"5th Floor, Rack 1",237.0,38,
+P0631,6.0,12.0,6.0,cluster_0,H00,H0003,H000313,H00031300,H0003130001,Learning Books,Kids Room,Educational books for early readers,"5th Floor, Rack 1",225.0,19,
+P0632,36.5,38.0,57.0,cluster_0,H03,H0315,H031508,H03150800,H0315080002,Tabletop Games,Family Time,Family-friendly tabletop games for fun,"5th Floor, Rack 2",677.0,4,
+P0633,6.0,14.0,6.0,cluster_0,H00,H0000,H000004,H00000400,H0000040012,Pillow Pets,Kids Room,Soft toys that transform into pillows,"5th Floor, Rack 1",264.0,0,
+P0634,15.0,15.0,40.0,cluster_0,H03,H0313,H031302,H03130200,H0313020001,Rubber Duck,Garden,Decorative rubber ducks for fun,"3rd Floor, Rack 3",411.0,29,10% discount
+P0635,1.0,21.0,11.0,cluster_6,H03,H0313,H031309,H03130900,H0313090031,Kite,Outdoor,Colorful kite for outdoor fun,"3rd Floor, Rack 2",907.0,48,10% discount
+P0636,5.0,5.0,21.5,,H01,H0106,H010601,H01060113,H0106011305,Edible Garden Kit,Garden,Complete kit for growing edible plants,"3rd Floor, Rack 3",527.0,2,10% discount
+P0637,5.0,25.0,9.0,cluster_0,H01,H0107,H010702,H01070200,H0107020004,Garden Apron,Garden,Durable apron with pockets for gardening tools,"3rd Floor, Rack 3",701.0,44,10% discount
+P0638,9.0,24.0,18.0,cluster_0,H03,H0312,H031207,H03120710,H0312071007,Drip Irrigation Kit,Garden,Automatic watering system for gardens,"3rd Floor, Rack 3",255.0,13,10% discount
+P0639,4.6,21.5,14.2,cluster_5,H00,H0003,H000310,H00031000,H0003100017,Outdoor Patio Umbrella,Outdoor,Adjustable patio umbrella for shade,"3rd Floor, Rack 2",273.0,29,10% discount
+P0640,7.0,7.0,7.0,cluster_0,H01,H0108,H010811,H01081100,H0108110006,Adjustable Lounge Chair,Outdoor,Reclining lounge chair for relaxing,"3rd Floor, Rack 2",137.0,49,10% discount
+P0641,1.0,17.0,8.0,cluster_0,H03,H0313,H031305,H03130518,H0313051826,Garden Gopher Repellent,Garden,Eco-friendly gopher repellent for gardens,"3rd Floor, Rack 3",252.0,3,10% discount
+P0642,7.0,7.5,20.0,cluster_0,H00,H0003,H000312,H00031200,H0003120004,Pea Gravel,Garden,Decorative pea gravel for garden paths,"3rd Floor, Rack 3",351.0,17,10% discount
+P0643,2.0,18.0,12.0,cluster_0,H03,H0313,H031305,H03130519,H0313051904,Garden Railing,Outdoor,Metal railing for garden pathways,"3rd Floor, Rack 2",259.0,36,10% discount
+P0644,62.0,89.0,57.0,cluster_6,H03,H0314,H031401,H03140100,H0314010005,Rain Barrel,Garden,Collect rainwater for garden use,"3rd Floor, Rack 3",180.0,24,10% discount
+P0645,4.0,38.0,38.0,cluster_0,H03,H0313,H031302,H03130215,H0313021510,LED Garden Lights,Outdoor,Energy-efficient LED lights for pathways,"3rd Floor, Rack 2",209.0,47,10% discount
+P0646,4.5,19.0,29.5,cluster_0,H03,H0313,H031303,H03130302,H0313030201,Landscaping Rocks,Garden,Decorative rocks for landscaping,"3rd Floor, Rack 3",515.0,0,10% discount
+P0647,5.0,19.0,13.0,cluster_0,H00,H0003,H000312,H00031200,H0003120001,Flower Bulbs,Garden,Different species of flower bulbs for planting,"3rd Floor, Rack 3",286.0,45,10% discount
+P0649,1.0,23.0,10.0,cluster_3,H03,H0311,H031111,H03111101,H0311110124,Garden Bench,Outdoor,Classic wooden garden bench for seating,"3rd Floor, Rack 2",428.0,14,10% discount
+P0651,5.9,24.5,6.4,cluster_4,H01,H0106,H010600,H01060013,H0106001301,Garden Hoses Reel,Garden,Wall-mounted reel for garden hoses,"3rd Floor, Rack 3",553.0,8,10% discount
+P0652,15.5,5.4,6.5,cluster_4,H01,H0107,H010700,H01070009,H0107000901,Compost Tumbler,Garden,Compost tumbler for easy composting,"3rd Floor, Rack 3",721.0,14,10% discount
+P0654,6.0,18.5,11.5,cluster_0,H00,H0002,H000208,H00020805,H0002080526,Rain Chain,Garden,Decorative rain chain for downspouts,"3rd Floor, Rack 3",135.0,48,10% discount
+P0655,26.3,45.7,29.3,cluster_0,H01,H0106,H010601,H01060112,H0106011212,Indoor Water Feature,Home Decor,Indoor fountain for tranquility,"2nd Floor, Rack 6",819.0,23,50% discount
+P0656,3.0,21.0,21.0,cluster_0,H03,H0312,H031204,H03120400,H0312040037,Peony Plants,Garden,Live peony plants for beautification,"3rd Floor, Rack 3",665.0,3,10% discount
+P0657,3.0,11.5,16.5,cluster_0,H00,H0002,H000206,H00020605,H0002060501,Bird Bath,Garden,Decorative birdbath for the garden,"3rd Floor, Rack 3",174.0,11,10% discount
+P0658,13.5,20.0,21.0,cluster_6,H01,H0107,H010700,H01070005,H0107000501,Solar Pond Pump,Garden,Solar-powered pond pump for water features,"3rd Floor, Rack 3",886.0,36,10% discount
+P0659,5.0,18.5,9.0,cluster_0,H00,H0002,H000202,H00020200,H0002020026,Decoupage Supplies,Craft Room,Assorted supplies for decoupage arts,"3rd Floor, Rack 1",929.0,36,10% discount
+P0660,6.5,7.5,13.0,cluster_0,H00,H0002,H000200,H00020000,H0002000001,Origami Paper,Craft Room,Colorful origami paper for crafts,"3rd Floor, Rack 1",155.0,42,10% discount
+P0661,1.0,12.0,8.4,cluster_0,H01,H0106,H010601,H01060114,H0106011422,Craft Scissors,Craft Room,Specialty scissors for crafting,"3rd Floor, Rack 1",349.0,5,10% discount
+P0662,22.0,3.5,22.0,cluster_0,H03,H0316,H031608,H03160817,H0316081713,Wood Glue,Craft Room,Strong wood glue for bonding,"3rd Floor, Rack 1",826.0,38,10% discount
+P0663,5.3,13.4,5.3,cluster_1,H00,H0000,H000004,H00000405,H0000040506,Flocking Powder,Craft Room,Colorful flocking powder for decor,"3rd Floor, Rack 1",773.0,45,10% discount
+P0664,4.0,4.0,15.0,cluster_3,H00,H0003,H000312,H00031200,H0003120012,Stickers Set,Craft Room,Assorted stickers for arts and crafts,"3rd Floor, Rack 1",266.0,23,10% discount
+P0665,6.5,13.6,6.5,cluster_0,H00,H0001,H000105,H00010510,H0001051006,Sponge Brushes,Craft Room,Set of sponge brushes for art projects,"3rd Floor, Rack 1",288.0,10,10% discount
+P0666,28.0,10.5,12.0,cluster_0,H03,H0317,H031702,H03170215,H0317021508,Felt Sheets,Craft Room,Variety of felt sheets for crafting,"3rd Floor, Rack 1",433.0,12,10% discount
+P0667,2.0,12.4,7.7,cluster_0,H01,H0108,H010811,H01081100,H0108110001,Glitter Glue,Craft Room,Assorted glitter glue for embellishments,"3rd Floor, Rack 1",536.0,33,10% discount
+P0668,2.0,27.0,21.0,cluster_0,H03,H0313,H031307,H03130700,H0313070019,Brayer Tool,Craft Room,Smooth roller for printing and crafts,"3rd Floor, Rack 1",656.0,24,10% discount
+P0669,5.0,28.0,16.0,cluster_0,H03,H0311,H031109,H03110900,H0311090003,Decorative Paper Plates,Kitchen,Colorful paper plates for parties,"1st Floor, Rack 3",432.0,6,10% discount
+P0670,3.8,15.5,3.8,cluster_9,H01,H0108,H010807,H01080709,H0108070906,Cupcake Toppers,Kitchen,Fun cupcake toppers for celebrations,"1st Floor, Rack 3",516.0,3,10% discount
+P0671,7.4,10.8,7.4,cluster_0,H00,H0002,H000201,H00020110,H0002011012,Baby Shower Favors,Home Decor,Customized baby shower favor bags,"2nd Floor, Rack 6",773.0,7,50% discount
+P0672,8.0,13.0,8.0,cluster_0,H03,H0313,H031309,H03130900,H0313090040,Birthday Cake Candles,Kitchen,Colorful candles for birthday cakes,"1st Floor, Rack 3",133.0,19,10% discount
+P0673,8.0,18.0,10.0,cluster_0,H01,H0107,H010700,H01070009,H0107000922,Balloon Pump,Kitchen,Electric pump for inflating balloons,"1st Floor, Rack 3",327.0,28,10% discount
+P0674,12.0,10.5,8.2,cluster_3,H03,H0316,H031608,H03160817,H0316081708,Easter Egg Decor,Home Decor,Supplies for decorating easter eggs,"2nd Floor, Rack 6",742.0,50,50% discount
+P0675,6.5,26.0,13.0,cluster_0,H00,H0001,H000102,H00010210,H0001021017,Thanksgiving Tablecloth,Dining Room,Decorative tablecloth for Thanksgiving dinner,"1st Floor, Rack 8",906.0,44,15% discount
+P0676,2.0,2.0,44.5,cluster_0,H03,H0312,H031205,H03120507,H0312050709,Ice Cream Sandwich Maker,Kitchen,Device for making ice cream sandwiches,"1st Floor, Rack 3",561.0,45,10% discount
+P0678,1.5,12.0,7.5,cluster_0,H01,H0108,H010811,H01081100,H0108110001,Graduation Banner,Home Decor,Decorative banner for graduation celebrations,"2nd Floor, Rack 6",579.0,9,50% discount
+P0679,16.0,19.5,16.0,cluster_0,H01,H0108,H010805,H01080509,H0108050906,Candle Making Kits,Craft Room,Complete kit for making homemade candles,"3rd Floor, Rack 1",196.0,42,10% discount
+P0680,9.5,20.0,14.0,cluster_4,H01,H0107,H010702,H01070210,H0107021001,Fire Pit Cover,Outdoor,Protective cover for outdoor fire pits,"3rd Floor, Rack 2",503.0,33,10% discount
+P0681,5.5,23.8,7.5,cluster_0,H01,H0108,H010807,H01080710,H0108071032,Outdoor Folding Chairs,Garden,Set of outdoor folding chairs for relaxing,"3rd Floor, Rack 3",579.0,25,10% discount
+P0682,5.0,16.0,5.0,cluster_4,H00,H0000,H000004,H00000400,H0000040012,Ice Tray,Kitchen,Fun-shaped ice trays for creative ice shapes,"1st Floor, Rack 3",318.0,40,10% discount
+P0683,1.0,29.5,21.0,cluster_0,H03,H0313,H031305,H03130520,H0313052001,Summer Fun Pool Float,Outdoor,Inflatable float for pool fun,"3rd Floor, Rack 2",342.0,48,10% discount
+P0684,15.0,55.0,32.0,cluster_0,H03,H0313,H031303,H03130303,H0313030301,Lawn Sprinkler,Garden,Adjustable lawn sprinkler for watering grass,"3rd Floor, Rack 3",440.0,2,10% discount
+P0685,3.0,26.5,17.0,cluster_2,H03,H0311,H031110,H03111006,H0311100603,Garden Fountain Pump,Garden,Submersible pump for decorative fountains,"3rd Floor, Rack 3",118.0,5,10% discount
+P0687,5.0,15.2,9.9,cluster_9,H01,H0108,H010807,H01080710,H0108071022,Outdoor Cooking Set,Outdoor,Complete cooking set for camping,"3rd Floor, Rack 2",390.0,4,10% discount
+P0688,1.0,23.0,7.5,cluster_0,H03,H0313,H031305,H03130518,H0313051817,Poolside Lounger,Outdoor,Comfortable adjustable lounger for pools,"3rd Floor, Rack 2",290.0,4,10% discount
+P0689,9.2,27.4,11.5,cluster_0,H01,H0105,H010501,H01050114,H0105011401,Outdoor Fire Bowl,Outdoor,Decorative fire bowl for warmth and ambiance,"3rd Floor, Rack 2",395.0,46,10% discount
+P0690,9.0,5.5,9.0,cluster_0,H01,H0108,H010810,H01081009,H0108100901,Outdoor Table and Chair Set,Outdoor,Complete table and chair set for patios,"3rd Floor, Rack 2",208.0,22,10% discount
+P0691,1.0,20.0,30.0,cluster_4,H03,H0313,H031307,H03130705,H0313070502,Beach Umbrella,Outdoor,UV-protective beach umbrella for sunshade,"3rd Floor, Rack 2",901.0,48,10% discount
+P0692,3.5,4.0,11.5,cluster_0,H03,H0312,H031207,H03120710,H0312071009,Beach Towel,Outdoor,Thick and absorbent beach towel for trips,"3rd Floor, Rack 2",634.0,8,10% discount
+P0693,6.0,33.0,10.5,cluster_0,H03,H0313,H031302,H03130205,H0313020501,Outdoor Backpack,Outdoor,Durable backpack for outdoor adventures,"3rd Floor, Rack 2",711.0,34,10% discount
+P0694,11.0,16.0,16.0,cluster_9,H00,H0000,H000005,H00000505,H0000050506,Travel Blanket,Travel Accessories,Compact travel blanket for warmth,"4th Floor, Rack 3",810.0,19,
+P0695,2.0,10.0,20.0,cluster_9,H00,H0002,H000206,H00020610,H0002061001,Trolley,Kitchen,Multi-level kitchen trolley for storage,"1st Floor, Rack 3",549.0,48,10% discount
+P0696,4.6,10.3,4.8,cluster_0,H01,H0108,H010805,H01080500,H0108050026,Lemon Squeezer,Kitchen,Manual lemon squeezer for fresh juice,"1st Floor, Rack 3",178.0,41,10% discount
+P0697,8.0,16.0,10.0,cluster_0,H00,H0002,H000200,H00020009,H0002000901,Electric Grater,Kitchen,Electric vegetable grater for efficiency,"1st Floor, Rack 3",583.0,34,10% discount
+P0698,11.1,11.1,11.1,cluster_7,H00,H0001,H000105,H00010500,H0001050008,Barbecue Tool Set,Outdoor,Complete tool set for BBQ grilling,"3rd Floor, Rack 2",628.0,49,10% discount
+P0699,2.0,20.0,15.0,cluster_0,H03,H0313,H031307,H03130700,H0313070017,Bamboo Skewers,Kitchen,Set of bamboo skewers for grilling and kebabs,"1st Floor, Rack 3",771.0,17,10% discount
+P0700,40.0,100.0,50.0,cluster_6,H03,H0314,H031401,H03140100,H0314010006,Hand-Held Mixer,Kitchen,Cordless hand-held mixer for baking,"1st Floor, Rack 3",488.0,16,10% discount
+P0701,4.5,18.5,8.5,cluster_9,H01,H0107,H010702,H01070200,H0107020017,Pint Glasses,Dining Room,Set of pint glasses for beverages,"1st Floor, Rack 8",215.0,23,15% discount
+P0702,4.5,7.0,7.0,cluster_4,H01,H0107,H010700,H01070009,H0107000901,Tumbler Cup,Kitchen,Insulated tumbler cup for cold drinks,"1st Floor, Rack 3",355.0,2,10% discount
+P0703,26.0,26.0,26.0,cluster_0,H03,H0314,H031407,H03140702,H0314070201,Bacon Press,Kitchen,Cast iron bacon press for perfect cooking,"1st Floor, Rack 3",427.0,31,10% discount
+P0704,6.0,20.0,13.0,cluster_0,H00,H0001,H000102,H00010210,H0001021012,Egg Separator,Kitchen,Tool for separating egg yolks from whites,"1st Floor, Rack 3",681.0,34,10% discount
+P0705,4.6,23.3,8.6,cluster_6,H01,H0108,H010803,H01080311,H0108031101,Outdoor String Lights,Outdoor,Colorful string lights for party decoration,"3rd Floor, Rack 2",614.0,37,10% discount
+P0706,1.0,10.0,10.0,cluster_0,H00,H0004,H000401,H00040105,H0004010522,Kitchen Tea Towels,Kitchen,Set of absorbent tea towels for drying dishes,"1st Floor, Rack 3",420.0,12,10% discount
+P0707,4.3,13.5,4.3,cluster_9,H00,H0001,H000105,H00010510,H0001051017,Chalkboard Paint,Home Decor,Paint for creating chalkboard surfaces,"2nd Floor, Rack 6",988.0,46,50% discount
+P0708,5.0,15.0,10.0,cluster_0,H03,H0315,H031504,H03150400,H0315040000,Stainless Steel Mixing Bowls,Kitchen,Set of stainless steel mixing bowls for cooking,"1st Floor, Rack 3",645.0,24,10% discount
+P0709,6.0,21.0,11.0,cluster_9,H00,H0004,H000401,H00040105,H0004010512,Funnel Set,Kitchen,Set of funnels in different sizes for liquids,"1st Floor, Rack 3",314.0,8,10% discount
+P0710,,,,cluster_0,H03,H0313,H031305,H03130520,H0313052008,Cupcake Carrier,Kitchen,Transport carrier for cupcakes,"1st Floor, Rack 3",192.0,3,10% discount
+P0711,2.5,18.0,8.0,cluster_0,H03,H0315,H031504,H03150411,H0315041140,Silicone Spatula,Kitchen,Non-stick silicone spatula for baking,"1st Floor, Rack 3",238.0,13,10% discount
+P0712,3.7,4.5,16.7,cluster_0,H01,H0108,H010801,H01080110,H0108011006,Peeler Set,Kitchen,Multiple peelers for fruits and vegetables,"1st Floor, Rack 3",321.0,36,10% discount
+P0713,5.0,16.0,7.0,cluster_9,H00,H0004,H000400,H00040000,H0004000032,Baking Dishes,Kitchen,Set of baking dishes for versatile cooking,"1st Floor, Rack 3",245.0,33,10% discount
+P0714,15.0,15.0,8.0,cluster_3,H01,H0108,H010811,H01081100,H0108110043,Cocktail Shaker Set,Kitchen,Complete cocktail shaking set for home bars,"1st Floor, Rack 3",268.0,10,10% discount
+P0715,7.0,13.0,7.0,cluster_0,H00,H0000,H000005,H00000500,H0000050017,Whiskey Stones,Kitchen,Reusable whiskey stones for chilling drinks,"1st Floor, Rack 3",357.0,40,10% discount
+P0716,12.7,6.5,21.0,cluster_9,H03,H0312,H031206,H03120610,H0312061042,Butter Churn,Kitchen,Traditional butter churn for homemade butter,"1st Floor, Rack 3",256.0,2,10% discount
+P0718,5.0,18.0,10.0,cluster_0,H00,H0004,H000401,H00040100,H0004010026,Travel Makeup Mirror,Personal Care,Portable makeup mirror with LED lights,"4th Floor, Rack 8",907.0,27,
+P0719,6.0,17.0,6.0,,H00,H0000,H000004,H00000400,H0000040001,Shower Curtain Hooks,Bathroom,Decorative hooks for shower curtains,"2nd Floor, Rack 8",172.0,28,5% discount
+P0720,47.8,80.0,47.8,cluster_0,H01,H0106,H010601,H01060112,H0106011208,Bathroom Trash Can,Bathroom,Compact bathroom trash can with lid,"2nd Floor, Rack 8",572.0,8,5% discount
+P0721,1.5,25.0,12.5,cluster_0,H01,H0108,H010809,H01080900,H0108090001,Rubber Maids,Utility Room,Versatile rubber maid containers for storage,"1st Floor, Rack 5",469.0,2,10% discount
+P0722,5.0,7.0,5.0,,H01,H0107,H010702,H01070210,H0107021003,Household Inventory Tracker,Organization,Notebook for managing household inventory,"5th Floor, Rack 3",984.0,24,
+P0724,6.0,24.0,10.0,cluster_0,H00,H0003,H000310,H00031000,H0003100001,Honeycomb Shelving,Home Decor,Decorative honeycomb shelving for displays,"2nd Floor, Rack 6",201.0,33,50% discount
+P0725,,,,cluster_0,H00,H0004,H000402,H00040212,H0004021202,Hanging Wall Planters,Garden,Wall-mounted planters for vertical gardening,"3rd Floor, Rack 3",458.0,11,10% discount
+P0726,1.0,15.0,10.0,cluster_0,H00,H0003,H000312,H00031200,H0003120001,Fishing Rod Holder,Outdoor,Portable fishing rod holder for trips,"3rd Floor, Rack 2",973.0,41,10% discount
+P0727,,,,,H02,H0209,H020900,H02090000,H0209000001,Shoe Cleaning Kit,Utility Room,Complete kit for cleaning and restoring shoes,"1st Floor, Rack 5",879.0,8,10% discount
+P0728,3.0,4.0,4.0,cluster_0,H02,H0210,H021000,H02100001,H0210000104,Tool Organizer,Garage,Wall-mounted organizer for tools and supplies,"1st Floor, Rack 6",835.0,14,5% discount
+P0729,19.0,23.0,20.0,cluster_0,H03,H0315,H031508,H03150800,H0315080020,Garage Storage Shelves,Garage,Heavy-duty shelving units for garages,"1st Floor, Rack 6",332.0,39,5% discount
+P0730,4.8,21.2,8.9,cluster_0,H01,H0108,H010807,H01080710,H0108071032,Multi-Purpose Ladder,Home Improvement,Adjustable multi-purpose ladder for home use,"3rd Floor, Rack 4",254.0,24,
+P0731,8.0,18.0,8.0,cluster_0,H03,H0314,H031400,H03140001,H0314000101,Accent Lighting,Home Decor,Decorative accent lighting for room ambiance,"2nd Floor, Rack 6",702.0,4,50% discount
+P0732,4.5,18.2,4.5,cluster_0,H01,H0108,H010805,H01080500,H0108050033,Lawn Chair with Cup Holder,Outdoor,Comfortable lawn chair with built-in cup holder,"3rd Floor, Rack 2",936.0,10,10% discount
+P0733,2.0,4.0,9.0,cluster_7,H00,H0003,H000314,H00031405,H0003140506,Personalized Koziol for Kids,Craft Room,Fun personalized koziol for children,"3rd Floor, Rack 1",601.0,33,10% discount
+P0735,5.0,22.5,6.1,cluster_8,H01,H0108,H010808,H01080815,H0108081512,Handheld Food Processor,Kitchen,Compact handheld food processor for quick meals,"1st Floor, Rack 3",614.0,23,10% discount
+P0736,70.0,165.0,36.0,cluster_0,H01,H0107,H010702,H01070200,H0107020004,Silicone Baking Molds,Kitchen,Flexible silicone molds for assorted baked goods,"1st Floor, Rack 3",352.0,14,10% discount
+P0737,2.0,25.0,9.0,cluster_3,H03,H0311,H031111,H03111103,H0311110301,Bamboo Utensil Set,Kitchen,Eco-friendly bamboo cooking utensil set,"1st Floor, Rack 3",793.0,37,10% discount
+P0738,3.5,8.5,3.5,cluster_0,H01,H0108,H010808,H01080814,H0108081412,Popcorn Maker,Kitchen,Countertop popcorn maker for theater-style popcorn,"1st Floor, Rack 3",268.0,7,10% discount
+P0739,8.5,9.0,8.5,cluster_3,H03,H0312,H031208,H03120817,H0312081713,Portable Blender,Kitchen,Personal blender for smoothies on the go,"1st Floor, Rack 3",391.0,4,10% discount
+P0740,1.0,20.0,10.0,cluster_0,H03,H0313,H031305,H03130518,H0313051828,Ginger Grater,Kitchen,Specialized grater for ginger and other spices,"1st Floor, Rack 3",483.0,47,10% discount
+P0741,3.8,16.4,9.5,cluster_0,H01,H0106,H010600,H01060013,H0106001345,Citrus Zester,Kitchen,Hand-held zester for citrus fruits,"1st Floor, Rack 3",557.0,25,10% discount
+P0742,6.4,7.0,6.4,cluster_0,H01,H0108,H010811,H01081100,H0108110038,Butter Keeper,Kitchen,Countertop butter keeper for fresh storage,"1st Floor, Rack 3",318.0,17,10% discount
+P0744,2.0,7.0,7.0,,H03,H0311,H031108,H03110802,H0311080202,Deviled Egg Tray,Kitchen,Tray specifically designed for deviled eggs,"1st Floor, Rack 3",203.0,5,10% discount
+P0745,,,,cluster_0,H02,H0209,H020908,H02090804,H0209080422,Vegetable Veggie Chopper,Kitchen,Manual vegetable chopper for quick prep,"1st Floor, Rack 3",650.0,36,10% discount
+P0746,1.0,1.0,1.0,cluster_0,H03,H0314,H031407,H03140702,H0314070202,Pasta Portion Tool,Kitchen,Portion measuring tool for spaghetti,"1st Floor, Rack 3",360.0,47,10% discount
+P0747,23.0,23.0,33.3,cluster_0,H01,H0107,H010701,H01070100,H0107010026,Glass Beverage Dispenser,Kitchen,Large glass dispenser for drinks at parties,"1st Floor, Rack 3",623.0,12,10% discount
+P0748,3.8,4.8,15.3,cluster_0,H01,H0108,H010801,H01080110,H0108011006,Stainless Steel Mixing Bowls,Kitchen,Dishwasher-safe stainless steel mixing bowls,"1st Floor, Rack 3",239.0,27,10% discount

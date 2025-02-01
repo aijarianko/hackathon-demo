@@ -18,16 +18,33 @@ class ContosoBikeStoreAgent {
         
         // set up the MongoDB client
         this.dbClient = new MongoClient(process.env.MONGODB_CONNECTION_STRING);
+        
         // set up the Azure Cosmos DB vector store
         const azureCosmosDBConfig = {
             client: this.dbClient,
             databaseName: process.env.MONGODB_NAME,
-            collectionName: "products",
+            collectionName: "store",
             indexName: "VectorSearchIndex",
             embeddingKey: "contentVector",
             textKey: "_id"
         }
         this.vectorStore = new AzureCosmosDBVectorStore(new OpenAIEmbeddings(), azureCosmosDBConfig);
+        
+        
+        // // set up the Azure Cosmos DB vector stores for multiple collections
+        // this.vectorStores = {};
+        // const collectionNames = ["store", "documents"]; // Add your collection names here
+        // for (const collectionName of collectionNames) {
+        //     const config = {
+        //     client: this.dbClient,
+        //     databaseName: process.env.MONGODB_NAME,
+        //     collectionName: collectionName,
+        //     indexName: "VectorSearchIndex",
+        //     embeddingKey: "contentVector",
+        //     textKey: "_id"
+        //     };
+        //     this.vectorStores[collectionName] = new AzureCosmosDBVectorStore(new OpenAIEmbeddings(), config);
+        // }
 
         // set up the OpenAI chat model
         // https://js.langchain.com/docs/integrations/chat/azure
@@ -83,18 +100,18 @@ class ContosoBikeStoreAgent {
         // Note the variable placeholders for the list of products and the incoming question are not included.
         // An agent system prompt contains only the persona and instructions for the AI.
         const systemMessage = `
-            You are a helpful, fun and friendly sales assistant for Contoso Bike Store, a bicycle and bicycle accessories store.
+            You are a helpful, fun and friendly sales assistant for Kmart Store, a retail supermart store.
     
             Your name is Cosmo.
     
-            You are designed to answer questions about the products that Contoso Bike Store sells, the customers that buy them, and the sales orders that are placed by customers.
+            You are designed to answer questions about the products that Kmart Store sells and act as a assistant for store employee.
     
             If you don't know the answer to a question, respond with "I don't know."
             
-            Only answer questions related to Contoso Bike Store products, customers, and sales orders.
+            Only answer questions related to Kmart Store products and store employee.
             
-            If a question is not related to Contoso Bike Store products, customers, or sales orders,
-            respond with "I only answer questions about Contoso Bike Store"          
+            If a question is not related to Kmart Store products, and store employee
+            respond with "I only answer questions about Kmart Store"          
 
             NEVER MAKE UP AN ANSWER.
         `;
@@ -107,7 +124,7 @@ class ContosoBikeStoreAgent {
         // A tool that retrieves product information from Contoso Bike Store based on the user's question.
         const productsRetrieverTool = new DynamicTool({
             name: "products_retriever_tool",
-            description: `Searches Contoso Bike Store product information for similar products based on the question. 
+            description: `Searches Kmart Store product information for similar products based on the question. 
                     Returns the product information in JSON format.`,
             func: async (input) => await retrieverChain.invoke(input),
         });
@@ -115,22 +132,22 @@ class ContosoBikeStoreAgent {
         // A tool that will lookup a product by its SKU. Note that this is not a vector store lookup.
         const productLookupTool = new DynamicTool({
             name: "product_sku_lookup_tool",
-            description: `Searches Contoso Bike Store product information for a single product by its SKU.
+            description: `Searches Kmart Store product information for a single product by its product_name.
                     Returns the product information in JSON format.
                     If the product is not found, returns null.`,
             func: async (input) => {
                 
-                console.log(`productLookupTool input: ${input}`);
+                // console.log(`productLookupTool input: ${input}`);
                 
                 const db = this.dbClient.db(dbname);
-                const products = db.collection("products");
-                const doc = await products.findOne({ "sku": input });
+                const products = db.collection("store");
+                const doc = await products.findOne({ "product_name": input });
                 if (doc) {
                     //remove the contentVector property to save on tokens
                     delete doc.contentVector;
                 }
                 
-                console.log(`productLookupTool doc: ${doc}`);
+                // console.log(`productLookupTool doc: ${doc}`);
 
                 return doc ? JSON.stringify(doc, null, '\t') : null;
             },
@@ -194,7 +211,7 @@ class ContosoBikeStoreAgent {
 
             // Output the intermediate steps of the agent if returnIntermediateSteps is set to true
             if (this.agentExecutor.returnIntermediateSteps) {
-                console.log(JSON.stringify(result.intermediateSteps, null, 2));
+                // console.log(JSON.stringify(result.intermediateSteps, null, 2));
             }
             // Return the final response from the agent
             returnValue = result.output;
