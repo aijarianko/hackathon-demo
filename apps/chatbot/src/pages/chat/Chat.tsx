@@ -21,7 +21,7 @@ import { ExampleList } from "../../components/Example";
 import { UserChatMessage } from "../../components/UserChatMessage";
 import { ClearChatButton } from "../../components/ClearChatButton";
 import { VectorSettings } from "../../components/VectorSettings";
-//import { useMsal } from "@azure/msal-react";
+import Speech from "../speech/Speech"; // Import the Speech component
 
 const Chat = () => {
     const [isConfigPanelOpen, setIsConfigPanelOpen] = useState(false);
@@ -93,6 +93,11 @@ const Chat = () => {
         } finally {
             setIsLoading(false);
         }
+    };
+
+    const handleSpeechResult = (text: string) => {
+        lastQuestionRef.current = text;
+        makeApiRequest(text);
     };
 
     const clearChat = () => {
@@ -242,6 +247,7 @@ const Chat = () => {
                             disabled={isLoading}
                             onSend={question => makeApiRequest(question)}
                         />
+                        <Speech onResult={handleSpeechResult} /> {/* Add the Speech component */}
                     </div>
                 </div>
 
