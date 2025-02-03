@@ -3,9 +3,9 @@ import { Example } from "./Example";
 import styles from "./Example.module.css";
 
 const DEFAULT_EXAMPLES: string[] = [
-    "What was the price of the product with sku `BK-T79U-46`?",
-    "What is the SKU of HL Road Frame - Black?",
-    "What is HL Road Frame?"
+    "What is the price of Electric Kettle?",
+    "Where can I find Bird Feeder?",
+    "What types of leaves I have?"
 ];
 
 const GPT4V_EXAMPLES: string[] = [

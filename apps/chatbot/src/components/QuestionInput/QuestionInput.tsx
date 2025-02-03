@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { useMsal } from "@azure/msal-react";
 import { Stack, TextField } from "@fluentui/react";
-import { Button, Tooltip, Field, Textarea } from "@fluentui/react-components";
-import { Send28Filled } from "@fluentui/react-icons";
+import { Button, Tooltip } from "@fluentui/react-components";
+import { Send28Filled, Mic28Filled } from "@fluentui/react-icons";
 
 import styles from "./QuestionInput.module.css";
+import Speech from "../../pages/speech/Speech";
 
 interface Props {
     onSend: (question: string) => void;
@@ -48,6 +49,10 @@ export const QuestionInput = ({ onSend, disabled, placeholder, clearOnSend, init
         }
     };
 
+    const handleSpeechResult = (result: string) => {
+        setQuestion(result);
+    };
+
     const { instance } = useMsal();
     const disableRequiredAccessControl = false; //requireAccessControl && !isLoggedIn(instance);
     const sendQuestionDisabled = disabled || !question.trim() || disableRequiredAccessControl;
@@ -70,6 +75,7 @@ export const QuestionInput = ({ onSend, disabled, placeholder, clearOnSend, init
                 onKeyDown={onEnterPress}
             />
             <div className={styles.questionInputButtonsContainer}>
+                <Speech onResult={handleSpeechResult} />
                 <Tooltip content="Ask question button" relationship="label">
                     <Button size="large" icon={<Send28Filled primaryFill="rgba(115, 118, 225, 1)" />} disabled={sendQuestionDisabled} onClick={sendQuestion} />
                 </Tooltip>
