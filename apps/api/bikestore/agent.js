@@ -15,70 +15,109 @@ var dbname = process.env.MONGODB_Name;
 
 class ContosoBikeStoreAgent {
     constructor() {
-        
-        // set up the MongoDB client
         this.dbClient = new MongoClient(process.env.MONGODB_CONNECTION_STRING);
+        this.embeddings = new OpenAIEmbeddings();
         
-        // set up the Azure Cosmos DB vector store
-        this.vectorStores = {};
-        const collectionNames = ["store", "documents"];
-        for (const collectionName of collectionNames) {
-            const config = {
-              client: this.dbClient,
-              databaseName: process.env.MONGODB_NAME,
-              collectionName: collectionName,
-              indexName: "VectorSearchIndex",
-              embeddingKey: "contentVector",
-              textKey: "_id",
-            };
-            this.vectorStores[collectionName] = new AzureCosmosDBVectorStore(new OpenAIEmbeddings(), config);
-          }
-        
-        
-        // // set up the Azure Cosmos DB vector stores for multiple collections
-        // this.vectorStores = {};
-        // const collectionNames = ["store", "documents"]; // Add your collection names here
-        // for (const collectionName of collectionNames) {
-        //     const config = {
-        //     client: this.dbClient,
-        //     databaseName: process.env.MONGODB_NAME,
-        //     collectionName: collectionName,
-        //     indexName: "VectorSearchIndex",
-        //     embeddingKey: "contentVector",
-        //     textKey: "_id"
-        //     };
-        //     this.vectorStores[collectionName] = new AzureCosmosDBVectorStore(new OpenAIEmbeddings(), config);
-        // }
+        // Define collection-specific search configurations
+        this.searchConfigs = {
+            store: {
+                indexName: "ProductSearchIndex", // Index for product search
+                collection: "store"
+            },
+            documents: {
+                indexName: "VectorSearchIndex", // Index for document search
+                collection: "documents"
+            }
+        };
 
-        // set up the OpenAI chat model
-        // https://js.langchain.com/docs/integrations/chat/azure
         this.chatModel = new ChatOpenAI({
             temperature: 0,
             azureOpenAIApiKey: process.env.AZURE_OPENAI_API_KEY,
             azureOpenAIApiVersion: process.env.AZURE_OPENAI_API_VERSION,
             azureOpenAIApiInstanceName: process.env.AZURE_OPENAI_API_INSTANCE_NAME,
             azureOpenAIApiDeploymentName: process.env.AZURE_OPENAI_API_DEPLOYMENT_NAME,
-            verbose: true,
+            verbose: false,
         });
 
-        // initialize the chat history
         this.chatHistory = [];
 
-        // initialize the agent executor
         (async () => {
             this.agentExecutor = await this.buildAgentExecutor();
         })();
     }
 
+    async vectorSearch(query, collectionType = "documents") {
+        try {
+            if (!this.dbClient.topology || !this.dbClient.topology.isConnected()) {
+                await this.dbClient.connect();
+            }
+
+            const config = this.searchConfigs[collectionType];
+            if (!config) {
+                throw new Error(`Invalid collection type: ${collectionType}`);
+            }
+
+            const vectors = await this.embeddings.embedQuery(query);
+            const collection = this.dbClient.db(dbname).collection(config.collection);
+            
+            const searchPipeline = [
+                {
+                    "$search": {
+                        "index": config.indexName,
+                        "knnBeta": {
+                            "vector": vectors,
+                            "path": "contentVector",
+                            "k": 4
+                        }
+                    }
+                },
+                {
+                    "$project": {
+                        "_id": 1,
+                        "content": 1,
+                        "title": 1,
+                        "product_name": 1,
+                        "description": 1,
+                        "price": 1,
+                        "category": 1,
+                        "metadata": 1,
+                        "score": { "$meta": "searchScore" }
+                    }
+                }
+            ];
+
+            const results = await collection.aggregate(searchPipeline).toArray();
+            return results.map(doc => ({
+                pageContent: doc.content || doc.description || doc._id,
+                metadata: {
+                    title: doc.title || doc.product_name,
+                    price: doc.price,
+                    category: doc.category,
+                    inventory: doc.stock_quantity,
+                    location: rack_location,
+                    discounts: doc.discounts,
+                    ...doc.metadata
+                }
+            }));
+        } catch (error) {
+            console.error(`Vector search error for ${collectionType}:`, error);
+            throw error;
+        }
+    }
+
     async formatDocuments(docs) {
-        // Prepares the product list for the system prompt.  
+        if (!Array.isArray(docs) || docs.length === 0) {
+            return "No documents found.";
+        }
+
         let strDocs = "";
         for (let index = 0; index < docs.length; index++) {
             let doc = docs[index];
+            if (!doc || !doc.metadata) continue;
+            
             let docFormatted = { "_id": doc.pageContent };
             Object.assign(docFormatted, doc.metadata);
 
-            // Build the product document without the contentVector and tags
             if ("contentVector" in docFormatted) {
                 delete docFormatted["contentVector"];
             }
@@ -86,24 +125,16 @@ class ContosoBikeStoreAgent {
                 delete docFormatted["tags"];
             }
 
-            // Add the formatted product document to the list
             strDocs += JSON.stringify(docFormatted, null, '\t');
-
-            // Add a comma and newline after each item except the last
             if (index < docs.length - 1) {
                 strDocs += ",\n";
             }
         }
-        // Add two newlines after the last item
         strDocs += "\n\n";
-        console.log(`strDocs: ${strDocs}`);
         return strDocs;
     }
 
     async buildAgentExecutor() {
-        // A system prompt describes the responsibilities, instructions, and persona of the AI.
-        // Note the variable placeholders for the list of products and the incoming question are not included.
-        // An agent system prompt contains only the persona and instructions for the AI.
         const systemMessage = `
             You are a helpful, fun and friendly sales assistant for Kmart Store, a retail supermart store.
     
@@ -120,66 +151,71 @@ class ContosoBikeStoreAgent {
 
             NEVER MAKE UP AN ANSWER.
         `;
-        // Create vector store retriever chain to retrieve documents and formats them as a string for the prompt.
-        //const retrieverChain = this.vectorStore.asRetriever().pipe(this.formatDocuments);
 
-        // Define tools for the agent can use, the description is important this is what the AI will 
-        // use to decide which tool to use.
+        // Create separate retriever functions for different collections
+        const productRetriever = async (input) => {
+            try {
+                const docs = await this.vectorSearch(input, "store");
+                return this.formatDocuments(docs);
+            } catch (error) {
+                console.error("Product retriever error:", error);
+                throw error;
+            }
+        };
 
-        // A tool that retrieves product information from Contoso Bike Store based on the user's question.
+        const documentRetriever = async (input) => {
+            try {
+                const docs = await this.vectorSearch(input, "documents");
+                return this.formatDocuments(docs);
+            } catch (error) {
+                console.error("Document retriever error:", error);
+                throw error;
+            }
+        };
+
         const productsRetrieverTool = new DynamicTool({
             name: "products_retriever_tool",
             description: `Searches Kmart Store product information for similar products based on the question. 
                     Returns the product information in JSON format.`,
-                    func: async (input) => {
-                        const retrieverChain = this.vectorStores["store"].asRetriever().pipe(this.formatDocuments);
-                        return await retrieverChain.invoke(input);
-                    },
+            func: productRetriever,
         });
 
-        // A tool that will lookup a product by its SKU. Note that this is not a vector store lookup.
         const productLookupTool = new DynamicTool({
             name: "product_sku_lookup_tool",
             description: `Searches Kmart Store product information for a single product by its product_name.
                     Returns the product information in JSON format.
                     If the product is not found, returns null.`,
             func: async (input) => {
-                
-                // console.log(`productLookupTool input: ${input}`);
-                
-                const db = this.dbClient.db(dbname);
-                const products = db.collection("store");
-                const doc = await products.findOne({ "product_name": input });
-                if (doc) {
-                    //remove the contentVector property to save on tokens
-                    delete doc.contentVector;
+                try {
+                    if (!this.dbClient.topology || !this.dbClient.topology.isConnected()) {
+                        await this.dbClient.connect();
+                    }
+                    
+                    const db = this.dbClient.db(dbname);
+                    const products = db.collection("store");
+                    const doc = await products.findOne({ "product_name": input });
+                    if (doc) {
+                        delete doc.contentVector;
+                    }
+                    return doc ? JSON.stringify(doc, null, '\t') : null;
+                } catch (error) {
+                    console.error("Product lookup error:", error);
+                    throw error;
                 }
-                
-                // console.log(`productLookupTool doc: ${doc}`);
-
-                return doc ? JSON.stringify(doc, null, '\t') : null;
             },
         });
 
         const documentsRetrieverTool = new DynamicTool({
             name: "documents_retriever_tool",
             description: `Searches the "documents" collection for employment policy, HR policy, leave policy etc.`,
-            func: async (input) => {
-              const retrieverChain = this.vectorStores["documents"].asRetriever().pipe(this.formatDocuments);
-              return await retrieverChain.invoke(input);
-            },
-          });
+            func: documentRetriever,
+        });
 
-        // Generate OpenAI function metadata to provide to the LLM
-        // The LLM will use this metadata to decide which tool to use based on the description.
         const tools = [productsRetrieverTool, productLookupTool, documentsRetrieverTool];
         const modelWithFunctions = this.chatModel.bind({
             functions: tools.map((tool) => convertToOpenAIFunction(tool)),
         });
 
-        // OpenAI function calling is fine-tuned for tool using therefore you don't need to provide instruction.
-        // All that is required is that there be two variables: `input` and `agent_scratchpad`.
-        // Input represents the user prompt and agent_scratchpad acts as a log of tool invocations and outputs.
         const prompt = ChatPromptTemplate.fromMessages([
             ["system", systemMessage],
             new MessagesPlaceholder("chat_history"),
@@ -187,9 +223,6 @@ class ContosoBikeStoreAgent {
             new MessagesPlaceholder("agent_scratchpad")
         ]);
 
-        // Define the agent and executor
-        // An agent is a type of chain that reasons over the input prompt and has the ability
-        // to decide which function(s) (tools) to use and parses the output of the functions.
         const runnableAgent = RunnableSequence.from([
             {
                 input: (i) => i.input,
@@ -201,42 +234,44 @@ class ContosoBikeStoreAgent {
             new OpenAIFunctionsAgentOutputParser(),
         ]);
 
-        // An agent executor can be thought of as a runtime, it orchestrates the actions of the agent
-        // until completed. This can be the result of a single or multiple actions (one can feed into the next).
-        // Note: If you wish to see verbose output of the tool usage of the agent, 
-        //       set returnIntermediateSteps to true
-        const executor = AgentExecutor.fromAgentAndTools({
+        return AgentExecutor.fromAgentAndTools({
             agent: runnableAgent,
             tools,
-            returnIntermediateSteps: true,
+            returnIntermediateSteps: false,
             verbose: true,
         });
-
-        return executor;
     }
 
-    // Helper function that executes the agent with user input and returns the string output
     async executeAgent(input) {
         let returnValue = "";
         try {
-            await this.dbClient.connect();
-            // Invoke the agent with the user input
-            const result = await this.agentExecutor.invoke({ input: input, chat_history: this.chatHistory });
+            if (!this.dbClient.topology || !this.dbClient.topology.isConnected()) {
+                await this.dbClient.connect();
+            }
+            
+            const result = await this.agentExecutor.invoke({ 
+                input: input, 
+                chat_history: this.chatHistory 
+            });
 
             this.chatHistory.push(new HumanMessage(input));
             this.chatHistory.push(new AIMessage(result.output));
 
-            // Output the intermediate steps of the agent if returnIntermediateSteps is set to true
-            if (this.agentExecutor.returnIntermediateSteps) {
-                // console.log(JSON.stringify(result.intermediateSteps, null, 2));
-            }
-            // Return the final response from the agent
             returnValue = result.output;
+        } catch (error) {
+            console.error("Agent execution error:", error);
+            throw error;
         } finally {
-            await this.dbClient.close();
+            try {
+                if (this.dbClient.topology && this.dbClient.topology.isConnected()) {
+                    await this.dbClient.close();
+                }
+            } catch (error) {
+                console.error("Error closing DB connection:", error);
+            }
         }
         return returnValue;
     }
-};
+}
 
 module.exports = ContosoBikeStoreAgent;

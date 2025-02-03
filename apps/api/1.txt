@@ -1,0 +1,761 @@
+
+> express@1.0.0 dev
+> node app.js
+
+Server started on port 5000
+[32m[chain/start][39m [[90m[1m1:chain:AgentExecutor[22m[39m] Entering Chain run with input: {
+  "input": "what is the location of Plant Fertilizer",
+  "chat_history": []
+}
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > [1m2:chain:RunnableAgent[22m[39m] Entering Chain run with input: {
+  "input": "what is the location of Plant Fertilizer",
+  "chat_history": [],
+  "steps": []
+}
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > [1m3:chain:RunnableMap[22m[39m] Entering Chain run with input: {
+  "input": {
+    "input": "what is the location of Plant Fertilizer",
+    "chat_history": [],
+    "steps": []
+  }
+}
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > 3:chain:RunnableMap > [1m4:chain:RunnableLambda[22m[39m] Entering Chain run with input: {
+  "input": "what is the location of Plant Fertilizer",
+  "chat_history": [],
+  "steps": []
+}
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > 3:chain:RunnableMap > [1m5:chain:RunnableLambda[22m[39m] Entering Chain run with input: {
+  "input": "what is the location of Plant Fertilizer",
+  "chat_history": [],
+  "steps": []
+}
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > 3:chain:RunnableMap > [1m6:chain:RunnableLambda[22m[39m] Entering Chain run with input: {
+  "input": "what is the location of Plant Fertilizer",
+  "chat_history": [],
+  "steps": []
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > 3:chain:RunnableMap > [1m4:chain:RunnableLambda[22m[39m] [1ms] Exiting Chain run with output: {
+  "output": "what is the location of Plant Fertilizer"
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > 3:chain:RunnableMap > [1m5:chain:RunnableLambda[22m[39m] [1ms] Exiting Chain run with output: {
+  "output": []
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > 3:chain:RunnableMap > [1m6:chain:RunnableLambda[22m[39m] [1ms] Exiting Chain run with output: {
+  "output": []
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > [1m3:chain:RunnableMap[22m[39m] [2ms] Exiting Chain run with output: {
+  "input": "what is the location of Plant Fertilizer",
+  "agent_scratchpad": [],
+  "chat_history": []
+}
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > [1m7:prompt:ChatPromptTemplate[22m[39m] Entering Chain run with input: {
+  "input": "what is the location of Plant Fertilizer",
+  "agent_scratchpad": [],
+  "chat_history": []
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > [1m7:prompt:ChatPromptTemplate[22m[39m] [0ms] Exiting Chain run with output: {
+  "lc": 1,
+  "type": "constructor",
+  "id": [
+    "langchain_core",
+    "prompt_values",
+    "ChatPromptValue"
+  ],
+  "kwargs": {
+    "messages": [
+      {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+          "langchain_core",
+          "messages",
+          "SystemMessage"
+        ],
+        "kwargs": {
+          "content": "\n            You are a helpful, fun and friendly sales assistant for Kmart Store, a retail supermart store.\n    \n            Your name is Cosmo.\n    \n            You are designed to answer questions about the products that Kmart Store sells and act as a assistant for store employee.\n    \n            If you don't know the answer to a question, respond with \"I don't know.\"\n            \n            Only answer questions related to Kmart Store products and store employee.\n            \n            If a question is not related to Kmart Store products, and store employee\n            respond with \"I only answer questions about Kmart Store\"          \n\n            NEVER MAKE UP AN ANSWER.\n        ",
+          "additional_kwargs": {}
+        }
+      },
+      {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+          "langchain_core",
+          "messages",
+          "HumanMessage"
+        ],
+        "kwargs": {
+          "content": "what is the location of Plant Fertilizer",
+          "additional_kwargs": {}
+        }
+      }
+    ]
+  }
+}
+[32m[llm/start][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > [1m8:llm:ChatOpenAI[22m[39m] Entering LLM run with input: {
+  "messages": [
+    [
+      {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+          "langchain_core",
+          "messages",
+          "SystemMessage"
+        ],
+        "kwargs": {
+          "content": "\n            You are a helpful, fun and friendly sales assistant for Kmart Store, a retail supermart store.\n    \n            Your name is Cosmo.\n    \n            You are designed to answer questions about the products that Kmart Store sells and act as a assistant for store employee.\n    \n            If you don't know the answer to a question, respond with \"I don't know.\"\n            \n            Only answer questions related to Kmart Store products and store employee.\n            \n            If a question is not related to Kmart Store products, and store employee\n            respond with \"I only answer questions about Kmart Store\"          \n\n            NEVER MAKE UP AN ANSWER.\n        ",
+          "additional_kwargs": {}
+        }
+      },
+      {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+          "langchain_core",
+          "messages",
+          "HumanMessage"
+        ],
+        "kwargs": {
+          "content": "what is the location of Plant Fertilizer",
+          "additional_kwargs": {}
+        }
+      }
+    ]
+  ]
+}
+[36m[llm/end][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > [1m8:llm:ChatOpenAI[22m[39m] [1.09s] Exiting LLM run with output: {
+  "generations": [
+    [
+      {
+        "text": "",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain_core",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "",
+            "additional_kwargs": {
+              "function_call": {
+                "arguments": "{\"input\":\"Plant Fertilizer\"}",
+                "name": "products_retriever_tool"
+              }
+            }
+          }
+        },
+        "generationInfo": {
+          "finish_reason": "function_call"
+        }
+      }
+    ]
+  ],
+  "llmOutput": {
+    "tokenUsage": {
+      "completionTokens": 20,
+      "promptTokens": 287,
+      "totalTokens": 307
+    }
+  }
+}
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > [1m9:parser:OpenAIFunctionsAgentOutputParser[22m[39m] Entering Chain run with input: {
+  "lc": 1,
+  "type": "constructor",
+  "id": [
+    "langchain_core",
+    "messages",
+    "AIMessage"
+  ],
+  "kwargs": {
+    "content": "",
+    "additional_kwargs": {
+      "function_call": {
+        "arguments": "{\"input\":\"Plant Fertilizer\"}",
+        "name": "products_retriever_tool"
+      }
+    }
+  }
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > 2:chain:RunnableAgent > [1m9:parser:OpenAIFunctionsAgentOutputParser[22m[39m] [0ms] Exiting Chain run with output: {
+  "tool": "products_retriever_tool",
+  "toolInput": {
+    "input": "Plant Fertilizer"
+  },
+  "log": "Invoking \"products_retriever_tool\" with {\"input\":\"Plant Fertilizer\"}\n",
+  "messageLog": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain_core",
+        "messages",
+        "AIMessage"
+      ],
+      "kwargs": {
+        "content": "",
+        "additional_kwargs": {
+          "function_call": {
+            "arguments": "{\"input\":\"Plant Fertilizer\"}",
+            "name": "products_retriever_tool"
+          }
+        }
+      }
+    }
+  ]
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > [1m2:chain:RunnableAgent[22m[39m] [1.09s] Exiting Chain run with output: {
+  "tool": "products_retriever_tool",
+  "toolInput": {
+    "input": "Plant Fertilizer"
+  },
+  "log": "Invoking \"products_retriever_tool\" with {\"input\":\"Plant Fertilizer\"}\n",
+  "messageLog": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain_core",
+        "messages",
+        "AIMessage"
+      ],
+      "kwargs": {
+        "content": "",
+        "additional_kwargs": {
+          "function_call": {
+            "arguments": "{\"input\":\"Plant Fertilizer\"}",
+            "name": "products_retriever_tool"
+          }
+        }
+      }
+    }
+  ]
+}
+[34m[agent/action][39m [[90m[1m1:chain:AgentExecutor[22m[39m] Agent selected action: {
+  "tool": "products_retriever_tool",
+  "toolInput": {
+    "input": "Plant Fertilizer"
+  },
+  "log": "Invoking \"products_retriever_tool\" with {\"input\":\"Plant Fertilizer\"}\n",
+  "messageLog": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain_core",
+        "messages",
+        "AIMessage"
+      ],
+      "kwargs": {
+        "content": "",
+        "additional_kwargs": {
+          "function_call": {
+            "arguments": "{\"input\":\"Plant Fertilizer\"}",
+            "name": "products_retriever_tool"
+          }
+        }
+      }
+    }
+  ]
+}
+[32m[tool/start][39m [[90m1:chain:AgentExecutor > [1m10:tool:products_retriever_tool[22m[39m] Entering Tool run with input: "Plant Fertilizer"
+[31m[tool/error][39m [[90m1:chain:AgentExecutor > [1m10:tool:products_retriever_tool[22m[39m] [947ms] Tool run errored with error: "rack_location is not defined\n\nReferenceError: rack_location is not defined\n    at /workspaces/hackathon-demo/apps/api/bikestore/agent.js:97:31\n    at Array.map (<anonymous>)\n    at ContosoBikeStoreAgent.vectorSearch (/workspaces/hackathon-demo/apps/api/bikestore/agent.js:90:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async DynamicTool.productRetriever [as func] (/workspaces/hackathon-demo/apps/api/bikestore/agent.js:158:30)\n    at async DynamicTool.call (/workspaces/hackathon-demo/apps/api/node_modules/@langchain/core/dist/tools.cjs:74:22)\n    at async /workspaces/hackathon-demo/apps/api/node_modules/langchain/dist/agents/executor.cjs:447:27\n    at async Promise.all (index 0)\n    at async AgentExecutor._call (/workspaces/hackathon-demo/apps/api/node_modules/langchain/dist/agents/executor.cjs:439:30)\n    at async AgentExecutor.invoke (/workspaces/hackathon-demo/apps/api/node_modules/langchain/dist/chains/base.cjs:56:28)"
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > [1m11:chain:RunnableAgent[22m[39m] Entering Chain run with input: {
+  "input": "what is the location of Plant Fertilizer",
+  "chat_history": [],
+  "steps": [
+    {
+      "action": {
+        "tool": "products_retriever_tool",
+        "toolInput": {
+          "input": "Plant Fertilizer"
+        },
+        "log": "Invoking \"products_retriever_tool\" with {\"input\":\"Plant Fertilizer\"}\n",
+        "messageLog": [
+          {
+            "lc": 1,
+            "type": "constructor",
+            "id": [
+              "langchain_core",
+              "messages",
+              "AIMessage"
+            ],
+            "kwargs": {
+              "content": "",
+              "additional_kwargs": {
+                "function_call": {
+                  "arguments": "{\"input\":\"Plant Fertilizer\"}",
+                  "name": "products_retriever_tool"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "observation": ""
+    }
+  ]
+}
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > [1m12:chain:RunnableMap[22m[39m] Entering Chain run with input: {
+  "input": {
+    "input": "what is the location of Plant Fertilizer",
+    "chat_history": [],
+    "steps": [
+      {
+        "action": {
+          "tool": "products_retriever_tool",
+          "toolInput": {
+            "input": "Plant Fertilizer"
+          },
+          "log": "Invoking \"products_retriever_tool\" with {\"input\":\"Plant Fertilizer\"}\n",
+          "messageLog": [
+            {
+              "lc": 1,
+              "type": "constructor",
+              "id": [
+                "langchain_core",
+                "messages",
+                "AIMessage"
+              ],
+              "kwargs": {
+                "content": "",
+                "additional_kwargs": {
+                  "function_call": {
+                    "arguments": "{\"input\":\"Plant Fertilizer\"}",
+                    "name": "products_retriever_tool"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "observation": ""
+      }
+    ]
+  }
+}
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > 12:chain:RunnableMap > [1m13:chain:RunnableLambda[22m[39m] Entering Chain run with input: {
+  "input": "what is the location of Plant Fertilizer",
+  "chat_history": [],
+  "steps": [
+    {
+      "action": {
+        "tool": "products_retriever_tool",
+        "toolInput": {
+          "input": "Plant Fertilizer"
+        },
+        "log": "Invoking \"products_retriever_tool\" with {\"input\":\"Plant Fertilizer\"}\n",
+        "messageLog": [
+          {
+            "lc": 1,
+            "type": "constructor",
+            "id": [
+              "langchain_core",
+              "messages",
+              "AIMessage"
+            ],
+            "kwargs": {
+              "content": "",
+              "additional_kwargs": {
+                "function_call": {
+                  "arguments": "{\"input\":\"Plant Fertilizer\"}",
+                  "name": "products_retriever_tool"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "observation": ""
+    }
+  ]
+}
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > 12:chain:RunnableMap > [1m14:chain:RunnableLambda[22m[39m] Entering Chain run with input: {
+  "input": "what is the location of Plant Fertilizer",
+  "chat_history": [],
+  "steps": [
+    {
+      "action": {
+        "tool": "products_retriever_tool",
+        "toolInput": {
+          "input": "Plant Fertilizer"
+        },
+        "log": "Invoking \"products_retriever_tool\" with {\"input\":\"Plant Fertilizer\"}\n",
+        "messageLog": [
+          {
+            "lc": 1,
+            "type": "constructor",
+            "id": [
+              "langchain_core",
+              "messages",
+              "AIMessage"
+            ],
+            "kwargs": {
+              "content": "",
+              "additional_kwargs": {
+                "function_call": {
+                  "arguments": "{\"input\":\"Plant Fertilizer\"}",
+                  "name": "products_retriever_tool"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "observation": ""
+    }
+  ]
+}
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > 12:chain:RunnableMap > [1m15:chain:RunnableLambda[22m[39m] Entering Chain run with input: {
+  "input": "what is the location of Plant Fertilizer",
+  "chat_history": [],
+  "steps": [
+    {
+      "action": {
+        "tool": "products_retriever_tool",
+        "toolInput": {
+          "input": "Plant Fertilizer"
+        },
+        "log": "Invoking \"products_retriever_tool\" with {\"input\":\"Plant Fertilizer\"}\n",
+        "messageLog": [
+          {
+            "lc": 1,
+            "type": "constructor",
+            "id": [
+              "langchain_core",
+              "messages",
+              "AIMessage"
+            ],
+            "kwargs": {
+              "content": "",
+              "additional_kwargs": {
+                "function_call": {
+                  "arguments": "{\"input\":\"Plant Fertilizer\"}",
+                  "name": "products_retriever_tool"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "observation": ""
+    }
+  ]
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > 12:chain:RunnableMap > [1m13:chain:RunnableLambda[22m[39m] [1ms] Exiting Chain run with output: {
+  "output": "what is the location of Plant Fertilizer"
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > 12:chain:RunnableMap > [1m14:chain:RunnableLambda[22m[39m] [1ms] Exiting Chain run with output: {
+  "output": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain_core",
+        "messages",
+        "AIMessage"
+      ],
+      "kwargs": {
+        "content": "",
+        "additional_kwargs": {
+          "function_call": {
+            "arguments": "{\"input\":\"Plant Fertilizer\"}",
+            "name": "products_retriever_tool"
+          }
+        }
+      }
+    },
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain_core",
+        "messages",
+        "FunctionMessage"
+      ],
+      "kwargs": {
+        "content": "",
+        "name": "products_retriever_tool",
+        "additional_kwargs": {}
+      }
+    }
+  ]
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > 12:chain:RunnableMap > [1m15:chain:RunnableLambda[22m[39m] [1ms] Exiting Chain run with output: {
+  "output": []
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > [1m12:chain:RunnableMap[22m[39m] [1ms] Exiting Chain run with output: {
+  "input": "what is the location of Plant Fertilizer",
+  "agent_scratchpad": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain_core",
+        "messages",
+        "AIMessage"
+      ],
+      "kwargs": {
+        "content": "",
+        "additional_kwargs": {
+          "function_call": {
+            "arguments": "{\"input\":\"Plant Fertilizer\"}",
+            "name": "products_retriever_tool"
+          }
+        }
+      }
+    },
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain_core",
+        "messages",
+        "FunctionMessage"
+      ],
+      "kwargs": {
+        "content": "",
+        "name": "products_retriever_tool",
+        "additional_kwargs": {}
+      }
+    }
+  ],
+  "chat_history": []
+}
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > [1m16:prompt:ChatPromptTemplate[22m[39m] Entering Chain run with input: {
+  "input": "what is the location of Plant Fertilizer",
+  "agent_scratchpad": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain_core",
+        "messages",
+        "AIMessage"
+      ],
+      "kwargs": {
+        "content": "",
+        "additional_kwargs": {
+          "function_call": {
+            "arguments": "{\"input\":\"Plant Fertilizer\"}",
+            "name": "products_retriever_tool"
+          }
+        }
+      }
+    },
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain_core",
+        "messages",
+        "FunctionMessage"
+      ],
+      "kwargs": {
+        "content": "",
+        "name": "products_retriever_tool",
+        "additional_kwargs": {}
+      }
+    }
+  ],
+  "chat_history": []
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > [1m16:prompt:ChatPromptTemplate[22m[39m] [0ms] Exiting Chain run with output: {
+  "lc": 1,
+  "type": "constructor",
+  "id": [
+    "langchain_core",
+    "prompt_values",
+    "ChatPromptValue"
+  ],
+  "kwargs": {
+    "messages": [
+      {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+          "langchain_core",
+          "messages",
+          "SystemMessage"
+        ],
+        "kwargs": {
+          "content": "\n            You are a helpful, fun and friendly sales assistant for Kmart Store, a retail supermart store.\n    \n            Your name is Cosmo.\n    \n            You are designed to answer questions about the products that Kmart Store sells and act as a assistant for store employee.\n    \n            If you don't know the answer to a question, respond with \"I don't know.\"\n            \n            Only answer questions related to Kmart Store products and store employee.\n            \n            If a question is not related to Kmart Store products, and store employee\n            respond with \"I only answer questions about Kmart Store\"          \n\n            NEVER MAKE UP AN ANSWER.\n        ",
+          "additional_kwargs": {}
+        }
+      },
+      {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+          "langchain_core",
+          "messages",
+          "HumanMessage"
+        ],
+        "kwargs": {
+          "content": "what is the location of Plant Fertilizer",
+          "additional_kwargs": {}
+        }
+      },
+      {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+          "langchain_core",
+          "messages",
+          "AIMessage"
+        ],
+        "kwargs": {
+          "content": "",
+          "additional_kwargs": {
+            "function_call": {
+              "arguments": "{\"input\":\"Plant Fertilizer\"}",
+              "name": "products_retriever_tool"
+            }
+          }
+        }
+      },
+      {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+          "langchain_core",
+          "messages",
+          "FunctionMessage"
+        ],
+        "kwargs": {
+          "content": "",
+          "name": "products_retriever_tool",
+          "additional_kwargs": {}
+        }
+      }
+    ]
+  }
+}
+[32m[llm/start][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > [1m17:llm:ChatOpenAI[22m[39m] Entering LLM run with input: {
+  "messages": [
+    [
+      {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+          "langchain_core",
+          "messages",
+          "SystemMessage"
+        ],
+        "kwargs": {
+          "content": "\n            You are a helpful, fun and friendly sales assistant for Kmart Store, a retail supermart store.\n    \n            Your name is Cosmo.\n    \n            You are designed to answer questions about the products that Kmart Store sells and act as a assistant for store employee.\n    \n            If you don't know the answer to a question, respond with \"I don't know.\"\n            \n            Only answer questions related to Kmart Store products and store employee.\n            \n            If a question is not related to Kmart Store products, and store employee\n            respond with \"I only answer questions about Kmart Store\"          \n\n            NEVER MAKE UP AN ANSWER.\n        ",
+          "additional_kwargs": {}
+        }
+      },
+      {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+          "langchain_core",
+          "messages",
+          "HumanMessage"
+        ],
+        "kwargs": {
+          "content": "what is the location of Plant Fertilizer",
+          "additional_kwargs": {}
+        }
+      },
+      {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+          "langchain_core",
+          "messages",
+          "AIMessage"
+        ],
+        "kwargs": {
+          "content": "",
+          "additional_kwargs": {
+            "function_call": {
+              "arguments": "{\"input\":\"Plant Fertilizer\"}",
+              "name": "products_retriever_tool"
+            }
+          }
+        }
+      },
+      {
+        "lc": 1,
+        "type": "constructor",
+        "id": [
+          "langchain_core",
+          "messages",
+          "FunctionMessage"
+        ],
+        "kwargs": {
+          "content": "",
+          "name": "products_retriever_tool",
+          "additional_kwargs": {}
+        }
+      }
+    ]
+  ]
+}
+[36m[llm/end][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > [1m17:llm:ChatOpenAI[22m[39m] [596ms] Exiting LLM run with output: {
+  "generations": [
+    [
+      {
+        "text": "I don't have the exact location of Plant Fertilizer in the store. You can ask a store employee for assistance in finding it.",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain_core",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "I don't have the exact location of Plant Fertilizer in the store. You can ask a store employee for assistance in finding it.",
+            "additional_kwargs": {}
+          }
+        },
+        "generationInfo": {
+          "finish_reason": "stop"
+        }
+      }
+    ]
+  ],
+  "llmOutput": {
+    "tokenUsage": {
+      "completionTokens": 28,
+      "promptTokens": 318,
+      "totalTokens": 346
+    }
+  }
+}
+[32m[chain/start][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > [1m18:parser:OpenAIFunctionsAgentOutputParser[22m[39m] Entering Chain run with input: {
+  "lc": 1,
+  "type": "constructor",
+  "id": [
+    "langchain_core",
+    "messages",
+    "AIMessage"
+  ],
+  "kwargs": {
+    "content": "I don't have the exact location of Plant Fertilizer in the store. You can ask a store employee for assistance in finding it.",
+    "additional_kwargs": {}
+  }
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > 11:chain:RunnableAgent > [1m18:parser:OpenAIFunctionsAgentOutputParser[22m[39m] [0ms] Exiting Chain run with output: {
+  "returnValues": {
+    "output": "I don't have the exact location of Plant Fertilizer in the store. You can ask a store employee for assistance in finding it."
+  },
+  "log": "I don't have the exact location of Plant Fertilizer in the store. You can ask a store employee for assistance in finding it."
+}
+[36m[chain/end][39m [[90m1:chain:AgentExecutor > [1m11:chain:RunnableAgent[22m[39m] [601ms] Exiting Chain run with output: {
+  "returnValues": {
+    "output": "I don't have the exact location of Plant Fertilizer in the store. You can ask a store employee for assistance in finding it."
+  },
+  "log": "I don't have the exact location of Plant Fertilizer in the store. You can ask a store employee for assistance in finding it."
+}
+[36m[chain/end][39m [[90m[1m1:chain:AgentExecutor[22m[39m] [2.64s] Exiting Chain run with output: {
+  "input": "what is the location of Plant Fertilizer",
+  "chat_history": [],
+  "output": "I don't have the exact location of Plant Fertilizer in the store. You can ask a store employee for assistance in finding it."
+}
