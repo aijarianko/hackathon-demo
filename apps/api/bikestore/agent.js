@@ -80,6 +80,9 @@ class ContosoBikeStoreAgent {
                         "description": 1,
                         "price": 1,
                         "category": 1,
+                        "stock_quantity": 1,
+                        "rack_location": 1,
+                        "discounts": 1,
                         "metadata": 1,
                         "score": { "$meta": "searchScore" }
                     }
@@ -94,7 +97,7 @@ class ContosoBikeStoreAgent {
                     price: doc.price,
                     category: doc.category,
                     inventory: doc.stock_quantity,
-                    location: rack_location,
+                    location: doc.rack_location,
                     discounts: doc.discounts,
                     ...doc.metadata
                 }
