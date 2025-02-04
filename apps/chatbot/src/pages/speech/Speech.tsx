@@ -39,7 +39,7 @@ const Speech = ({ onResult }: { onResult: (text: string) => void }) => {
       disabled={isListening}
       style={{ padding: 0, border: 'none', background: 'transparent', cursor: 'pointer' }}
     >
-      {isListening ? <FaMicrophoneAltSlash size={24} color="#f00" /> : <FaMicrophone size={24} />}
+      {isListening ? <FaMicrophoneAltSlash size={24} color="rgba(115, 118, 225, 1)" /> : <FaMicrophone size={24} />}
     </Button>
   );
 };
